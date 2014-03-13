@@ -1,0 +1,556 @@
+/* #Reset
+================================================================================================= */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Media - Fluid Images - Video
+======================================================= */
+figure {
+  margin: 0;
+}
+
+img, object, embed, video {
+  max-width: 100%;
+  _width: 100%;
+}
+
+/* Fluid images */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Improve IE's resizing of images */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Correct IE9 overflow */
+img {
+  height: auto;
+}
+
+/* Foods
+================================================================================================= */
+/* Standard Colors
+================================================================================================= */
+/* Transition Times
+================================================================================================= */
+@font-face {
+  font-family: 'Novecentowide-Bold';
+  src: url("/fonts/novecento/25DFFC_0_0.eot");
+  src: url("/fonts/novecento/25DFFC_0_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_0_0.woff") format("woff"), url("/fonts/novecento/25DFFC_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Novecentowide-Light';
+  src: url("/fonts/novecento/25DFFC_1_0.eot");
+  src: url("/fonts/novecento/25DFFC_1_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_1_0.woff") format("woff"), url("/fonts/novecento/25DFFC_1_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Novecentowide-DemiBold';
+  src: url("/fonts/novecento/25DFFC_2_0.eot");
+  src: url("/fonts/novecento/25DFFC_2_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_2_0.woff") format("woff"), url("/fonts/novecento/25DFFC_2_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Novecentowide-Book';
+  src: url("/fonts/novecento/25DFFC_3_0.eot");
+  src: url("/fonts/novecento/25DFFC_3_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_3_0.woff") format("woff"), url("/fonts/novecento/25DFFC_3_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Novecentowide-Normal';
+  src: url("/fonts/novecento/25DFFC_4_0.eot");
+  src: url("/fonts/novecento/25DFFC_4_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_4_0.woff") format("woff"), url("/fonts/novecento/25DFFC_4_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Novecentowide-Medium';
+  src: url("/fonts/novecento/25DFFC_5_0.eot");
+  src: url("/fonts/novecento/25DFFC_5_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_5_0.woff") format("woff"), url("/fonts/novecento/25DFFC_5_0.ttf") format("truetype");
+}
+
+/* Links and Headers
+======================================================= */
+a {
+  color: blue;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+a:focus, a:hover, a:active {
+  outline: 0;
+}
+a:hover {
+  color: purple;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 0.35em;
+  color: white;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 4.5em;
+}
+
+h2 {
+  font-size: 3.25em;
+}
+
+h3 {
+  font-size: 2.25em;
+}
+
+h4 {
+  font-size: 2.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+/* Main Body Styles
+======================================================= */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  color: #aaaaaa;
+}
+
+header {
+  float: left;
+  background: #444;
+  width: 100%;
+  padding: 20px 0;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 800;
+}
+header div {
+  width: 20%;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 20px 0;
+}
+header div:first-child {
+  text-align: left;
+}
+header div:last-child {
+  text-align: right;
+}
+header div:nth-child(2) {
+  width: 60%;
+}
+
+#crop-list {
+  float: left;
+  padding: 0;
+  margin: 0 0 50px;
+}
+#crop-list li {
+  list-style: none;
+  float: left;
+  width: 33.3%;
+  margin: 0;
+  padding: 40px 0;
+  display: inline-block;
+  background: #ccc;
+  font-size: 1.9em;
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+#crop-list li svg, #crop-list li img {
+  margin-left: 20px;
+}
+#crop-list li span {
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+#crop-list li.apples {
+  background: #dd074e;
+  color: #930534;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.apples:hover {
+  opacity: 0.8;
+}
+#crop-list li.apricots {
+  background: #f7ae49;
+  color: #e98c0a;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.apricots:hover {
+  opacity: 0.8;
+}
+#crop-list li.asparagus {
+  background: #8ca874;
+  color: #668050;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.asparagus:hover {
+  opacity: 0.8;
+}
+#crop-list li.beets {
+  background: #8f0142;
+  color: #43001f;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.beets:hover {
+  opacity: 0.8;
+}
+#crop-list li.bell-peppers {
+  background: #ee881c;
+  color: #b0610d;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.bell-peppers:hover {
+  opacity: 0.8;
+}
+#crop-list li.broccoli {
+  background: #a2c352;
+  color: #789534;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.broccoli:hover {
+  opacity: 0.8;
+}
+#crop-list li.cabbage {
+  background: #e7efa2;
+  color: #d6e461;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.cabbage:hover {
+  opacity: 0.8;
+}
+#crop-list li.cantaloupe {
+  background: #ffdb96;
+  color: #ffc14a;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.cantaloupe:hover {
+  opacity: 0.8;
+}
+#crop-list li.carrots {
+  background: #f7b259;
+  color: #f39010;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.carrots:hover {
+  opacity: 0.8;
+}
+#crop-list li.cauliflower {
+  background: #fffcf3;
+  color: #ffe9a6;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.cauliflower:hover {
+  opacity: 0.8;
+}
+#crop-list li.celery {
+  background: #d7ebbe;
+  color: #b3d984;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.celery:hover {
+  opacity: 0.8;
+}
+#crop-list li.cherries {
+  background: #c7497d;
+  color: #962e59;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.cherries:hover {
+  opacity: 0.8;
+}
+#crop-list li.chile-peppers {
+  background: #ae0914;
+  color: #65050c;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.chile-peppers:hover {
+  opacity: 0.8;
+}
+#crop-list li.cucumbers {
+  background: #7eb641;
+  color: #577e2d;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.cucumbers:hover {
+  opacity: 0.8;
+}
+#crop-list li.eggplant {
+  background: #8e598b;
+  color: #5f3c5d;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.eggplant:hover {
+  opacity: 0.8;
+}
+#crop-list li.grapes {
+  background: #7a69a8;
+  color: #56487c;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.grapes:hover {
+  opacity: 0.8;
+}
+#crop-list li.green-beans {
+  background: #c3df79;
+  color: #a7d03b;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.green-beans:hover {
+  opacity: 0.8;
+}
+#crop-list li.herbs {
+  background: #24ae51;
+  color: #176f33;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.herbs:hover {
+  opacity: 0.8;
+}
+#crop-list li.honeydew {
+  background: #f7c78a;
+  color: #f2a542;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.honeydew:hover {
+  opacity: 0.8;
+}
+#crop-list li.lettuce {
+  background: #d7e7a2;
+  color: #bdd765;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.lettuce:hover {
+  opacity: 0.8;
+}
+#crop-list li.onions {
+  background: #fff7e7;
+  color: #ffdd9b;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.onions:hover {
+  opacity: 0.8;
+}
+#crop-list li.peaches {
+  background: #fbd7a3;
+  color: #f8b75a;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.peaches:hover {
+  opacity: 0.8;
+}
+#crop-list li.pears {
+  background: #ebf3ae;
+  color: #dbe96b;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.pears:hover {
+  opacity: 0.8;
+}
+#crop-list li.pinto-beans {
+  background: #fff7e7;
+  color: #ffdd9b;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.pinto-beans:hover {
+  opacity: 0.8;
+}
+#crop-list li.plums {
+  background: #7a69a8;
+  color: #56487c;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.plums:hover {
+  opacity: 0.8;
+}
+#crop-list li.popcorn {
+  background: #fffba6;
+  color: #fff85a;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.popcorn:hover {
+  opacity: 0.8;
+}
+#crop-list li.potatos {
+  background: #ebdbb6;
+  color: #dbbd7a;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.potatos:hover {
+  opacity: 0.8;
+}
+#crop-list li.pumpkins {
+  background: #fbba41;
+  color: #eb9a05;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.pumpkins:hover {
+  opacity: 0.8;
+}
+#crop-list li.raspberries {
+  background: #be003c;
+  color: #720024;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.raspberries:hover {
+  opacity: 0.8;
+}
+#crop-list li.rhubarb {
+  background: #df6169;
+  color: #ca2933;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.rhubarb:hover {
+  opacity: 0.8;
+}
+#crop-list li.squash {
+  background: #ffd26a;
+  color: #ffbb1e;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.squash:hover {
+  opacity: 0.8;
+}
+#crop-list li.tomatoes {
+  background: #ee881c;
+  color: #b0610d;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.tomatoes:hover {
+  opacity: 0.8;
+}
+#crop-list li.watermelon {
+  background: #efb4bd;
+  color: #e27586;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-list li.watermelon:hover {
+  opacity: 0.8;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  -webkit-box-shadow: 0 -2px 23px 0px black;
+  box-shadow: 0 -2px 23px 0px black;
+}
+footer div {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+footer div:first-child {
+  width: 100%;
+  background: #777;
+}
+footer div:nth-child(2), footer div:last-child {
+  width: 50%;
+}
+footer div:nth-child(2) {
+  background: #ccc;
+}
+footer div:last-child {
+  background: #aaa;
+}
+footer:hover div {
+  padding: 40px 0;
+}
+
+/* Selection Colors
+======================================================= */
+::-moz-selection {
+  background: #444444;
+  color: white;
+}
+::selection {
+  background: #444444;
+  color: white;
+}
+
+::-moz-selection {
+  background: #444444;
+  color: white;
+}

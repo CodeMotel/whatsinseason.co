@@ -1,0 +1,173 @@
+
+
+/* Links and Headers
+======================================================= */
+a {
+	color:$link-color;
+	@include ease;
+
+	&:focus, &:hover, &:active {outline: 0;}
+	&:hover {color:$link-hover-color;}
+}
+
+h1, h2, h3, h4, h5 {
+	margin-bottom:0.35em;
+	color:$headline-color;
+	letter-spacing:0.25em;
+	text-transform:uppercase;
+	@include os-8;
+}
+
+h1 {font-size:4.5em;}
+h2 {font-size:3.25em;}
+h3 {font-size:2.25em;}
+h4 {font-size:2.1em;}
+h5 {font-size:1em;}
+
+
+
+/* Main Body Styles
+======================================================= */
+body {
+	margin:0;
+	padding:0;
+	font-size:62.5%;
+	color:$body-copy-color;
+}
+
+header {
+	float:left;
+	background:#444;
+	width:100%;
+	padding:20px 0;
+	color:white;
+	font-size:2em;
+	text-align:center;
+	@include os-8;
+
+	div {
+		$side-width:20%;
+		$mid-width:100% - ($side-width * 2);
+		width:$side-width;
+		float:left;
+		display: inline-block;
+		margin:0;
+		padding:20px 0;
+		&:first-child {text-align:left;}
+		&:last-child {text-align:right;}
+		&:nth-child(2) {width:$mid-width;}
+	}
+}
+
+#crop-list {
+	float:left;
+	padding:0;
+	margin:0 0 50px;
+	li {
+		list-style:none;
+		float:left;
+		width:33.3%;
+		margin:0;
+		padding:40px 0;
+		display:inline-block;
+		background:#ccc;
+		font-size:1.9em;
+		@include os-7;
+
+		svg, img {
+			margin-left:20px;
+		}
+		span {
+			text-transform: uppercase;
+			margin-left:10px;
+		}
+		// Food Module Colors
+		@mixin food-style($food) {
+			background:#{$food};
+			color:darken($food, 15%);
+			@include ease;
+			&:hover {opacity:0.8;}
+		}
+		&.apples {@include food-style($apples);}
+		&.apricots {@include food-style($apricots);}
+		&.asparagus {@include food-style($asparagus);}
+		&.beets {@include food-style($beets);}
+		&.bell-peppers {@include food-style($bell-peppers);}
+		&.broccoli {@include food-style($broccoli);}
+		&.cabbage {@include food-style($cabbage);}
+		&.cantaloupe {@include food-style($cantaloupe);}
+		&.carrots {@include food-style($carrots);}
+		&.cauliflower {@include food-style($cauliflower);}
+		&.celery {@include food-style($celery);}
+		&.cherries {@include food-style($cherries);}
+		&.chile-peppers {@include food-style($chile-peppers);}
+		&.cucumbers {@include food-style($cucumbers);}
+		&.eggplant {@include food-style($eggplant);}
+		&.grapes {@include food-style($grapes);}
+		&.green-beans {@include food-style($green-beans);}
+		&.herbs {@include food-style($herbs);}
+		&.honeydew {@include food-style($honeydew);}
+		&.lettuce {@include food-style($lettuce);}
+		&.onions {@include food-style($onions);}
+		&.peaches {@include food-style($peaches);}
+		&.pears {@include food-style($pears);}
+		&.pinto-beans {@include food-style($pinto-beans);}
+		&.plums {@include food-style($plums);}
+		&.popcorn {@include food-style($popcorn);}
+		&.potatos {@include food-style($potatos);}
+		&.pumpkins {@include food-style($pumpkins);}
+		&.raspberries {@include food-style($raspberries);}
+		&.rhubarb {@include food-style($rhubarb);}
+		&.squash {@include food-style($squash);}
+		&.tomatoes {@include food-style($tomatoes);}
+		&.watermelon {@include food-style($watermelon);}
+	}
+}
+
+
+footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	box-shadow:0 -2px 23px 0px black;
+
+	div {
+		display: inline-block;
+		float:left;
+		margin:0;
+		padding:5px 0;
+		text-align: center;
+		color:white;
+		@include os-7;
+		@include ease;
+		// Find Markets
+		&:first-child {
+			width:100%;
+			background:#777;
+		}
+		// About and Add City
+		&:nth-child(2), &:last-child {width:50%;}
+		&:nth-child(2) {background:#ccc;}
+		&:last-child {background:#aaa;}
+	}
+
+	// Hover Footer
+	&:hover {
+		div {padding:40px 0;}
+	}
+}
+
+
+
+
+/* Selection Colors
+======================================================= */
+::selection {
+	background:$highlight-bkgd-color;
+	color:$highlight-color;
+}
+
+::-moz-selection {
+	background:$highlight-bkgd-color;
+	color:$highlight-color;
+}
