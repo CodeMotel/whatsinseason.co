@@ -6,7 +6,7 @@
 	<div>MARCH, 15 2014</div>
 	<a href=""><div>Find Markets</div></a>
 </header>
-test
+
 <ul id="crop-list">
   <li class="apples"><img src="img/apples.svg"/><span>apples</span></li>
   <li class="apricots"><img src="img/apricots.svg"/><span>apricots</span></li>
