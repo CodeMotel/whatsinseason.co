@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Title</title>
+	<title>What's in Season, Colorado?</title>
 	<meta charset="utf-8">
 	<meta name="description" content="" />
 	<meta name="author" content="">
