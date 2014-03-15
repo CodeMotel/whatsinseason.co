@@ -71,21 +71,32 @@ header {
 		padding:40px 0;
 		display:inline-block;
 		background:#ccc;
-		font-size:1.9em;
-		@include os-7;
+		font-size:3em;
+		@include os-8;
 
 		svg, img {
 			margin-left:20px;
+			width:20%;
+			float:left;
 		}
 		span {
 			text-transform: uppercase;
 			margin-left:10px;
+			float:left;
+
+// Need to make this responsive
+			position: relative;
+			top: 30px;
 		}
 		// Food Module Colors
 		@mixin food-style($food) {
 			background:#{$food};
 			color:darken($food, 15%);
 			@include ease;
+			svg {
+				height:100px;
+				.icon {fill:darken($food, 15%);}
+			}
 			&:hover {opacity:0.8;}
 		}
 		&.apples {@include food-style($apples);}
@@ -118,6 +129,8 @@ header {
 		&.pumpkins {@include food-style($pumpkins);}
 		&.raspberries {@include food-style($raspberries);}
 		&.rhubarb {@include food-style($rhubarb);}
+		&.strawberries {@include food-style($strawberries);}
+		&.sweet-corn {@include food-style($sweet-corn);}
 		&.squash {@include food-style($squash);}
 		&.tomatoes {@include food-style($tomatoes);}
 		&.watermelon {@include food-style($watermelon);}
