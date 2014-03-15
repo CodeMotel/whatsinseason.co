@@ -63,6 +63,8 @@ img {
 ================================================================================================= */
 /* Standard Colors
 ================================================================================================= */
+/* Responsive Breakpoints
+================================================================================================= */
 /* Transition Times
 ================================================================================================= */
 @font-face {
@@ -197,6 +199,16 @@ header div:nth-child(2) {
   font-size: 3em;
   font-family: 'Open Sans';
   font-weight: 800;
+}
+@media screen and (max-width: 768px) {
+  #crop-list li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  #crop-list li {
+    width: 100%;
+  }
 }
 #crop-list li svg, #crop-list li img {
   margin-left: 20px;
