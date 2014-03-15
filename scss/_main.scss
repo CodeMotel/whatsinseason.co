@@ -37,7 +37,9 @@ body {
 
 header {
 	float:left;
-	background:#444;
+//	background:#444;
+//	background:url('../images/bkgd-pattern-burlap.png'); // Burlap Texture
+	background:url('../images/bkgd-pattern-paper.png'); // Paper Texture
 	width:100%;
 	padding:20px 0;
 	color:white;

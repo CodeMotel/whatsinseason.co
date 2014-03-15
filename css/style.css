@@ -157,7 +157,7 @@ body {
 
 header {
   float: left;
-  background: #444;
+  background: url("../images/bkgd-pattern-paper.png");
   width: 100%;
   padding: 20px 0;
   color: white;
