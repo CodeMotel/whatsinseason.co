@@ -41,5 +41,3 @@
   };
 
 })( jQuery );
-
-jQuery("#crop-list li span").fitText(0.75);

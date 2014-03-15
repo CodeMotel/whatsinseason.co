@@ -219,6 +219,7 @@ header div:nth-child(2) {
   text-transform: uppercase;
   margin-left: 10px;
   float: left;
+  width: 65%;
   position: relative;
   top: 30px;
 }
@@ -612,19 +613,19 @@ header div:nth-child(2) {
 #crop-list li.popcorn:hover {
   opacity: 0.8;
 }
-#crop-list li.potatos {
+#crop-list li.potatoes {
   background: #ebdbb6;
   color: #dbbd7a;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.potatos svg {
+#crop-list li.potatoes svg {
   height: 100px;
 }
-#crop-list li.potatos svg .icon {
+#crop-list li.potatoes svg .icon {
   fill: #dbbd7a;
 }
-#crop-list li.potatos:hover {
+#crop-list li.potatoes:hover {
   opacity: 0.8;
 }
 #crop-list li.pumpkins {

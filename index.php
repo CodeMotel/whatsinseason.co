@@ -34,7 +34,7 @@
   <li class="pinto-beans"><?php include('includes/food/pinto-beans.php'); ?><span>pinto beans</span></li>
   <li class="plums"><?php include('includes/food/plums.php'); ?><span>plums</span></li>
   <li class="popcorn"><?php include('includes/food/popcorn.php'); ?><span>popcorn</span></li>
-  <li class="potatos"><?php include('includes/food/potatos.php'); ?><span>potatos</span></li>
+  <li class="potatoes"><?php include('includes/food/potatoes.php'); ?><span>potatoes</span></li>
   <li class="pumpkins"><?php include('includes/food/pumpkins.php'); ?><span>pumpkins</span></li>
   <li class="raspberries"><?php include('includes/food/raspberries.php'); ?><span>raspberries</span></li>
   <li class="rhubarb"><?php include('includes/food/rhubarb.php'); ?><span>rhubarb</span></li>

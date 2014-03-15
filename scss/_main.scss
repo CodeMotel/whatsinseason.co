@@ -86,6 +86,7 @@ header {
 			text-transform: uppercase;
 			margin-left:10px;
 			float:left;
+			width:65%;
 
 // Need to make this responsive
 			position: relative;
@@ -128,7 +129,7 @@ header {
 		&.pinto-beans {@include food-style($pinto-beans);}
 		&.plums {@include food-style($plums);}
 		&.popcorn {@include food-style($popcorn);}
-		&.potatos {@include food-style($potatos);}
+		&.potatoes {@include food-style($potatoes);}
 		&.pumpkins {@include food-style($pumpkins);}
 		&.raspberries {@include food-style($raspberries);}
 		&.rhubarb {@include food-style($rhubarb);}
