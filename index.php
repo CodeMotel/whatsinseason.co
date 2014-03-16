@@ -10,7 +10,7 @@
 
 <!--******** Date ********-->
 <div id="current-date">
-   <div id="date-header">Fresh in Colorado</div>
+   <div id="date-header">Fresh Today in Colorado</div>
   <script type="text/javascript">
       function makeArray() {
       for (i = 0; i<makeArray.arguments.length; i++)

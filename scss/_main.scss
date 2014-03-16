@@ -117,13 +117,15 @@ header {
 	margin:0;
 	padding:120px 0;
 	color:white;
-	font-size:4.5em;
+	font-size:4.1em;//4.5em;
 	text-align:center;
 	text-shadow:2px 2px 0 darken($header-color, 40%);
 	@include a-8;
 
 	#date-header {
-		letter-spacing:-0.15;
+		margin-bottom: 13px;//7px;
+		font-size:1.2em;
+		letter-spacing:-0.3;
 		@include cedar;
 	}
 }
@@ -182,11 +184,11 @@ header {
 		@mixin food-style($food) {
 			$food-dark:darken($food, 15%);
 			//background:#{$food};
-			color:#777;//$food-dark;
+			color:#888;//$food;
 			@include ease;
 			svg {
 				.icon {
-					fill:$food-dark;
+					fill:$food;
 					@include ease;
 				}
 			}
