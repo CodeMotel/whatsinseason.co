@@ -194,9 +194,10 @@ header #site-logo, header #header-link {
 }
 header #site-logo {
   float: left;
+  margin-bottom: 26px;
   text-align: left;
   font-size: 1.6em;
-  line-height: 1.5;
+  line-height: 1;
   color: #444;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
@@ -215,13 +216,11 @@ header #header-link {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
   color: #444;
-  border-color: #444;
+  border-color: rgba(15, 15, 15, 0.2);
   float: right;
-  width: 20%;
-  padding: 15px 0;
-  margin-bottom: 20px;
+  padding: 8px 12px;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.65em;
 }
 header #header-link:hover {
   border-color: white;
@@ -889,7 +888,6 @@ footer {
   width: 100%;
 }
 footer div {
-  display: inline-block;
   float: left;
   margin: 0;
   padding: 15px 0;
@@ -901,9 +899,8 @@ footer div {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-footer div:first-child {
+footer div#footer-market {
   width: 100%;
-  background: #777;
   padding: 300px 0;
   background: none;
   font-size: 3.4em;
@@ -911,7 +908,7 @@ footer div:first-child {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 700;
 }
-footer div:first-child a {
+footer div#footer-market a {
   padding: 10px 20px;
   border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -925,16 +922,16 @@ footer div:first-child a {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-footer div:first-child a:hover {
+footer div#footer-market a:hover {
   border-color: white;
 }
-footer div:nth-child(2), footer div:last-child {
+footer div#about-module, footer div#city-module {
   width: 50%;
 }
-footer div:nth-child(2) {
+footer div#about-module {
   background: #ccc;
 }
-footer div:last-child {
+footer div#city-module {
   background: #aaa;
 }
 
