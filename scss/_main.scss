@@ -39,7 +39,6 @@ body {
 #bkgd-img {
 	background:url('../images/bkgd-img.jpg') no-repeat center center;
 	background-size:cover;
-	filter:blur(10px);
 	opacity:0.9;
 	position:fixed;
 	top:0;
@@ -140,6 +139,22 @@ header {
 	background:rgba(255,253,245,0.55);
 }
 
+#closed-msg {
+	width:100%;
+	float:left;
+	margin-top:10px;
+	text-align:center;
+	color:#444;
+	font-size:3em;
+	@include a-5;
+	.sub {
+		margin-top:13px;
+		margin-bottom:40px;
+		color:#888;
+		font-size:0.8em;
+	}
+}
+
 #crop-list {
 	padding:0;
 	margin:0 auto;
@@ -148,7 +163,7 @@ header {
 	@media screen and (max-width: $tablet) {width:90%;}
 	li {
 		$margin:1%;
-		$width:(100% - ($margin * 1)) / 2;
+		$width:(100% - ($margin * 2)) / 3;
 		width:$width;
 		margin:0 $margin 10px 0;
 		border-radius:5px;
@@ -156,10 +171,10 @@ header {
 		float:left;
 		padding:20px 0;
 		display:inline-block;
-		background:rgba(255,253,245,0.6);
+		background:rgba(255,253,245,0.65);
 		font-size:3em;
 		@include a-5;
-		&:nth-child(2n) {margin-right:0;}
+		&:nth-child(3n) {margin-right:0;}
 
 		// -- Responsive Widths -- //
 		//@media screen and (max-width: $tablet) {width:50%;}
@@ -173,18 +188,18 @@ header {
 		}
 		span {
 			text-transform: uppercase;
-			margin-left:10px;
+			margin-left:15px;
 			float:left;
 			width:70%;
 			position:relative;
-			top:15px;
+			top:17px;
 		}
 
 		// ------- Food Module Colors ------- //
 		@mixin food-style($food) {
 			$food-dark:darken($food, 15%);
 			//background:#{$food};
-			color:#888;//$food;
+			color:#999;//$food;
 			@include ease;
 			svg {
 				.icon {
@@ -254,7 +269,7 @@ header {
 			font-size:1em;
 			@include ease;
 		}
-		&:hover {color:darken($header-color, 35%);}
+		//&:hover {color:darken($header-color, 35%);}
 	}
 }
 

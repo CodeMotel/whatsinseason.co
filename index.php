@@ -29,7 +29,10 @@
 
 <!--******** Crop List ********-->
 <div id="crop-wrap" class="wrapper">
-   <!--<div id="closed-msg">Sorry, the market is closed. We will open again in May</div>-->
+   <div id="closed-msg">
+      <p>Sorry, the market is closed. We will open again in May!</p>
+      <p class="sub">Items listed below are available year-round.</p>
+    </div>
 
    <ul id="crop-list">
      <li id="apples" class="apples"><?php include('includes/food/apples.php'); ?><span>apples</span></li>

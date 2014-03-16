@@ -160,8 +160,6 @@ body {
   background: url("../images/bkgd-img.jpg") no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
   opacity: 0.9;
   position: fixed;
   top: 0;
@@ -275,6 +273,23 @@ header #header-link:hover {
   background: rgba(255, 253, 245, 0.55);
 }
 
+#closed-msg {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  text-align: center;
+  color: #444;
+  font-size: 3em;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+}
+#closed-msg .sub {
+  margin-top: 13px;
+  margin-bottom: 40px;
+  color: #888;
+  font-size: 0.8em;
+}
+
 #crop-list {
   padding: 0;
   margin: 0 auto;
@@ -287,19 +302,19 @@ header #header-link:hover {
   }
 }
 #crop-list li {
-  width: 49.5%;
+  width: 32.66667%;
   margin: 0 1% 10px 0;
   border-radius: 5px;
   list-style: none;
   float: left;
   padding: 20px 0;
   display: inline-block;
-  background: rgba(255, 253, 245, 0.6);
+  background: rgba(255, 253, 245, 0.65);
   font-size: 3em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
 }
-#crop-list li:nth-child(2n) {
+#crop-list li:nth-child(3n) {
   margin-right: 0;
 }
 #crop-list li svg, #crop-list li img {
@@ -310,606 +325,606 @@ header #header-link:hover {
 }
 #crop-list li span {
   text-transform: uppercase;
-  margin-left: 10px;
+  margin-left: 15px;
   float: left;
   width: 70%;
   position: relative;
-  top: 15px;
+  top: 17px;
 }
 #crop-list li.apples {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.apples svg .icon {
-  fill: #dd074e;
+  fill: #b8182c;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.apples:hover {
-  background: #930534;
-  color: #dd074e;
+  background: #740f1c;
+  color: #b8182c;
 }
 #crop-list li.apples:hover svg .icon {
-  fill: #dd074e;
+  fill: #b8182c;
 }
 #crop-list li.apricots {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.apricots svg .icon {
-  fill: #f7ae49;
+  fill: #f58416;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.apricots:hover {
-  background: #e98c0a;
-  color: #f7ae49;
+  background: #b75e08;
+  color: #f58416;
 }
 #crop-list li.apricots:hover svg .icon {
-  fill: #f7ae49;
+  fill: #f58416;
 }
 #crop-list li.asparagus {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.asparagus svg .icon {
-  fill: #8ca874;
+  fill: #6b7917;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.asparagus:hover {
-  background: #668050;
-  color: #8ca874;
+  background: #32390b;
+  color: #6b7917;
 }
 #crop-list li.asparagus:hover svg .icon {
-  fill: #8ca874;
+  fill: #6b7917;
 }
 #crop-list li.beets {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.beets svg .icon {
-  fill: #8f0142;
+  fill: #8b224d;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.beets:hover {
-  background: #43001f;
-  color: #8f0142;
+  background: #4e132b;
+  color: #8b224d;
 }
 #crop-list li.beets:hover svg .icon {
-  fill: #8f0142;
+  fill: #8b224d;
 }
 #crop-list li.bell-peppers {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.bell-peppers svg .icon {
-  fill: #ee881c;
+  fill: #4c6a00;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.bell-peppers:hover {
-  background: #b0610d;
-  color: #ee881c;
+  background: #151e00;
+  color: #4c6a00;
 }
 #crop-list li.bell-peppers:hover svg .icon {
-  fill: #ee881c;
+  fill: #4c6a00;
 }
 #crop-list li.broccoli {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.broccoli svg .icon {
-  fill: #a2c352;
+  fill: #43860e;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.broccoli:hover {
-  background: #789534;
-  color: #a2c352;
+  background: #204107;
+  color: #43860e;
 }
 #crop-list li.broccoli:hover svg .icon {
-  fill: #a2c352;
+  fill: #43860e;
 }
 #crop-list li.cabbage {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cabbage svg .icon {
-  fill: #e7efa2;
+  fill: #8c1c69;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cabbage:hover {
-  background: #d6e461;
-  color: #e7efa2;
+  background: #4c0f39;
+  color: #8c1c69;
 }
 #crop-list li.cabbage:hover svg .icon {
-  fill: #e7efa2;
+  fill: #8c1c69;
 }
 #crop-list li.cantaloupe {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cantaloupe svg .icon {
-  fill: #ffdb96;
+  fill: #f68c35;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cantaloupe:hover {
-  background: #ffc14a;
-  color: #ffdb96;
+  background: #d56509;
+  color: #f68c35;
 }
 #crop-list li.cantaloupe:hover svg .icon {
-  fill: #ffdb96;
+  fill: #f68c35;
 }
 #crop-list li.carrots {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.carrots svg .icon {
-  fill: #f7b259;
+  fill: #fe6e0e;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.carrots:hover {
-  background: #f39010;
-  color: #f7b259;
+  background: #bf4d01;
+  color: #fe6e0e;
 }
 #crop-list li.carrots:hover svg .icon {
-  fill: #f7b259;
+  fill: #fe6e0e;
 }
 #crop-list li.cauliflower {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cauliflower svg .icon {
-  fill: #fffcf3;
+  fill: #d3ccb0;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cauliflower:hover {
-  background: #ffe9a6;
-  color: #fffcf3;
+  background: #b8ac7f;
+  color: #d3ccb0;
 }
 #crop-list li.cauliflower:hover svg .icon {
-  fill: #fffcf3;
+  fill: #d3ccb0;
 }
 #crop-list li.celery {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.celery svg .icon {
-  fill: #d7ebbe;
+  fill: #90b64b;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.celery:hover {
-  background: #b3d984;
-  color: #d7ebbe;
+  background: #658034;
+  color: #90b64b;
 }
 #crop-list li.celery:hover svg .icon {
-  fill: #d7ebbe;
+  fill: #90b64b;
 }
 #crop-list li.cherries {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cherries svg .icon {
-  fill: #c7497d;
+  fill: #c72127;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cherries:hover {
-  background: #962e59;
-  color: #c7497d;
+  background: #85161a;
+  color: #c72127;
 }
 #crop-list li.cherries:hover svg .icon {
-  fill: #c7497d;
+  fill: #c72127;
 }
 #crop-list li.chile-peppers {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.chile-peppers svg .icon {
-  fill: #ae0914;
+  fill: #ad0500;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.chile-peppers:hover {
-  background: #65050c;
-  color: #ae0914;
+  background: #610300;
+  color: #ad0500;
 }
 #crop-list li.chile-peppers:hover svg .icon {
-  fill: #ae0914;
+  fill: #ad0500;
 }
 #crop-list li.cucumbers {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cucumbers svg .icon {
-  fill: #7eb641;
+  fill: #6ea250;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.cucumbers:hover {
-  background: #577e2d;
-  color: #7eb641;
+  background: #4b6f37;
+  color: #6ea250;
 }
 #crop-list li.cucumbers:hover svg .icon {
-  fill: #7eb641;
+  fill: #6ea250;
 }
 #crop-list li.eggplant {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.eggplant svg .icon {
-  fill: #8e598b;
+  fill: #4e244e;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.eggplant:hover {
-  background: #5f3c5d;
-  color: #8e598b;
+  background: #1a0c1a;
+  color: #4e244e;
 }
 #crop-list li.eggplant:hover svg .icon {
-  fill: #8e598b;
+  fill: #4e244e;
 }
 #crop-list li.grapes {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.grapes svg .icon {
-  fill: #7a69a8;
+  fill: #682941;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.grapes:hover {
-  background: #56487c;
-  color: #7a69a8;
+  background: #31131f;
+  color: #682941;
 }
 #crop-list li.grapes:hover svg .icon {
-  fill: #7a69a8;
+  fill: #682941;
 }
 #crop-list li.green-beans {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.green-beans svg .icon {
-  fill: #c3df79;
+  fill: #6aa152;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.green-beans:hover {
-  background: #a7d03b;
-  color: #c3df79;
+  background: #496e38;
+  color: #6aa152;
 }
 #crop-list li.green-beans:hover svg .icon {
-  fill: #c3df79;
+  fill: #6aa152;
 }
 #crop-list li.herbs {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.herbs svg .icon {
-  fill: #24ae51;
+  fill: #477008;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.herbs:hover {
-  background: #176f33;
-  color: #24ae51;
+  background: #1a2903;
+  color: #477008;
 }
 #crop-list li.herbs:hover svg .icon {
-  fill: #24ae51;
+  fill: #477008;
 }
 #crop-list li.honeydew {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.honeydew svg .icon {
-  fill: #f7c78a;
+  fill: #acbd4e;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.honeydew:hover {
-  background: #f2a542;
-  color: #f7c78a;
+  background: #7d8b34;
+  color: #acbd4e;
 }
 #crop-list li.honeydew:hover svg .icon {
-  fill: #f7c78a;
+  fill: #acbd4e;
 }
 #crop-list li.lettuce {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.lettuce svg .icon {
-  fill: #d7e7a2;
+  fill: #649812;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.lettuce:hover {
-  background: #bdd765;
-  color: #d7e7a2;
+  background: #37540a;
+  color: #649812;
 }
 #crop-list li.lettuce:hover svg .icon {
-  fill: #d7e7a2;
+  fill: #649812;
 }
 #crop-list li.onions {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.onions svg .icon {
-  fill: #fff7e7;
+  fill: #d8b39d;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.onions:hover {
-  background: #ffdd9b;
-  color: #fff7e7;
+  background: #c28966;
+  color: #d8b39d;
 }
 #crop-list li.onions:hover svg .icon {
-  fill: #fff7e7;
+  fill: #d8b39d;
 }
 #crop-list li.peaches {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.peaches svg .icon {
-  fill: #fbd7a3;
+  fill: #e9703c;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.peaches:hover {
-  background: #f8b75a;
-  color: #fbd7a3;
+  background: #c34a16;
+  color: #e9703c;
 }
 #crop-list li.peaches:hover svg .icon {
-  fill: #fbd7a3;
+  fill: #e9703c;
 }
 #crop-list li.pears {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.pears svg .icon {
-  fill: #ebf3ae;
+  fill: #b8be1c;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.pears:hover {
-  background: #dbe96b;
-  color: #ebf3ae;
+  background: #777b12;
+  color: #b8be1c;
 }
 #crop-list li.pears:hover svg .icon {
-  fill: #ebf3ae;
+  fill: #b8be1c;
 }
 #crop-list li.pinto-beans {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.pinto-beans svg .icon {
-  fill: #fff7e7;
+  fill: #a55430;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.pinto-beans:hover {
-  background: #ffdd9b;
-  color: #fff7e7;
+  background: #6a361f;
+  color: #a55430;
 }
 #crop-list li.pinto-beans:hover svg .icon {
-  fill: #fff7e7;
+  fill: #a55430;
 }
 #crop-list li.plums {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.plums svg .icon {
-  fill: #7a69a8;
+  fill: #762d5a;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.plums:hover {
-  background: #56487c;
-  color: #7a69a8;
+  background: #3f1830;
+  color: #762d5a;
 }
 #crop-list li.plums:hover svg .icon {
-  fill: #7a69a8;
+  fill: #762d5a;
 }
 #crop-list li.popcorn {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.popcorn svg .icon {
-  fill: #fffba6;
+  fill: #facc34;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.popcorn:hover {
-  background: #fff85a;
-  color: #fffba6;
+  background: #dcaa05;
+  color: #facc34;
 }
 #crop-list li.popcorn:hover svg .icon {
-  fill: #fffba6;
+  fill: #facc34;
 }
 #crop-list li.potatoes {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.potatoes svg .icon {
-  fill: #ebdbb6;
+  fill: #d4b160;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.potatoes:hover {
-  background: #dbbd7a;
-  color: #ebdbb6;
+  background: #b68e31;
+  color: #d4b160;
 }
 #crop-list li.potatoes:hover svg .icon {
-  fill: #ebdbb6;
+  fill: #d4b160;
 }
 #crop-list li.pumpkins {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.pumpkins svg .icon {
-  fill: #fbba41;
+  fill: #e77324;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.pumpkins:hover {
-  background: #eb9a05;
-  color: #fbba41;
+  background: #ac5113;
+  color: #e77324;
 }
 #crop-list li.pumpkins:hover svg .icon {
-  fill: #fbba41;
+  fill: #e77324;
 }
 #crop-list li.raspberries {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.raspberries svg .icon {
-  fill: #be003c;
+  fill: #e21920;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.raspberries:hover {
-  background: #720024;
-  color: #be003c;
+  background: #9d1116;
+  color: #e21920;
 }
 #crop-list li.raspberries:hover svg .icon {
-  fill: #be003c;
+  fill: #e21920;
 }
 #crop-list li.rhubarb {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.rhubarb svg .icon {
-  fill: #df6169;
+  fill: #d44f62;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.rhubarb:hover {
-  background: #ca2933;
-  color: #df6169;
+  background: #ac2a3d;
+  color: #d44f62;
 }
 #crop-list li.rhubarb:hover svg .icon {
-  fill: #df6169;
+  fill: #d44f62;
 }
 #crop-list li.strawberries {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.strawberries svg .icon {
-  fill: #e75d18;
+  fill: #d30000;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.strawberries:hover {
-  background: #a24111;
-  color: #e75d18;
+  background: #860000;
+  color: #d30000;
 }
 #crop-list li.strawberries:hover svg .icon {
-  fill: #e75d18;
+  fill: #d30000;
 }
 #crop-list li.sweet-corn {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.sweet-corn svg .icon {
-  fill: #ffd26a;
+  fill: #fdbc34;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.sweet-corn:hover {
-  background: #ffbb1e;
-  color: #ffd26a;
+  background: #e29a02;
+  color: #fdbc34;
 }
 #crop-list li.sweet-corn:hover svg .icon {
-  fill: #ffd26a;
+  fill: #fdbc34;
 }
 #crop-list li.squash {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.squash svg .icon {
-  fill: #ffd26a;
+  fill: #f5b128;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.squash:hover {
-  background: #ffbb1e;
-  color: #ffd26a;
+  background: #c78809;
+  color: #f5b128;
 }
 #crop-list li.squash:hover svg .icon {
-  fill: #ffd26a;
+  fill: #f5b128;
 }
 #crop-list li.tomatoes {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.tomatoes svg .icon {
-  fill: #ee881c;
+  fill: #d62104;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.tomatoes:hover {
-  background: #b0610d;
-  color: #ee881c;
+  background: #8b1503;
+  color: #d62104;
 }
 #crop-list li.tomatoes:hover svg .icon {
-  fill: #ee881c;
+  fill: #d62104;
 }
 #crop-list li.watermelon {
-  color: #888;
+  color: #999;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.watermelon svg .icon {
-  fill: #efb4bd;
+  fill: #f64f55;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 #crop-list li.watermelon:hover {
-  background: #e27586;
-  color: #efb4bd;
+  background: #ec0c14;
+  color: #f64f55;
 }
 #crop-list li.watermelon:hover svg .icon {
-  fill: #efb4bd;
+  fill: #f64f55;
 }
 
 #crop-calendar {
@@ -931,9 +946,6 @@ header #header-link:hover {
   font-size: 1em;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
-}
-#crop-calendar a:hover {
-  color: #406d22;
 }
 
 /* Footer
