@@ -1,14 +1,14 @@
 <?php include('includes/head.php'); ?>
 
-<!-- Begin Content -->
+<!--******** Header Region ********-->
 <header>
    <div class="header-wrapper">
       <div id="site-logo">What's in Season?</div>
-      <a href="http://www.coloradofreshmarkets.com/markets.html"><div id="header-link" >Find Markets ></div></a>
+      <a href="http://www.coloradofreshmarkets.com/markets.html"><div id="header-link" >Find Markets <span class="genericon genericon-location"></span></div></a>
   </div>
  </header>
 
-<!-- Date -->
+<!--******** Date ********-->
 <div id="current-date">
    <div id="date-header">Fresh in Colorado</div>
   <script type="text/javascript">
@@ -27,9 +27,10 @@
    </script>
 </div>
 
-
+<!--******** Crop List ********-->
 <div id="crop-wrap" class="wrapper">
-   <!--<div id="crop-header">Today's Crops</div>-->
+   <!--<div id="closed-msg">Sorry, the market is closed. We will open again in May</div>-->
+
    <ul id="crop-list">
      <li id="apples" class="apples"><?php include('includes/food/apples.php'); ?><span>apples</span></li>
      <li id="apricots" class="apricots"><?php include('includes/food/apricots.php'); ?><span>apricots</span></li>
@@ -67,14 +68,19 @@
      <li id="tomatoes" class="tomatoes"><?php include('includes/food/tomatoes.php'); ?><span>tomatoes</span></li>
      <li id="watermelon" class="watermelon"><?php include('includes/food/watermelon.php'); ?><span>watermelon</span></li>
    </ul>
+   <div id="crop-calendar">Don't see what you're looking for? View the <a href="http://www.coloradofreshmarkets.com/crop_calendar.html">crop calendar <span class="genericon genericon-video"></span></a></div>
 </div>
 
+<!--******** Footer Toggles ********-->
 <footer>
-  <div id="footer-market">Find a Market<br /><a href="http://www.coloradofreshmarkets.com/markets.html">View Map ></a></div>
-  <div id="about-module" class="footer-toggles">About</div>
-  <div id="city-module" class="footer-toggles">Add Your City</div>
+  <div id="footer-market">
+    <p>Find a Market</p>
+    <a href="http://www.coloradofreshmarkets.com/markets.html">View Map <span class="genericon genericon-location"></span></a></div>
+  <div id="about-module" class="footer-toggles"><span class="genericon genericon-attachment"></span> About</div>
+  <div id="city-module" class="footer-toggles"><span class="genericon genericon-heart"></span> Add Your City</div>
 </footer>
 
+<!--******** Background Image ********-->
 <div id="bkgd-img"></div>
 
 <?php include('includes/footer.php'); ?>

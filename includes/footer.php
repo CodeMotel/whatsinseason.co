@@ -2,10 +2,8 @@
          <!-- JavaScript  -->
         <script src="//code.jquery.com/jquery-latest.min.js"></script>
         <script src="js/production.min.js"></script>
+        <!--<script src="js/food.js"></script>-->
 
-        <!-- SymbolSet Fonts -->
-        <script src="fonts/ss-standard/ss-standard.js"></script>
-        <script src="fonts/ss-social/ss-social.js"></script>
 
         <!-- Modernizr -->
 <!--        <script src="js/modernizr.js"></script> -->

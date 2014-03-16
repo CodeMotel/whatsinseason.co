@@ -171,6 +171,8 @@ body {
   z-index: -9999;
 }
 
+/* Header Region
+======================================================= */
 header {
   float: left;
   background: #97d270;
@@ -204,9 +206,9 @@ header #site-logo {
   font-weight: 800;
 }
 header #header-link {
-  padding: 10px 20px;
+  padding: 11px 22px;
   border-radius: 5px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
   font-size: 0.5em;
   text-transform: uppercase;
@@ -216,17 +218,29 @@ header #header-link {
   font-weight: 500;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
-  color: white;
-  border-color: rgba(255, 255, 255, 0.2);
+  color: #57942f;
+  border-color: #6ebb3b;
   float: right;
-  padding: 8px 12px;
+  padding: 8px 14px;
   text-align: center;
   font-size: 0.65em;
+  line-height: 1.1;
 }
 header #header-link:hover {
   border-color: white;
 }
+header #header-link span {
+  position: relative;
+  top: -2px;
+  font-size: 1.4em;
+}
+header #header-link:hover {
+  color: white;
+  border-color: white;
+}
 
+/* Date Region
+======================================================= */
 #current-date {
   width: 100%;
   float: left;
@@ -245,6 +259,8 @@ header #header-link:hover {
   font-family: 'Cedarville Cursive', cursive;
 }
 
+/* Crop List
+======================================================= */
 .wrapper {
   width: 100%;
   float: left;
@@ -884,6 +900,32 @@ header #header-link:hover {
   fill: #efb4bd;
 }
 
+#crop-calendar {
+  width: 100%;
+  float: left;
+  margin-top: 60px;
+  text-align: center;
+  color: #444;
+  font-size: 2em;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+}
+#crop-calendar a {
+  margin-left: 3px;
+  color: #57942f;
+}
+#crop-calendar a span {
+  text-decoration: none;
+  font-size: 1em;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#crop-calendar a:hover {
+  color: #406d22;
+}
+
+/* Footer
+======================================================= */
 footer {
   bottom: 0;
   width: 100%;
@@ -905,14 +947,15 @@ footer div#footer-market {
   padding: 300px 0;
   background: none;
   font-size: 3.4em;
-  line-height: 1.6em;
+  line-height: 1em;
+  text-shadow: 2px 2px 0 #355a1c;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 700;
 }
 footer div#footer-market a {
-  padding: 10px 20px;
+  padding: 11px 22px;
   border-radius: 5px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
   font-size: 0.5em;
   text-transform: uppercase;
@@ -922,12 +965,28 @@ footer div#footer-market a {
   font-weight: 500;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
+  display: inline-block;
+  margin-top: 20px;
+  text-shadow: none;
 }
 footer div#footer-market a:hover {
   border-color: white;
 }
+footer div#footer-market a span {
+  position: relative;
+  top: 4px;
+  margin-right: 2px;
+  font-size: 1.5em;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
 footer div#about-module, footer div#city-module {
   width: 50%;
+  font-size: 2em;
+}
+footer div#about-module span, footer div#city-module span {
+  margin-right: 5px;
+  font-size: 1em;
 }
 footer div#about-module {
   background: #97d270;
