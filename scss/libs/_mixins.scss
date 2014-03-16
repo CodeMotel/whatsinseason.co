@@ -32,3 +32,18 @@
 	transition: all $time ease-in-out;
 }
 
+@mixin button-style {
+	padding:10px 20px;
+	border-radius:5px;
+	border:2px solid rgba(255,255,255,0.3);
+	color:white;
+	font-size:0.5em;
+	text-transform:uppercase;
+	text-decoration:none;
+	letter-spacing:0.05em;
+	@include a-5;
+	@include ease;
+	&:hover {
+		border-color:white;
+	}
+}

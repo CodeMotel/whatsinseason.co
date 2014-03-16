@@ -31,79 +31,155 @@ h5 {font-size:1em;}
 body {
 	margin:0;
 	padding:0;
+	width:100%;
 	font-size:62.5%;
 	color:$body-copy-color;
 }
 
+#bkgd-img {
+	background:url('../images/bkgd-img.jpg') no-repeat center center;
+	background-size:cover;
+	filter:blur(10px);
+	//opacity:0.9;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:-9999;
+}
+
 header {
 	float:left;
-//	background:#444;
-//	background:url('../images/bkgd-pattern-burlap.png'); // Burlap Texture
-	background:url('../images/bkgd-pattern-paper.png'); // Paper Texture
+	background:rgba(255,253,245,1);
 	width:100%;
-	padding:20px 0;
+	padding:0;
 	color:white;
 	font-size:2.2em;
 	text-align:center;
-	@include os-8;
+	@include a-5;
 
-	div {
-		$side-width:20%;
-		$mid-width:100% - ($side-width * 2);
-		width:$side-width;
-		float:left;
+	// Header Modules
+	.header-wrapper {
+		padding:20px 0;
+		width:70%;
+		margin:0 auto;
+	}
+	#site-logo, #header-link {
 		display: inline-block;
 		margin:0;
-		padding:20px 0;
-		&:first-child {text-align:left;}
-		&:last-child {text-align:right;}
-		&:nth-child(2) {width:$mid-width;}
+		padding:0;
+	}
+	// Site Name
+	#site-logo {
+		float:left;
+		text-align:left;
+		font-size:1.6em;
+		line-height:1.4;
+		color:#444;
+		@include a-8;
+	}
+	// Link
+	#header-link {
+		@include button-style;
+		color:#444;
+		border-color:#444;
+		float:right;
+		width:20%;
+		padding:15px 0;
+		//margin-top:15px;
+		margin-bottom:20px;
+		text-align:center;
+		font-size:0.75em;
 	}
 }
 
-#crop-list {
+// Date
+#current-date {
+	width:100%;
 	float:left;
+	display: inline-block;
+	margin:0;
+	padding:120px 0;
+	color:white;
+	font-size:4.5em;
+	text-align:center;
+	text-shadow:2px 2px 0 rgba(15,15,15,0.5);
+	@include a-8;
+
+	#date-header {
+		letter-spacing:-0.15;
+		@include cedar;
+	}
+}
+
+
+// Crop List
+.wrapper {
+	width:100%;
+	float:left;
+	padding:40px 0 60px;
+	background:rgba(255,253,245,0.55);
+}
+
+#crop-list {
 	padding:0;
-	margin:0 0 50px;
+	margin:0 auto;
+	width:70%;
 	li {
+		$margin:1%;
+		$width:(100% - ($margin * 1)) / 2;
+		width:$width;
+		margin:0 $margin 10px 0;
+		border-radius:5px;
 		list-style:none;
 		float:left;
-		width:33.3%;
-		margin:0;
-		padding:40px 0;
+		padding:20px 0;
 		display:inline-block;
-		background:#ccc;
+		background:rgba(255,253,245,0.6);
 		font-size:3em;
-		@include os-8;
+		@include a-5;
+		&:nth-child(2n) {margin-right:0;}
 
-		@media screen and (max-width: $tablet) {width:50%;}
-		@media screen and (max-width: $phone) {width:100%;}
+		// Responsive Widths
+		//@media screen and (max-width: $tablet) {width:50%;}
+		//@media screen and (max-width: $phone) {width:100%;}
 
 		svg, img {
 			margin-left:20px;
-			width:20%;
+			width:12%;
+			height:50px;
 			float:left;
 		}
 		span {
 			text-transform: uppercase;
 			margin-left:10px;
 			float:left;
-			width:65%;
-
-// Need to make this responsive
-			position: relative;
-			top: 30px;
+			width:70%;
+			position:relative;
+			top:15px;
 		}
+
 		// Food Module Colors
 		@mixin food-style($food) {
-			background:#{$food};
-			color:darken($food, 15%);
+			$food-dark:darken($food, 15%);
+			//background:#{$food};
+			color:#444;//$food-dark;
+			//box-shadow:inset 0 0 0 1px $food;
 			@include ease;
 			svg {
-				height:100px;
-				.icon {fill:darken($food, 15%);}
+				.icon {
+					fill:#444;//$food-dark;
+					@include ease;
+				}
 			}
-			&:hover {opacity:0.8;}
+			&:hover {
+				background:$food-dark;
+				color:$food;
+				svg {
+					.icon {fill:$food;}
+				}
+			}
 		}
 		&.apples {@include food-style($apples);}
 		&.apricots {@include food-style($apricots);}
@@ -145,24 +221,30 @@ header {
 
 
 footer {
-	position:fixed;
 	bottom:0;
 	width:100%;
-	box-shadow:0 -2px 23px 0px black;
 
 	div {
 		display: inline-block;
 		float:left;
 		margin:0;
-		padding:5px 0;
+		padding:15px 0;
 		text-align: center;
 		color:white;
-		@include os-7;
+		font-size:1.5em;
+		@include a-5;
 		@include ease;
+
 		// Find Markets
 		&:first-child {
 			width:100%;
 			background:#777;
+			padding:300px 0;
+			background:none;//url('../images/location-bkgd.jpg') no-repeat center center fixed;
+			font-size:3.4em;
+			line-height:1.6em;
+			@include a-7;
+			a {@include button-style;}
 		}
 		// About and Add City
 		&:nth-child(2), &:last-child {width:50%;}
@@ -172,7 +254,11 @@ footer {
 
 	// Hover Footer
 	&:hover {
-		div {padding:40px 0;}
+		div {
+			&:nth-child(2), &:last-child {
+			//	padding:40px 0;
+			}
+		}
 	}
 }
 
