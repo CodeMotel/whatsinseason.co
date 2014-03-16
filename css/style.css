@@ -190,6 +190,11 @@ header .header-wrapper {
   max-width: 1000px;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  header .header-wrapper {
+    width: 90%;
+  }
+}
 header #site-logo, header #header-link {
   display: inline-block;
   margin: 0;
@@ -273,6 +278,11 @@ header #header-link:hover {
   margin: 0 auto;
   width: 70%;
   max-width: 1000px;
+}
+@media screen and (max-width: 768px) {
+  #crop-list {
+    width: 90%;
+  }
 }
 #crop-list li {
   width: 49.5%;
