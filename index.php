@@ -68,7 +68,7 @@
      <li id="tomatoes" class="tomatoes"><?php include('includes/food/tomatoes.php'); ?><span>tomatoes</span></li>
      <li id="watermelon" class="watermelon"><?php include('includes/food/watermelon.php'); ?><span>watermelon</span></li>
    </ul>
-   <div id="crop-calendar">Don't see what you're looking for? View the <a href="http://www.coloradofreshmarkets.com/crop_calendar.html">crop calendar <span class="genericon genericon-video"></span></a></div>
+   <div id="crop-calendar">Don't see what you're looking for?  View the <a href="http://www.coloradofreshmarkets.com/crop_calendar.html">crop calendar <span class="genericon genericon-video"></span></a></div>
 </div>
 
 <!--******** Footer Toggles ********-->

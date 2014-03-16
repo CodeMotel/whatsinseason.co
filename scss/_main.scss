@@ -181,11 +181,10 @@ header {
 			$food-dark:darken($food, 15%);
 			//background:#{$food};
 			color:#777;//$food-dark;
-			//box-shadow:inset 0 0 0 1px $food;
 			@include ease;
 			svg {
 				.icon {
-					fill:#777;//$food-dark;
+					fill:$food-dark;
 					@include ease;
 				}
 			}
