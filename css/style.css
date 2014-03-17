@@ -344,6 +344,11 @@ header #header-link:hover {
   letter-spacing: -0.3;
   font-family: 'Cedarville Cursive', cursive;
 }
+@media screen and (max-width: 500px) {
+  #current-date {
+    padding: 60px 0;
+  }
+}
 
 /* Crop List
 ======================================================= */

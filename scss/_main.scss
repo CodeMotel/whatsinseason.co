@@ -183,6 +183,7 @@ header {
 		letter-spacing:-0.3;
 		@include cedar;
 	}
+	@media screen and (max-width: $big-phone) {padding:60px 0;}
 }
 
 
