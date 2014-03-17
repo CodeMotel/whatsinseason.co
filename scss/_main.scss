@@ -120,6 +120,7 @@ header {
 			@media screen and (max-width:$small-tablet) {
 				height: 28px;
 				width: 33px;
+				margin-left:-16px;
 			}
 		}
 		@media screen and (max-width:$big-phone) {
