@@ -44,7 +44,7 @@
 })( jQuery );
 
 // FitText.JS
-jQuery("#crop-list li span").fitText(1);
+//jQuery("#crop-list li span").fitText(1);
 
 
 // Show or Hide Closed Message

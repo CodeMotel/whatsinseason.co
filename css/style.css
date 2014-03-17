@@ -188,7 +188,7 @@ header .header-wrapper {
   max-width: 1000px;
   margin: 0 auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   header .header-wrapper {
     width: 90%;
   }
@@ -215,6 +215,31 @@ header #site-logo span {
   width: 43px;
   font-size: 1.1em;
 }
+@media screen and (max-width: 1024px) {
+  header #site-logo {
+    font-size: 1.3em;
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width: 680px) {
+  header #site-logo {
+    font-size: 1em;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  header #site-logo {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header #site-logo {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 1.5em;
+  }
+}
 header #header-icon {
   position: absolute;
   top: 0;
@@ -230,6 +255,24 @@ header #header-icon svg {
 }
 header #header-icon svg .icon {
   fill: #1b7943;
+}
+@media screen and (max-width: 680px) {
+  header #header-icon svg {
+    height: 28px;
+    width: 33px;
+  }
+}
+@media screen and (max-width: 500px) {
+  header #header-icon {
+    left: 5%;
+    right: inherit;
+    top: -2px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header #header-icon {
+    display: none;
+  }
 }
 header #header-link {
   padding: 11px 22px;
@@ -265,6 +308,23 @@ header #header-link:hover {
   color: white;
   border-color: white;
 }
+@media screen and (max-width: 1024px) {
+  header #header-link {
+    font-size: 0.5em;
+    padding: 9px 12px 5px;
+    margin-top: 3px;
+  }
+}
+@media screen and (max-width: 680px) {
+  header #header-link {
+    margin-top: -3px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header #header-link {
+    float: none;
+  }
+}
 
 /* Date Region
 ======================================================= */
@@ -298,7 +358,8 @@ header #header-link:hover {
 }
 
 #closed-msg {
-  width: 100%;
+  width: 96%;
+  padding: 0 2%;
   float: left;
   margin-top: 10px;
   text-align: center;
@@ -320,7 +381,7 @@ header #header-link:hover {
   width: 70%;
   max-width: 1000px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   #crop-list {
     width: 90%;
   }
@@ -335,12 +396,32 @@ header #header-link:hover {
   padding: 20px 0;
   display: inline-block;
   background: rgba(255, 253, 245, 0.65);
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
 }
 #crop-list li:nth-child(3n) {
   margin-right: 0;
+}
+@media screen and (max-width: 1024px) {
+  #crop-list li {
+    font-size: 2.2em;
+    width: 49.5%;
+    margin: 0 1% 10px 0;
+  }
+  #crop-list li:nth-child(3n) {
+    margin-right: 1%;
+  }
+  #crop-list li:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  #crop-list li {
+    width: 100%;
+    margin: 0 0 10px;
+    font-size: 2.8em;
+  }
 }
 #crop-list li svg, #crop-list li img {
   margin-left: 20px;
