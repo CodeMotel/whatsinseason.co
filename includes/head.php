@@ -35,4 +35,4 @@
 
 </head>
 
-<body id="home">
+

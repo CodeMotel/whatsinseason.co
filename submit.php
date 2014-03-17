@@ -10,17 +10,16 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 // otherwise, let the spammer think that they got their message through
 
 ?>
-<!DOCTYPE HTML>
-<html>
-<head>
 
-<title>Thanks!</title>
+<?php include('includes/head.php'); ?>
 
-</head>
-<body>
+<body id="submit">
 
-<h1>Thanks</h1>
+<?php include('includes/nav.php'); ?>
+
+<h1>Thanks!</h1>
 <p>We'll get back to you as soon as possible.</p>
+<a href="/">Home<span class="genericon genericon-home"></span></a>
 
-</body>
-</html>
+
+<?php include('includes/footer.php'); ?>

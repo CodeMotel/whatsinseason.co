@@ -1389,6 +1389,79 @@ footer #city-module .hidden {
   display: none !important;
 }
 
+body#submit {
+  text-align: center;
+  color: white;
+}
+body#submit #site-logo {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+body#submit header a, body#submit #header-link {
+  display: none !important;
+}
+body#submit h1 {
+  margin: 80px 0 5px;
+  width: 100%;
+  float: left;
+}
+body#submit p {
+  margin-bottom: 40px;
+  font-size: 2em;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+}
+body#submit a {
+  padding: 11px 22px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+  font-size: 1.5em;
+}
+body#submit a:hover {
+  border-color: white;
+}
+body#submit a span {
+  font-size: 1.3em;
+  margin-left: 7px;
+  margin-top: -3px;
+}
+@media screen and (max-width: 680px) {
+  body#submit header #site-logo {
+    font-size: 1.3em;
+    line-height: 1.3;
+  }
+  body#submit header #header-icon svg {
+    width: 60px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body#submit header #site-logo {
+    margin-left: 0;
+  }
+  body#submit header #header-icon {
+    left: 50%;
+  }
+  body#submit header #header-icon svg {
+    margin-left: -27px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body#submit header #header-icon {
+    display: block;
+  }
+}
+
 /* Selection Colors
 ======================================================= */
 ::-moz-selection {
