@@ -78,8 +78,8 @@ header {
 		float:left;
 		margin-bottom:23px;
 		text-align:left;
-		font-size:1.6em;
-		line-height:1;
+		font-size:1.4em;
+		line-height:1.05;
 		color:darken($header-color, 12%);
 		@include a-8;
 		span {
@@ -107,7 +107,7 @@ header {
 	// -- Link -- //
 	#header-link {
 		@include button-style;
-		color:darken($header-color, 12%);//white;
+		color:darken($header-color, 20%);//white;
 		border-color:darken($header-color, 12%);//rgba(255,255,255,0.2);
 		float:right;
 		padding:8px 14px;
@@ -167,7 +167,7 @@ header {
 	float:left;
 	margin-top:10px;
 	text-align:center;
-	color:#444;
+	color:#555;
 	font-size:3em;
 	@include a-5;
 	.sub {
@@ -283,12 +283,12 @@ header {
 	float:left;
 	margin-top:60px;
 	text-align:center;
-	color:#444;
+	color:#555;
 	font-size:2em;
 	@include a-5;
 	a {
 		margin-left:3px;
-		color:darken($header-color, 25%);
+		color:darken($header-color, 5%);
 		span {
 			text-decoration: none;
 			font-size:1em;
