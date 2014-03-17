@@ -344,9 +344,15 @@ header #header-link:hover {
   letter-spacing: -0.3;
   font-family: 'Cedarville Cursive', cursive;
 }
+@media screen and (max-width: 680px) {
+  #current-date {
+    font-size: 3.5em;
+  }
+}
 @media screen and (max-width: 500px) {
   #current-date {
     padding: 70px 0;
+    font-size: 3em;
   }
 }
 
@@ -360,8 +366,8 @@ header #header-link:hover {
 }
 
 #closed-msg {
-  width: 96%;
-  padding: 0 2%;
+  width: 90%;
+  padding: 0 5%;
   float: left;
   margin-top: 10px;
   text-align: center;
@@ -375,6 +381,11 @@ header #header-link:hover {
   margin-bottom: 40px;
   color: #888;
   font-size: 0.8em;
+}
+@media screen and (max-width: 680px) {
+  #closed-msg {
+    font-size: 2em;
+  }
 }
 
 #crop-list {
@@ -1098,7 +1109,7 @@ header #header-link:hover {
 }
 @media screen and (max-width: 500px) {
   #footer-market {
-    padding: 100px 0;
+    padding: 130px 0 180px;
   }
 }
 
@@ -1253,6 +1264,11 @@ footer #city-module .hidden form p {
   display: block;
   color: #888;
 }
+footer #about-module .hidden form textarea,
+footer #city-module .hidden form textarea {
+  height: 100px;
+  resize: none;
+}
 footer #about-module .hidden form input, footer #about-module .hidden form textarea,
 footer #city-module .hidden form input,
 footer #city-module .hidden form textarea {
@@ -1262,6 +1278,7 @@ footer #city-module .hidden form textarea {
   display: block;
   padding: 10px 0;
   border: 1px solid #aaa;
+  border-radius: 5px;
   background: white;
   font-size: 1.5em;
   text-indent: 10px;

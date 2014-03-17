@@ -183,7 +183,8 @@ header {
 		letter-spacing:-0.3;
 		@include cedar;
 	}
-	@media screen and (max-width: $big-phone) {padding:70px 0;}
+	@media screen and (max-width: $small-tablet) {font-size:3.5em;}
+	@media screen and (max-width: $big-phone) {padding:70px 0; font-size:3em;}
 }
 
 
@@ -197,8 +198,8 @@ header {
 }
 
 #closed-msg {
-	width:96%;
-	padding:0 2%;
+	width:90%;
+	padding:0 5%;
 	float:left;
 	margin-top:10px;
 	text-align:center;
@@ -211,6 +212,7 @@ header {
 		color:#888;
 		font-size:0.8em;
 	}
+	@media screen and (max-width: $small-tablet) {font-size:2em;}
 }
 
 #crop-list {
@@ -369,7 +371,7 @@ header {
 			@include ease;
 		}
 	}
-	@media screen and (max-width: $big-phone) {padding:100px 0;}
+	@media screen and (max-width: $big-phone) {padding:130px 0 180px;}
 }
 
 
@@ -492,6 +494,10 @@ footer {
 					display: block;
 					color:#888;
 				}
+				textarea {
+					height:100px;
+					resize:none;
+				}
 				input, textarea {
 					-webkit-appearance: none;
 					width:90%;
@@ -499,6 +505,7 @@ footer {
 					display:block;
 					padding:10px 0;
 					border:1px solid #aaa;
+					border-radius:5px;
 					background:white;
 					font-size:1.5em;
 					text-indent: 10px;
