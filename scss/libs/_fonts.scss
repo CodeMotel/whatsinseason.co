@@ -69,3 +69,22 @@
 
 //-- Cedarville --//
 @mixin cedar {font-family: 'Cedarville Cursive', cursive;}
+
+
+//-- Yanone --//
+@mixin ya{font-family: 'Yanone Kaffeesatz', sans-serif;}
+@mixin ya-2 {@include ya; font-weight:200;}
+@mixin ya-3 {@include ya; font-weight:300;}
+@mixin ya-4 {@include ya; font-weight:400;}
+@mixin ya-7 {@include ya; font-weight:700;}
+
+
+//-- Dosis --//
+@mixin dos {font-family: 'Dosis', sans-serif;}
+@mixin dos-2 {@include dos; font-weight:200;}
+@mixin dos-3 {@include dos; font-weight:300;}
+@mixin dos-4 {@include dos; font-weight:400;}
+@mixin dos-5 {@include dos; font-weight:500;}
+@mixin dos-6 {@include dos; font-weight:600;}
+@mixin dos-7 {@include dos; font-weight:700;}
+@mixin dos-8 {@include dos; font-weight:800;}

@@ -76,23 +76,46 @@ header {
 	// -- Site Name -- //
 	#site-logo {
 		float:left;
-		margin-bottom:26px;
+		margin-bottom:23px;
 		text-align:left;
 		font-size:1.6em;
 		line-height:1;
-		color:darken($header-color, 25%);
+		color:darken($header-color, 12%);
 		@include a-8;
+		span {
+			position:relative;
+			top:-1px;
+			width:43px;
+			font-size:1.1em;
+		}
+	}
+	#header-icon {
+		position:absolute;
+		top:0;
+		left:40%;
+		right:40%;
+		text-align: center;
+		svg {
+			//float:left;
+			position:relative;
+			top:18px;
+			height:40px;
+			width:60px;
+			.icon {fill:darken($header-color, 25%);}
+		}
 	}
 	// -- Link -- //
 	#header-link {
 		@include button-style;
-		color:darken($header-color, 25%);//white;
-		border-color:darken($header-color, 15%);//rgba(255,255,255,0.2);
+		color:darken($header-color, 12%);//white;
+		border-color:darken($header-color, 12%);//rgba(255,255,255,0.2);
 		float:right;
 		padding:8px 14px;
+		//margin:0px 0 23px;
 		text-align:center;
 		font-size:0.65em;
 		line-height: 1.1;
+		z-index: 9999;
 		span {
 			position: relative;
 			top: -2px;
@@ -174,7 +197,7 @@ header {
 		display:inline-block;
 		background:rgba(255,253,245,0.65);
 		font-size:3em;
-		@include a-5;
+		@include dos-5;//a-7;
 
 		&:nth-child(3n) {margin-right:0;}
 
@@ -194,7 +217,7 @@ header {
 			float:left;
 			width:70%;
 			position:relative;
-			top:17px;
+			top:14px;
 		}
 
 		// ------- Food Module Colors ------- //
@@ -335,6 +358,11 @@ footer {
 				margin-right:9px;
 				font-size:1.1em;
 				line-height: 0.8;
+				// Close Icon
+				&.genericon-close {
+					display:none;
+					line-height: 0.9;
+				}
 			}
 			&:hover {
 				background:darken($header-color, 25%);
@@ -343,33 +371,100 @@ footer {
 		// Hidden Content
 		.hidden {
 			z-index:-999;
-			width:100%;
 			position:fixed;
 			bottom:-500px;
 			padding:25px 0;
 			text-align:left;
-			background:rgba(255,253,245,0.8);
+			background:rgba(255,253,245,0.9);
 			@include ease;
-			li {
-				margin:0 0 8px 20px;
+			li, p {
+				width:90%;
+				display:block;
+				margin:0 auto 10px;
 				list-style: none;
 				font-size:1.6em;
-				color:darken($header-color, 20%);
+				color:#888;//darken($header-color, 20%);
+				svg {
+					height: 20px;
+					width: 20px;
+					position: relative;
+					top: 3px;
+					margin-right: 5px;
+					.icon {fill:darken($header-color, 20%);}
+				}
+				&#site-author {
+					border-top:1px solid #aaa;
+					padding-top:20px;
+					margin-top:20px;
+					a {
+						color:darken($header-color, 25%);
+						text-decoration: none;
+					}
+				}
+			}
+			p {
+				border-bottom:1px solid #aaa;
+				padding-bottom:20px;
+				margin-bottom:20px;
+				font-size: 2.5em;
+				@include a-8;
+			}
+			form {
+				p {
+					width:90%;
+					margin:0 auto 10px;
+					display: block;
+					color:#888;
+					font-size: 2em;
+				}
+				input, textarea {
+					width:90%;
+					margin:0 auto 10px;
+					display:block;
+					padding:10px 0;
+					border:1px solid $header-color;
+					background:white;
+					font-size:1.5em;
+					text-indent: 10px;
+					@include a-5;
+
+					&[type="submit"] {
+						background:darken($header-color, 15%);
+						color:white;
+						text-shadow: 2px 2px 0 darken($header-color, 30%);
+						font-size:1.8em;
+						letter-spacing: 0.05em;
+						@include a-7;
+						@include ease;
+						&:hover {background:darken($header-color, 20%);}
+					}
+					&:focus, &:active {
+						outline:none;
+					}
+				}
 			}
 		}
 		// Area active state
 		&.active {
 			.hidden {bottom:46px;}
-			.button {background:red;}
+			.button {
+				background:red;
+				span {
+					&.genericon-close {display:inline-block;}
+					&.genericon-comment, &.genericon-info {display:none;}
+				}
+			}
 		}
 	}
 	#about-module {
 		left:0;
 		.button {background:$header-color;}
+		.hidden {width:50%;}
 	}
 	#city-module {
 		right:0;
 		.button {background:darken($header-color, 8%);}
+		.hidden {width:50%;}
 	}
 
 	// -- Hover Footer -- //
