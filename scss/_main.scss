@@ -107,8 +107,8 @@ header {
 	#header-icon {
 		position:absolute;
 		top:0;
-		left:30%;
-		right:30%;
+		left:50%;
+		right:50%;
 		text-align: center;
 		svg {
 			position:relative;
@@ -131,11 +131,10 @@ header {
 	// -- Link -- //
 	#header-link {
 		@include button-style;
-		color:white;//darken($main-color, 10%);//white;
-		border-color:white;//darken($main-color, 10%);//rgba(255,255,255,0.2);
+		color:darken($main-color, 15%);//white;
+		border-color:darken($main-color, 15%);//rgba(255,255,255,0.2);
 		float:right;
 		padding:8px 14px;
-		//margin:0px 0 23px;
 		text-align:center;
 		font-size:0.65em;
 		line-height: 1.1;
@@ -391,6 +390,10 @@ footer {
 			width:31px;
 			fill:darken($main-color, 10%);
 		}
+		@media screen and (max-width: $big-phone) {
+			width:20%;
+			svg {height:24px;}
+		}
 	}
 	// -- About and Add City -- //
 	#about-module,
@@ -428,11 +431,18 @@ footer {
 				background:darken($main-color, 25%);
 			}
 		}
+		@media screen and (max-width: $big-phone) {
+			width:40%;
+			.button {
+				font-size:1.5em;
+				span {margin-right:3px;}
+			}
+		}
 		// Hidden Content
 		.hidden {
 			z-index:-999;
 			position:fixed;
-			bottom:-500px;
+			bottom:-1000px;
 			padding:25px 0;
 			text-align:left;
 			background:rgba(255,253,245,0.9);
@@ -463,7 +473,7 @@ footer {
 					}
 				}
 			}
-			p {
+			p.headline {
 				border-bottom:1px solid #aaa;
 				padding-bottom:20px;
 				margin-bottom:20px;
@@ -477,9 +487,9 @@ footer {
 					padding-bottom: 10px;
 					display: block;
 					color:#888;
-					font-size: 2em;
 				}
 				input, textarea {
+					-webkit-appearance: none;
 					width:90%;
 					margin:0 auto 10px;
 					display:block;
@@ -491,15 +501,16 @@ footer {
 					@include a-5;
 
 					&[type="submit"] {
-						background:darken($main-color, 15%);
+						-webkit-appearance: none;
+						background:darken($main-color, 5%);
 						color:white;
 						border:none;
-						text-shadow: 2px 2px 0 darken($main-color, 30%);
+						//text-shadow: 2px 2px 0 darken($main-color, 30%);
 						font-size:1.8em;
 						letter-spacing: 0.05em;
 						@include a-7;
 						@include ease;
-						&:hover {background:darken($main-color, 20%);}
+						&:hover {background:$main-color;}
 					}
 					&:focus, &:active {
 						outline:none;
@@ -509,15 +520,22 @@ footer {
 		}
 		// Area active state
 		&.active {
-			.hidden {
-				bottom:46px;
-			}
+			.hidden {bottom:46px;}
 			.button {
 				background:red;
 				span {
 					&.genericon-close {display:inline-block;}
 					&.genericon-comment, &.genericon-info {display:none;}
 				}
+			}
+		}
+		@media screen and (max-width:$small) {
+			#about-hidden, #city-hidden {
+				width:100%;
+				left:0;
+			}
+			&.active {
+				.hidden {bottom:44px;}
 			}
 		}
 	}

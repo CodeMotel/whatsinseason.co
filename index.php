@@ -77,7 +77,7 @@
 
 <div id="footer-market">
   <p>Find a Market</p>
-  <a href="http://www.coloradofreshmarkets.com/markets.html">View Map <span class="genericon genericon-location"></span></a>
+  <a href="http://www.coloradofreshmarkets.com/markets.html">Colorado Fresh Markets <span class="genericon genericon-location"></span></a>
 </div>
 
 

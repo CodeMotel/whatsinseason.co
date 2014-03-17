@@ -237,8 +237,8 @@ header #site-logo span {
 header #header-icon {
   position: absolute;
   top: 0;
-  left: 30%;
-  right: 30%;
+  left: 50%;
+  right: 50%;
   text-align: center;
 }
 header #header-icon svg {
@@ -281,8 +281,8 @@ header #header-link {
   font-weight: 500;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
-  color: white;
-  border-color: white;
+  color: #208e4e;
+  border-color: #208e4e;
   float: right;
   padding: 8px 14px;
   text-align: center;
@@ -1113,6 +1113,14 @@ footer #footer-icon svg {
   width: 31px;
   fill: #25a25a;
 }
+@media screen and (max-width: 500px) {
+  footer #footer-icon {
+    width: 20%;
+  }
+  footer #footer-icon svg {
+    height: 24px;
+  }
+}
 footer #about-module,
 footer #city-module {
   width: 45%;
@@ -1153,11 +1161,25 @@ footer #about-module .button:hover,
 footer #city-module .button:hover {
   background: #176437;
 }
+@media screen and (max-width: 500px) {
+  footer #about-module,
+  footer #city-module {
+    width: 40%;
+  }
+  footer #about-module .button,
+  footer #city-module .button {
+    font-size: 1.5em;
+  }
+  footer #about-module .button span,
+  footer #city-module .button span {
+    margin-right: 3px;
+  }
+}
 footer #about-module .hidden,
 footer #city-module .hidden {
   z-index: -999;
   position: fixed;
-  bottom: -500px;
+  bottom: -1000px;
   padding: 25px 0;
   text-align: left;
   background: rgba(255, 253, 245, 0.9);
@@ -1202,8 +1224,8 @@ footer #city-module .hidden p.border a {
   color: #176437;
   text-decoration: none;
 }
-footer #about-module .hidden p,
-footer #city-module .hidden p {
+footer #about-module .hidden p.headline,
+footer #city-module .hidden p.headline {
   border-bottom: 1px solid #aaa;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -1218,11 +1240,11 @@ footer #city-module .hidden form p {
   padding-bottom: 10px;
   display: block;
   color: #888;
-  font-size: 2em;
 }
 footer #about-module .hidden form input, footer #about-module .hidden form textarea,
 footer #city-module .hidden form input,
 footer #city-module .hidden form textarea {
+  -webkit-appearance: none;
   width: 90%;
   margin: 0 auto 10px;
   display: block;
@@ -1237,10 +1259,10 @@ footer #city-module .hidden form textarea {
 footer #about-module .hidden form input[type="submit"], footer #about-module .hidden form textarea[type="submit"],
 footer #city-module .hidden form input[type="submit"],
 footer #city-module .hidden form textarea[type="submit"] {
-  background: #208e4e;
+  -webkit-appearance: none;
+  background: #29b765;
   color: white;
   border: none;
-  text-shadow: 2px 2px 0 #124f2c;
   font-size: 1.8em;
   letter-spacing: 0.05em;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -1251,7 +1273,7 @@ footer #city-module .hidden form textarea[type="submit"] {
 footer #about-module .hidden form input[type="submit"]:hover, footer #about-module .hidden form textarea[type="submit"]:hover,
 footer #city-module .hidden form input[type="submit"]:hover,
 footer #city-module .hidden form textarea[type="submit"]:hover {
-  background: #1b7943;
+  background: #2ecc71;
 }
 footer #about-module .hidden form input:focus, footer #about-module .hidden form input:active, footer #about-module .hidden form textarea:focus, footer #about-module .hidden form textarea:active,
 footer #city-module .hidden form input:focus,
@@ -1276,6 +1298,18 @@ footer #about-module.active .button span.genericon-comment, footer #about-module
 footer #city-module.active .button span.genericon-comment,
 footer #city-module.active .button span.genericon-info {
   display: none;
+}
+@media screen and (max-width: 1024px) {
+  footer #about-module #about-hidden, footer #about-module #city-hidden,
+  footer #city-module #about-hidden,
+  footer #city-module #city-hidden {
+    width: 100%;
+    left: 0;
+  }
+  footer #about-module.active .hidden,
+  footer #city-module.active .hidden {
+    bottom: 44px;
+  }
 }
 footer #about-module {
   left: 0;
