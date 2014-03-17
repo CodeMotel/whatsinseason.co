@@ -342,6 +342,7 @@ header #header-link:hover {
   margin: 0 5% 13px;
   font-size: 1.2em;
   letter-spacing: -3px;
+  line-height: 1.1em;
   font-family: 'Cedarville Cursive', cursive;
 }
 @media screen and (max-width: 680px) {

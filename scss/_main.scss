@@ -181,6 +181,7 @@ header {
 		margin:0 5% 13px;
 		font-size:1.2em;
 		letter-spacing:-3px;
+		line-height: 1.1em;
 		@include cedar;
 	}
 	@media screen and (max-width: $small-tablet) {
