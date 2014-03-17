@@ -115,6 +115,7 @@ header {
 			top:14px;
 			height:40px;
 			width:60px;
+			margin-left:-30px;
 			.icon {fill:darken($main-color, 20%);}
 			@media screen and (max-width:$small-tablet) {
 				height: 28px;
