@@ -1,5 +1,5 @@
 // FitText.JS
-jQuery("#date-header").fitText(2, { minFontSize: '30px', maxFontSize: '66px' });
+jQuery("#date-header").fitText(2, { minFontSize: '26px', maxFontSize: '66px' });
 
 
 // Show or Hide Closed Message

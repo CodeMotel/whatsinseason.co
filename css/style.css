@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 0.35em;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  font-family: 'Open Sans';
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
 }
 
@@ -341,12 +341,15 @@ header #header-link:hover {
   width: 90%;
   margin: 0 5% 13px;
   font-size: 1.2em;
-  letter-spacing: -0.3;
+  letter-spacing: -3px;
   font-family: 'Cedarville Cursive', cursive;
 }
 @media screen and (max-width: 680px) {
   #current-date {
     font-size: 3.5em;
+  }
+  #current-date #date-header {
+    letter-spacing: -1px;
   }
 }
 @media screen and (max-width: 500px) {
