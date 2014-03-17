@@ -1,6 +1,7 @@
         <!--******** Footer Toggles ********-->
         <footer>
 
+        <!-- About Section -->
           <div id="about-module" class="footer-toggles">
             <a id="about-button" class="button"><span class="genericon genericon-info"></span><span class="genericon genericon-close"></span> About</a>
             <div id="about-hidden" class="hidden">
@@ -18,24 +19,26 @@
             </div>
           </div>
 
+          <!-- Icon -->
           <div id="footer-icon"><a class="go-top"><?php include('includes/header-icon.php'); ?></a></div>
 
-            <div id="city-module" class="footer-toggles">
-              <a id="city-button"class="button"><span class="genericon genericon-comment"></span><span class="genericon genericon-close"></span> Add Your City</a>
-              <div id="city-hidden" class="hidden">
-                <form>
-                  <p class="headline">Interested in bringing us to your city?</p>
-                  <p>Please fill out the form below.</p>
-                  <input type="text" placeholder="Name"/>
-                  <input type="text" placeholder="Email"/>
-                  <input type="text" placeholder="City"/>
-                  <textarea placeholder="Message"></textarea>
-                  <input type="submit" value="Send Request"/>
-                </form>
-              </div>
+          <!-- Add Your City Section -->
+          <div id="city-module" class="footer-toggles">
+            <a id="city-button"class="button"><span class="genericon genericon-comment"></span><span class="genericon genericon-close"></span> Add Your City</a>
+            <div id="city-hidden" class="hidden">
+              <form>
+                <p class="headline">Interested in bringing us to your city?</p>
+                <p>Please fill out the form below.</p>
+                <input type="text" placeholder="Name"/>
+                <input type="text" placeholder="Email"/>
+                <input type="text" placeholder="City"/>
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="Send Request"/>
+              </form>
             </div>
+          </div>
 
-          </footer>
+        </footer>
 
         <!--******** Background Image ********-->
         <div id="bkgd-img"></div>

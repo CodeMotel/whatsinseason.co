@@ -1190,7 +1190,7 @@ footer #city-module .button:hover {
 footer #about-module .hidden,
 footer #city-module .hidden {
   z-index: -999;
-  position: fixed;
+  position: absolute;
   bottom: -1000px;
   padding: 25px 0;
   text-align: left;

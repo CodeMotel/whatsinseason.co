@@ -445,7 +445,7 @@ footer {
 		// Hidden Content
 		.hidden {
 			z-index:-999;
-			position:fixed;
+			position:absolute;
 			bottom:-1000px;
 			padding:25px 0;
 			text-align:left;
