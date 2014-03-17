@@ -1098,7 +1098,7 @@ header #header-link:hover {
 }
 @media screen and (max-width: 500px) {
   #footer-market {
-    padding: 70px 0;
+    padding: 100px 0;
   }
 }
 
