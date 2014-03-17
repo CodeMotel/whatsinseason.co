@@ -83,7 +83,7 @@
 <footer>
   <div id="about-module" class="footer-toggles">
     <a id="about-button" class="button"><span class="genericon genericon-info"></span> About</a>
-    <div id="about-hidden">
+    <div id="about-hidden" class="hidden">
         <ul>
           <li>List Item</li>
           <li>List Item</li>
@@ -97,8 +97,14 @@
 
   <div id="city-module" class="footer-toggles">
     <a id="city-button"class="button"><span class="genericon genericon-comment"></span> Add Your City</a>
-    <div id="city-hidden">
-      <form></form>
+    <div id="city-hidden" class="hidden">
+      <form>
+        <input type="text" placeholder="Name"/>
+        <input type="text" placeholder="Email"/>
+        <input type="text" placeholder="City"/>
+        <input type="text" placeholder="State"/>
+        <textarea placeholder="Message"></textarea>
+      </form>
     </div>
   </div>
 </footer>

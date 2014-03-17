@@ -997,12 +997,11 @@ footer {
   bottom: 0;
   width: 100%;
 }
-footer div#about-module, footer div#city-module {
+footer #about-module,
+footer #city-module {
   width: 50%;
-  position: absolute;
+  float: left;
   bottom: 0;
-  margin: 0;
-  padding: 0;
   text-align: center;
   color: white;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -1010,55 +1009,66 @@ footer div#about-module, footer div#city-module {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-footer div#about-module .button, footer div#city-module .button {
+footer #about-module .button,
+footer #city-module .button {
   background: #97d270;
-  position: fixed;
+  float: left;
   bottom: 0;
   padding: 14px 0;
   display: block;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
   color: white;
   text-decoration: none;
   font-size: 1.8em;
-  -webkit-transition: padding 333ms ease-in-out;
-  transition: padding 333ms ease-in-out;
 }
-footer div#about-module .button span, footer div#city-module .button span {
+footer #about-module .button span,
+footer #city-module .button span {
   margin-right: 9px;
   font-size: 1.1em;
   line-height: 0.8;
 }
-footer div#about-module {
-  background: #97d270;
-  left: 0;
+footer #about-module .button:hover,
+footer #city-module .button:hover {
+  background: #57942f;
 }
-footer div#about-module #about-hidden {
+footer #about-module .hidden,
+footer #city-module .hidden {
+  z-index: -999;
   width: 100%;
-  float: left;
-  position: absolute;
-  padding: 10px 0;
+  position: fixed;
+  bottom: -500px;
+  padding: 25px 0;
   text-align: left;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 253, 245, 0.8);
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
 }
-footer div#about-module #about-hidden li {
-  margin: 0 0 8px 10px;
+footer #about-module .hidden li,
+footer #city-module .hidden li {
+  margin: 0 0 8px 20px;
   list-style: none;
   font-size: 1.6em;
   color: #62a735;
 }
-footer div#about-module.active #about-hidden {
-  position: relative;
+footer #about-module.active .hidden,
+footer #city-module.active .hidden {
+  bottom: 46px;
 }
-footer div#about-module.active .button {
-  position: relative;
-  width: 100%;
+footer #about-module.active .button,
+footer #city-module.active .button {
+  background: red;
 }
-footer div#city-module {
-  background: #80c851;
+footer #about-module {
+  left: 0;
+}
+footer #about-module .button {
+  background: #97d270;
+}
+footer #city-module {
   right: 0;
 }
-footer div#city-module .button {
+footer #city-module .button {
   background: #80c851;
 }
 

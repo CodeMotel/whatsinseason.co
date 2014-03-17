@@ -308,74 +308,68 @@ footer {
 	position:fixed;
 	bottom:0;
 	width:100%;
-	div {
-		// -- About and Add City -- //
-		&#about-module, &#city-module {
-			width:50%;
-			position:absolute;
-			bottom:0;
-			margin:0;
-			padding:0;
-			text-align: center;
-			color:white;
-			@include a-5;
-			@include ease;
-			// Buttons
-			.button {
-				background:$header-color;
-				position:fixed;
-				bottom:0;
-				padding:14px 0;
-				display: block;
-				cursor:pointer;
-				width:50%;
-				color:white;
-				text-decoration: none;
-				font-size:1.8em;
-				transition:padding 333ms ease-in-out;
-				span {
-					margin-right:9px;
-					font-size:1.1em;
-					line-height: 0.8;
-				}
-				&:hover {
-					//padding-bottom:20px;
-				}
-			}
-		}
-		&#about-module {
+
+	// -- About and Add City -- //
+	#about-module,
+	#city-module {
+		width:50%;
+		float:left;//position:absolute;
+		bottom:0;
+		text-align: center;
+		color:white;
+		@include a-5;
+		@include ease;
+		// Buttons
+		.button {
 			background:$header-color;
-			left:0;
-			// Hidden Content
-			#about-hidden {
-				width:100%;
-				float:left;
-				position:absolute;
-				padding:10px 0;
-				text-align:left;
-				background:rgba(255,255,255,0.3);
-				li {
-					margin:0 0 8px 10px;
-					list-style: none;
-					font-size:1.6em;
-					color:darken($header-color, 20%);
-				}
+			float:left;//position:fixed;
+			bottom:0;
+			padding:14px 0;
+			display: block;
+			cursor:pointer;
+			width:100%;
+			color:white;
+			text-decoration: none;
+			font-size:1.8em;
+			span {
+				margin-right:9px;
+				font-size:1.1em;
+				line-height: 0.8;
 			}
-			&.active {
-				#about-hidden {position:relative;}
-				.button {
-					position:relative;
-					width:100%;
-				}
+			&:hover {
+				background:darken($header-color, 25%);
 			}
 		}
-		&#city-module {
-			background:darken($header-color, 8%);
-			right:0;
-			.button {
-				background:darken($header-color, 8%);
+		// Hidden Content
+		.hidden {
+			z-index:-999;
+			width:100%;
+			position:fixed;
+			bottom:-500px;
+			padding:25px 0;
+			text-align:left;
+			background:rgba(255,253,245,0.8);
+			@include ease;
+			li {
+				margin:0 0 8px 20px;
+				list-style: none;
+				font-size:1.6em;
+				color:darken($header-color, 20%);
 			}
 		}
+		// Area active state
+		&.active {
+			.hidden {bottom:46px;}
+			.button {background:red;}
+		}
+	}
+	#about-module {
+		left:0;
+		.button {background:$header-color;}
+	}
+	#city-module {
+		right:0;
+		.button {background:darken($header-color, 8%);}
 	}
 
 	// -- Hover Footer -- //
