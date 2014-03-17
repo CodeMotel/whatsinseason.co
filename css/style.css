@@ -1268,6 +1268,7 @@ footer #about-module .hidden form textarea,
 footer #city-module .hidden form textarea {
   height: 100px;
   resize: none;
+  padding-left: 10px;
 }
 footer #about-module .hidden form input, footer #about-module .hidden form textarea,
 footer #city-module .hidden form input,
