@@ -27,7 +27,7 @@
             <a id="city-button"class="button"><span class="genericon genericon-comment"></span><span class="genericon genericon-close"></span> Add Your City</a>
             <div id="city-hidden" class="hidden">
               <form>
-                <p class="headline">Interested in bringing us to your city?</p>
+                <p class="headline">Interested in adding your city or market?</p>
                 <p>Please fill out the form below.</p>
                 <input type="text" placeholder="Name"/>
                 <input type="text" placeholder="Email"/>
