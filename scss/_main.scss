@@ -81,6 +81,7 @@ header {
 		font-size:1.5em;
 		line-height:1;
 		color:white;//darken($header-color, 10%);
+		text-shadow: 2px 2px 0 darken($header-color, 10%);
 		@include a-8;
 		span {
 			position:relative;
@@ -92,12 +93,10 @@ header {
 	#header-icon {
 		position:absolute;
 		top:0;
-		left:0;
-		right:0;
+		left:30%;
+		right:30%;
 		text-align: center;
-//		z-index: -1;
 		svg {
-			//float:left;
 			position:relative;
 			top:14px;
 			height:40px;
@@ -142,7 +141,7 @@ header {
 	color:white;
 	font-size:4.1em;//4.5em;
 	text-align:center;
-	text-shadow:2px 2px 0 darken($header-color, 40%);
+	text-shadow:2px 2px 0 darken($header-color, 25%);
 	@include a-8;
 
 	#date-header {
@@ -428,7 +427,8 @@ footer {
 			form {
 				p {
 					width:90%;
-					margin:0 auto 10px;
+					margin:0 auto 15px;
+					padding-bottom: 10px;
 					display: block;
 					color:#888;
 					font-size: 2em;
@@ -438,7 +438,7 @@ footer {
 					margin:0 auto 10px;
 					display:block;
 					padding:10px 0;
-					border:1px solid $header-color;
+					border:1px solid darken($header-color, 10%);
 					background:white;
 					font-size:1.5em;
 					text-indent: 10px;
@@ -447,6 +447,7 @@ footer {
 					&[type="submit"] {
 						background:darken($header-color, 15%);
 						color:white;
+						border:none;
 						text-shadow: 2px 2px 0 darken($header-color, 30%);
 						font-size:1.8em;
 						letter-spacing: 0.05em;

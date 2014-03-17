@@ -1,3 +1,41 @@
+        <!--******** Footer Toggles ********-->
+        <footer>
+
+          <div id="about-module" class="footer-toggles">
+            <a id="about-button" class="button"><span class="genericon genericon-info"></span><span class="genericon genericon-close"></span> About</a>
+            <div id="about-hidden" class="hidden">
+                <ul>
+                  <p>site credits</p>
+                  <li><?php include('includes/food/cabbage.php'); ?>Cabbage designed by Jose Eduardo Ayala from the Noun Project</li>
+                  <li><?php include('includes/food/lettuce.php'); ?>Cabbage designed by Artur Shageyev from the Noun Project</li>
+                  <li><?php include('includes/food/green-beans.php'); ?>Beans designed by Doug Cavendish from the Noun Project</li>
+                  <li><?php include('includes/food/cucumbers.php'); ?>Cucumber designed by Yinon Ezra from the Noun Project</li>
+                  <li><?php include('includes/food/herbs.php'); ?>Basil designed by Julia Soderberg from the Noun Project</li>
+                  <li><?php include('includes/food/asparagus.php'); ?>Asparagus designed by Richard Zeid from the Noun Project</li>
+                  <li id="site-author">Site by <a href="http://see8ch.com">Chris Holder</a></li>
+                </ul>
+            </div>
+          </div>
+        <div id="footer-icon"><a class="go-top"><?php include('includes/header-icon.php'); ?></a></div>
+          <div id="city-module" class="footer-toggles">
+            <a id="city-button"class="button"><span class="genericon genericon-comment"></span><span class="genericon genericon-close"></span> Add Your City</a>
+            <div id="city-hidden" class="hidden">
+              <form>
+                <p>Interested in having your city featured on the site? Please fill out the form below</p>
+                <input type="text" placeholder="Name"/>
+                <input type="text" placeholder="Email"/>
+                <input type="text" placeholder="City"/>
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="Send Request"/>
+              </form>
+            </div>
+          </div>
+        </footer>
+
+        <!--******** Background Image ********-->
+        <div id="bkgd-img"></div>
+
+
 
          <!-- JavaScript  -->
         <script src="//code.jquery.com/jquery-latest.min.js"></script>

@@ -205,6 +205,7 @@ header #site-logo {
   font-size: 1.5em;
   line-height: 1;
   color: white;
+  text-shadow: 2px 2px 0 #25a25a;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
 }
@@ -217,8 +218,8 @@ header #site-logo span {
 header #header-icon {
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 30%;
+  right: 30%;
   text-align: center;
 }
 header #header-icon svg {
@@ -276,7 +277,7 @@ header #header-link:hover {
   color: white;
   font-size: 4.1em;
   text-align: center;
-  text-shadow: 2px 2px 0 #082615;
+  text-shadow: 2px 2px 0 #176437;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
 }
@@ -1136,7 +1137,8 @@ footer #city-module .hidden p {
 footer #about-module .hidden form p,
 footer #city-module .hidden form p {
   width: 90%;
-  margin: 0 auto 10px;
+  margin: 0 auto 15px;
+  padding-bottom: 10px;
   display: block;
   color: #888;
   font-size: 2em;
@@ -1148,7 +1150,7 @@ footer #city-module .hidden form textarea {
   margin: 0 auto 10px;
   display: block;
   padding: 10px 0;
-  border: 1px solid #2ecc71;
+  border: 1px solid #25a25a;
   background: white;
   font-size: 1.5em;
   text-indent: 10px;
@@ -1160,6 +1162,7 @@ footer #city-module .hidden form input[type="submit"],
 footer #city-module .hidden form textarea[type="submit"] {
   background: #208e4e;
   color: white;
+  border: none;
   text-shadow: 2px 2px 0 #124f2c;
   font-size: 1.8em;
   letter-spacing: 0.05em;
