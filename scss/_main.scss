@@ -183,7 +183,7 @@ header {
 		letter-spacing:-0.3;
 		@include cedar;
 	}
-	@media screen and (max-width: $big-phone) {padding:60px 0;}
+	@media screen and (max-width: $big-phone) {padding:70px 0;}
 }
 
 
@@ -369,6 +369,7 @@ header {
 			@include ease;
 		}
 	}
+	@media screen and (max-width: $big-phone) {padding:70px 0;}
 }
 
 

@@ -346,7 +346,7 @@ header #header-link:hover {
 }
 @media screen and (max-width: 500px) {
   #current-date {
-    padding: 60px 0;
+    padding: 70px 0;
   }
 }
 
@@ -1095,6 +1095,11 @@ header #header-link:hover {
   font-size: 1.5em;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
+}
+@media screen and (max-width: 500px) {
+  #footer-market {
+    padding: 70px 0;
+  }
 }
 
 /* Footer
