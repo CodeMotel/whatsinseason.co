@@ -12,7 +12,8 @@
                   <li><?php include('includes/food/cucumbers.php'); ?>Cucumber designed by Yinon Ezra from the Noun Project</li>
                   <li><?php include('includes/food/herbs.php'); ?>Basil designed by Julia Soderberg from the Noun Project</li>
                   <li><?php include('includes/food/asparagus.php'); ?>Asparagus designed by Richard Zeid from the Noun Project</li>
-                  <li id="site-author">Site by <a href="http://see8ch.com">Chris Holder</a></li>
+                  <li class="border">Tools: <a href="">FitText.JS</a>, <a href="">Genericons</a>, <a href="">Grunt.JS</a>, <a href="">Unsplash</a>, <a href="">Google Fonts</a>
+                  <li class="border">Site by <a href="http://see8ch.com">Chris Holder</a><!-- + <a href="">Michaella Dirkes</a>--></li>
                 </ul>
             </div>
           </div>

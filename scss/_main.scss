@@ -3,16 +3,14 @@
 /* Links and Headers
 ======================================================= */
 a {
-	color:$link-color;
 	@include ease;
 
 	&:focus, &:hover, &:active {outline: 0;}
-	&:hover {color:$link-hover-color;}
+	&:hover {}
 }
 
 h1, h2, h3, h4, h5 {
 	margin-bottom:0.35em;
-	color:$headline-color;
 	letter-spacing:0.25em;
 	text-transform:uppercase;
 	@include os-8;
@@ -33,7 +31,6 @@ body {
 	padding:0;
 	width:100%;
 	font-size:62.5%;
-	color:$body-copy-color;
 }
 
 #bkgd-img {
@@ -52,7 +49,7 @@ body {
 ======================================================= */
 header {
 	float:left;
-	background:$header-color;
+	background:$main-color;
 	width:100%;
 	padding:0;
 	color:white;
@@ -80,8 +77,8 @@ header {
 		text-align:left;
 		font-size:1.5em;
 		line-height:1;
-		color:white;//darken($header-color, 10%);
-		text-shadow: 2px 2px 0 darken($header-color, 10%);
+		color:white;//darken($main-color, 10%);
+		text-shadow: 2px 2px 0 darken($main-color, 10%);
 		@include a-8;
 		span {
 			position:relative;
@@ -118,7 +115,7 @@ header {
 			top:14px;
 			height:40px;
 			width:60px;
-			.icon {fill:darken($header-color, 20%);}
+			.icon {fill:darken($main-color, 20%);}
 			@media screen and (max-width:$small-tablet) {
 				height: 28px;
 				width: 33px;
@@ -134,8 +131,8 @@ header {
 	// -- Link -- //
 	#header-link {
 		@include button-style;
-		color:white;//darken($header-color, 10%);//white;
-		border-color:white;//darken($header-color, 10%);//rgba(255,255,255,0.2);
+		color:white;//darken($main-color, 10%);//white;
+		border-color:white;//darken($main-color, 10%);//rgba(255,255,255,0.2);
 		float:right;
 		padding:8px 14px;
 		//margin:0px 0 23px;
@@ -175,11 +172,12 @@ header {
 	color:white;
 	font-size:4.1em;//4.5em;
 	text-align:center;
-	text-shadow:2px 2px 0 darken($header-color, 25%);
+	text-shadow:2px 2px 0 darken($main-color, 25%);
 	@include a-8;
 
 	#date-header {
-		margin-bottom: 13px;//7px;
+		width:90%;
+		margin:0 5% 13px;
 		font-size:1.2em;
 		letter-spacing:-0.3;
 		@include cedar;
@@ -335,13 +333,13 @@ header {
 	@include a-5;
 	a {
 		margin-left:3px;
-		color:darken($header-color, 5%);
+		color:darken($main-color, 5%);
 		span {
 			text-decoration: none;
 			font-size:1em;
 			@include ease;
 		}
-		//&:hover {color:darken($header-color, 35%);}
+		//&:hover {color:darken($main-color, 35%);}
 	}
 }
 
@@ -354,7 +352,7 @@ header {
 	color:white;
 	font-size:3.4em;
 	line-height:1em;
-	text-shadow:2px 2px 0 darken($header-color, 40%);
+	text-shadow:2px 2px 0 darken($main-color, 40%);
 	@include a-7;
 	a {
 		@include button-style;
@@ -387,10 +385,11 @@ footer {
 		padding:9px 0;
 		bottom:0;
 		text-align: center;
-		background:lighten($header-color, 13%);
+		background:lighten($main-color, 13%);
 		svg {
 			height:26px;
-			fill:darken($header-color, 10%);
+			width:31px;
+			fill:darken($main-color, 10%);
 		}
 	}
 	// -- About and Add City -- //
@@ -405,7 +404,7 @@ footer {
 		@include ease;
 		// Buttons
 		.button {
-			background:$header-color;
+			background:$main-color;
 			float:left;//position:fixed;
 			bottom:0;
 			padding:14px 0;
@@ -426,7 +425,7 @@ footer {
 				}
 			}
 			&:hover {
-				background:darken($header-color, 25%);
+				background:darken($main-color, 25%);
 			}
 		}
 		// Hidden Content
@@ -444,22 +443,22 @@ footer {
 				margin:0 auto 10px;
 				list-style: none;
 				font-size:1.6em;
-				color:#888;//darken($header-color, 20%);
+				color:#888;//darken($main-color, 20%);
 				text-transform: lowercase;
 				svg {
-					height: 20px;
-					width: 20px;
+					height: 25px;
+					width: 25px;
 					position: relative;
-					top: 3px;
+					top: 6px;
 					margin-right: 5px;
-					.icon {fill:darken($header-color, 20%);}
+					.icon {fill:darken($main-color, 20%);}
 				}
-				&#site-author {
+				&.border {
 					border-top:1px solid #aaa;
 					padding-top:20px;
 					margin-top:20px;
 					a {
-						color:darken($header-color, 25%);
+						color:darken($main-color, 25%);
 						text-decoration: none;
 					}
 				}
@@ -485,22 +484,22 @@ footer {
 					margin:0 auto 10px;
 					display:block;
 					padding:10px 0;
-					border:1px solid darken($header-color, 10%);
+					border:1px solid #aaa;
 					background:white;
 					font-size:1.5em;
 					text-indent: 10px;
 					@include a-5;
 
 					&[type="submit"] {
-						background:darken($header-color, 15%);
+						background:darken($main-color, 15%);
 						color:white;
 						border:none;
-						text-shadow: 2px 2px 0 darken($header-color, 30%);
+						text-shadow: 2px 2px 0 darken($main-color, 30%);
 						font-size:1.8em;
 						letter-spacing: 0.05em;
 						@include a-7;
 						@include ease;
-						&:hover {background:darken($header-color, 20%);}
+						&:hover {background:darken($main-color, 20%);}
 					}
 					&:focus, &:active {
 						outline:none;
@@ -510,7 +509,9 @@ footer {
 		}
 		// Area active state
 		&.active {
-			.hidden {bottom:46px;}
+			.hidden {
+				bottom:46px;
+			}
 			.button {
 				background:red;
 				span {
@@ -522,12 +523,12 @@ footer {
 	}
 	#about-module {
 		left:0;
-		.button {background:$header-color;}
+		.button {background:$main-color;}
 		.hidden {width:45%;}
 	}
 	#city-module {
 		right:0;
-		.button {background:darken($header-color, 5d%);}
+		.button {background:darken($main-color, 5d%);}
 		.hidden {width:45%;}
 	}
 

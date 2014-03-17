@@ -1,61 +1,50 @@
 
 /* Foods
 ================================================================================================= */
-$apples:#B8182C;//#DD074E;
-$apricots:#F58416;//#F7AE49;
-$asparagus:#6B7917;//#8CA874;
-$beets:#8B224D;//#8F0142;
-$bell-peppers:#4C6A00;//#EE881C;
-$broccoli:#43860E;//#A2C352;
-$cabbage:#8C1C69;//#E7EFA2;
-$cantaloupe:#F68C35;//#FFDB96;
-$carrots:#FE6E0E;//#F7B259;
-$cauliflower:#D3CCB0;//#FFFCF3;
-$celery:#90B64B;//#D7EBBE;
-$cherries:#C72127;//#C7497D;
-$chile-peppers:#AD0500;//#AE0914;
-$cucumbers:#6EA250;//#7EB641;
-$eggplant:#4E244E;//#8E598B;
-$grapes:#682941;//#7A69A8;
-$green-beans:#6AA152;//#C3DF79;
-$herbs:#477008;//#24AE51;
-$honeydew:#ACBD4E;//#F7C78A;
-$lettuce:#649812;//#D7E7A2;
-$onions:#D8B39D;//#FFF7E7;
-$peaches:#E9703C;//#FBD7A3;
-$pears:#B8BE1C;//#EBF3AE;
-$pinto-beans:#A55430;//#FFF7E7;
-$plums:#762D5A;//#7A69A8;
-$popcorn:#FACC34;//#FFFBA6;
-$potatoes:#D4B160;//#EBDBB6;
-$pumpkins:#E77324;//#FBBA41;
-$raspberries:#E21920;//#BE003C;
-$rhubarb:#D44F62;//#DF6169;
-$squash:#F5B128;//#FFD26A;
-$strawberries:#D30000;//#E75D18;
-$sweet-corn:#FDBC34;//#FFD26A;
-$tomatoes:#D62104;//#EE881C;
-$watermelon:#F64F55;//#EFB4BD;
+$apples:#B8182C;
+$apricots:#F58416;
+$asparagus:#6B7917;
+$beets:#8B224D;
+$bell-peppers:#4C6A00;
+$broccoli:#43860E;
+$cabbage:#8C1C69;
+$cantaloupe:#F68C35;
+$carrots:#FE6E0E;
+$cauliflower:#D3CCB0;
+$celery:#90B64B;
+$cherries:#C72127;
+$chile-peppers:#AD0500;
+$cucumbers:#6EA250;
+$eggplant:#4E244E;
+$grapes:#682941;
+$green-beans:#6AA152;
+$herbs:#477008;
+$honeydew:#ACBD4E;
+$lettuce:#649812;
+$onions:#D8B39D;
+$peaches:#E9703C;
+$pears:#B8BE1C;
+$pinto-beans:#A55430;
+$plums:#762D5A;
+$popcorn:#FACC34;
+$potatoes:#D4B160;
+$pumpkins:#E77324;
+$raspberries:#E21920;
+$rhubarb:#D44F62;
+$squash:#F5B128;
+$strawberries:#D30000;
+$sweet-corn:#FDBC34;
+$tomatoes:#D62104;
+$watermelon:#F64F55;
 
 
 
-/* Standard Colors
+
+/* Main Site Color
 ================================================================================================= */
+$main-color:#2ecc71; // green
 
-// Text
-$headline-color:white;
-$body-copy-color:#aaa;
 
-// Links
-$link-color:blue;
-$link-hover-color:purple;
-
-// Highlight
-$highlight-color:white;
-$highlight-bkgd-color:#444;
-
-// Header Color
-$header-color:#2ecc71;//#f1c40f;//#b7c34d;//#97D270;//#18A153;//#B9D2AD;//#82C357;//#55A97C;//#B6C34F;
 
 
 /* Responsive Breakpoints
@@ -67,3 +56,18 @@ $tablet:900px;
 $small-tablet:680px;
 $big-phone:500px;
 $phone:400px;
+
+
+
+
+
+
+
+
+// Highlight
+$highlight-color:white;
+$highlight-bkgd-color:#444;
+
+
+
+

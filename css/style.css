@@ -61,7 +61,7 @@ img {
 
 /* Foods
 ================================================================================================= */
-/* Standard Colors
+/* Main Site Color
 ================================================================================================= */
 /* Responsive Breakpoints
 ================================================================================================= */
@@ -106,20 +106,15 @@ img {
 /* Links and Headers
 ======================================================= */
 a {
-  color: blue;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 a:focus, a:hover, a:active {
   outline: 0;
 }
-a:hover {
-  color: purple;
-}
 
 h1, h2, h3, h4, h5 {
   margin-bottom: 0.35em;
-  color: white;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   font-family: 'Open Sans';
@@ -153,7 +148,6 @@ body {
   padding: 0;
   width: 100%;
   font-size: 62.5%;
-  color: #aaaaaa;
 }
 
 #bkgd-img {
@@ -342,7 +336,8 @@ header #header-link:hover {
   font-weight: 800;
 }
 #current-date #date-header {
-  margin-bottom: 13px;
+  width: 90%;
+  margin: 0 5% 13px;
   font-size: 1.2em;
   letter-spacing: -0.3;
   font-family: 'Cedarville Cursive', cursive;
@@ -1115,6 +1110,7 @@ footer #footer-icon {
 }
 footer #footer-icon svg {
   height: 26px;
+  width: 31px;
   fill: #25a25a;
 }
 footer #about-module,
@@ -1182,10 +1178,10 @@ footer #city-module .hidden p {
 footer #about-module .hidden li svg, footer #about-module .hidden p svg,
 footer #city-module .hidden li svg,
 footer #city-module .hidden p svg {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   position: relative;
-  top: 3px;
+  top: 6px;
   margin-right: 5px;
 }
 footer #about-module .hidden li svg .icon, footer #about-module .hidden p svg .icon,
@@ -1193,16 +1189,16 @@ footer #city-module .hidden li svg .icon,
 footer #city-module .hidden p svg .icon {
   fill: #1b7943;
 }
-footer #about-module .hidden li#site-author, footer #about-module .hidden p#site-author,
-footer #city-module .hidden li#site-author,
-footer #city-module .hidden p#site-author {
+footer #about-module .hidden li.border, footer #about-module .hidden p.border,
+footer #city-module .hidden li.border,
+footer #city-module .hidden p.border {
   border-top: 1px solid #aaa;
   padding-top: 20px;
   margin-top: 20px;
 }
-footer #about-module .hidden li#site-author a, footer #about-module .hidden p#site-author a,
-footer #city-module .hidden li#site-author a,
-footer #city-module .hidden p#site-author a {
+footer #about-module .hidden li.border a, footer #about-module .hidden p.border a,
+footer #city-module .hidden li.border a,
+footer #city-module .hidden p.border a {
   color: #176437;
   text-decoration: none;
 }
@@ -1231,7 +1227,7 @@ footer #city-module .hidden form textarea {
   margin: 0 auto 10px;
   display: block;
   padding: 10px 0;
-  border: 1px solid #25a25a;
+  border: 1px solid #aaa;
   background: white;
   font-size: 1.5em;
   text-indent: 10px;

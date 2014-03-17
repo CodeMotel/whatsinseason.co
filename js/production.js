@@ -44,7 +44,7 @@
 })( jQuery );
 
 // FitText.JS
-//jQuery("#crop-list li span").fitText(1);
+jQuery("#date-header").fitText(2, { minFontSize: '30px', maxFontSize: '66px' });
 
 
 // Show or Hide Closed Message
@@ -65,10 +65,12 @@ $( document ).ready( function() {
 
 // Footer Toggles
 $("#about-button").click(function(){
+  $("#city-module").removeClass("active");
   $("#about-module").toggleClass("active");
 });
 
 $("#city-button").click(function(){
+  $("#about-module").removeClass("active");
   $("#city-module").toggleClass("active");
 });
 
@@ -82,13 +84,11 @@ $(function() {
       $('footer').css({ 'bottom':0 });
     } else {
       $('footer').css({ 'bottom':-70});
+      $(".footer-toggles").removeClass("active");
     }
   };
   sticky_navigation();
   $(window).scroll(function() {
      sticky_navigation();
   });
-  //$('a[href="#"]').click(function(event){
-  //  event.preventDefault();
-  //});
 });
