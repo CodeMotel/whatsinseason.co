@@ -76,7 +76,7 @@ $("#city-button").click(function(){
 
 // Sticky Footer
 $(function() {
-  var sticky_navigation_offset_top = $('#crop-wrap').offset().top;
+  var sticky_navigation_offset_top = $('#current-date').offset().top;
   var sticky_navigation = function(){
     var scroll_top = $(window).scrollTop();
     if (scroll_top > sticky_navigation_offset_top) {

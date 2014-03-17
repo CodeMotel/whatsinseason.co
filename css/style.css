@@ -1389,6 +1389,8 @@ footer #city-module .hidden {
   display: none !important;
 }
 
+/* Submit Page
+======================================================= */
 body#submit {
   text-align: center;
   color: white;
@@ -1462,18 +1464,18 @@ body#submit a span {
   }
 }
 
-/* Selection Colors
+/* Highlight Colors
 ======================================================= */
 ::-moz-selection {
-  background: #444444;
+  background: #2ecc71;
   color: white;
 }
 ::selection {
-  background: #444444;
+  background: #2ecc71;
   color: white;
 }
 
 ::-moz-selection {
-  background: #444444;
+  background: #2ecc71;
   color: white;
 }

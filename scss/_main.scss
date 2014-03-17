@@ -579,6 +579,11 @@ footer {
 	input[type="text"] {display:none !important;}
 }
 
+
+
+
+/* Submit Page
+======================================================= */
 body#submit {
 	text-align:center;
 	color:white;
@@ -632,7 +637,10 @@ body#submit {
 	}
 }
 
-/* Selection Colors
+
+
+
+/* Highlight Colors
 ======================================================= */
 ::selection {
 	background:$highlight-bkgd-color;
