@@ -364,6 +364,11 @@ header #header-link:hover {
   padding: 40px 0 60px;
   background: rgba(255, 253, 245, 0.55);
 }
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding: 20px 0 40px;
+  }
+}
 
 #closed-msg {
   width: 90%;
@@ -1047,9 +1052,9 @@ header #header-link:hover {
 }
 
 #crop-calendar {
-  width: 100%;
+  width: 90%;
   float: left;
-  margin-top: 60px;
+  margin: 60px 5% 0;
   text-align: center;
   color: #555;
   font-size: 2em;
@@ -1065,6 +1070,12 @@ header #header-link:hover {
   font-size: 1em;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
+}
+@media screen and (max-width: 500px) {
+  #crop-calendar {
+    margin-top: 30px;
+    font-size: 1.5em;
+  }
 }
 
 #footer-market {
