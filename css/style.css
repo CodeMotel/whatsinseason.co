@@ -350,7 +350,7 @@ header #header-link:hover {
     font-size: 3.5em;
   }
   #current-date #date-header {
-    letter-spacing: -2px;
+    letter-spacing: -3px;
   }
 }
 @media screen and (max-width: 500px) {
