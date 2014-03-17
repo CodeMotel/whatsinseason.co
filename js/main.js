@@ -3,7 +3,6 @@ jQuery("#date-header").fitText(2, { minFontSize: '34px', maxFontSize: '66px' });
 
 
 // Show or Hide Closed Message
-// Apples
 $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
