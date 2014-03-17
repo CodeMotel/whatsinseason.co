@@ -156,7 +156,7 @@ header {
 			margin-top:3px;
 		}
 		@media screen and (max-width: $small-tablet) {margin-top:-3px;}
-		@media screen and (max-width: $phone) {float:none;}
+		@media screen and (max-width: $phone) {display:none;}
 	}
 }
 
