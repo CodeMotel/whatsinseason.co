@@ -186,7 +186,7 @@ header {
 	}
 	@media screen and (max-width: $small-tablet) {
 		font-size:3.5em;
-		#date-header {letter-spacing:-1px;}
+		#date-header {letter-spacing:-2px;}
 	}
 	@media screen and (max-width: $big-phone) {padding:50px 0; font-size:3em;}
 }
