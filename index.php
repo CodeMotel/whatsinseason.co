@@ -82,6 +82,7 @@
 
 <!--******** Footer Toggles ********-->
 <footer>
+
   <div id="about-module" class="footer-toggles">
     <a id="about-button" class="button"><span class="genericon genericon-info"></span><span class="genericon genericon-close"></span> About</a>
     <div id="about-hidden" class="hidden">
@@ -97,7 +98,7 @@
         </ul>
     </div>
   </div>
-
+<div id="footer-icon"><a class="go-top"><?php include('includes/header-icon.php'); ?></a></div>
   <div id="city-module" class="footer-toggles">
     <a id="city-button"class="button"><span class="genericon genericon-comment"></span><span class="genericon genericon-close"></span> Add Your City</a>
     <div id="city-hidden" class="hidden">

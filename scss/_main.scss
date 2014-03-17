@@ -62,7 +62,7 @@ header {
 
 	// ------- Modules ------- //
 	.header-wrapper {
-		padding:20px 0;
+		padding:17px 0;
 		width:70%;
 		max-width:1000px;
 		margin:0 auto;
@@ -76,11 +76,11 @@ header {
 	// -- Site Name -- //
 	#site-logo {
 		float:left;
-		margin-bottom:23px;
+		margin-bottom:20px;
 		text-align:left;
-		font-size:1.4em;
-		line-height:1.05;
-		color:darken($header-color, 12%);
+		font-size:1.5em;
+		line-height:1;
+		color:white;//darken($header-color, 10%);
 		@include a-8;
 		span {
 			position:relative;
@@ -92,23 +92,24 @@ header {
 	#header-icon {
 		position:absolute;
 		top:0;
-		left:40%;
-		right:40%;
+		left:0;
+		right:0;
 		text-align: center;
+//		z-index: -1;
 		svg {
 			//float:left;
 			position:relative;
-			top:18px;
+			top:14px;
 			height:40px;
 			width:60px;
-			.icon {fill:darken($header-color, 25%);}
+			.icon {fill:darken($header-color, 20%);}
 		}
 	}
 	// -- Link -- //
 	#header-link {
 		@include button-style;
-		color:darken($header-color, 20%);//white;
-		border-color:darken($header-color, 12%);//rgba(255,255,255,0.2);
+		color:white;//darken($header-color, 10%);//white;
+		border-color:white;//darken($header-color, 10%);//rgba(255,255,255,0.2);
 		float:right;
 		padding:8px 14px;
 		//margin:0px 0 23px;
@@ -197,7 +198,7 @@ header {
 		display:inline-block;
 		background:rgba(255,253,245,0.65);
 		font-size:3em;
-		@include dos-5;//a-7;
+		@include dos-4;//a-7;
 
 		&:nth-child(3n) {margin-right:0;}
 
@@ -329,13 +330,27 @@ header {
 ======================================================= */
 footer {
 	position:fixed;
-	bottom:0;
+	bottom:-70px;
 	width:100%;
+	@include ease;
 
+	#footer-icon {
+		width:10%;
+		display: inline-block;
+		float:left;
+		padding:9px 0;
+		bottom:0;
+		text-align: center;
+		background:lighten($header-color, 13%);
+		svg {
+			height:26px;
+			fill:darken($header-color, 10%);
+		}
+	}
 	// -- About and Add City -- //
 	#about-module,
 	#city-module {
-		width:50%;
+		width:45%;
 		float:left;//position:absolute;
 		bottom:0;
 		text-align: center;
@@ -384,6 +399,7 @@ footer {
 				list-style: none;
 				font-size:1.6em;
 				color:#888;//darken($header-color, 20%);
+				text-transform: lowercase;
 				svg {
 					height: 20px;
 					width: 20px;
@@ -459,12 +475,12 @@ footer {
 	#about-module {
 		left:0;
 		.button {background:$header-color;}
-		.hidden {width:50%;}
+		.hidden {width:45%;}
 	}
 	#city-module {
 		right:0;
-		.button {background:darken($header-color, 8%);}
-		.hidden {width:50%;}
+		.button {background:darken($header-color, 5d%);}
+		.hidden {width:45%;}
 	}
 
 	// -- Hover Footer -- //

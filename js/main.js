@@ -26,3 +26,24 @@ $("#about-button").click(function(){
 $("#city-button").click(function(){
   $("#city-module").toggleClass("active");
 });
+
+
+// Sticky Footer
+$(function() {
+  var sticky_navigation_offset_top = $('#crop-wrap').offset().top;
+  var sticky_navigation = function(){
+    var scroll_top = $(window).scrollTop();
+    if (scroll_top > sticky_navigation_offset_top) {
+      $('footer').css({ 'bottom':0 });
+    } else {
+      $('footer').css({ 'bottom':-70});
+    }
+  };
+  sticky_navigation();
+  $(window).scroll(function() {
+     sticky_navigation();
+  });
+  //$('a[href="#"]').click(function(event){
+  //  event.preventDefault();
+  //});
+});

@@ -173,7 +173,7 @@ body {
 ======================================================= */
 header {
   float: left;
-  background: #b7c34d;
+  background: #2ecc71;
   width: 100%;
   padding: 0;
   color: white;
@@ -183,7 +183,7 @@ header {
   font-weight: 500;
 }
 header .header-wrapper {
-  padding: 20px 0;
+  padding: 17px 0;
   width: 70%;
   max-width: 1000px;
   margin: 0 auto;
@@ -200,11 +200,11 @@ header #site-logo, header #header-link {
 }
 header #site-logo {
   float: left;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
   text-align: left;
-  font-size: 1.4em;
-  line-height: 1.05;
-  color: #939e35;
+  font-size: 1.5em;
+  line-height: 1;
+  color: white;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
 }
@@ -217,18 +217,18 @@ header #site-logo span {
 header #header-icon {
   position: absolute;
   top: 0;
-  left: 40%;
-  right: 40%;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 header #header-icon svg {
   position: relative;
-  top: 18px;
+  top: 14px;
   height: 40px;
   width: 60px;
 }
 header #header-icon svg .icon {
-  fill: #656c24;
+  fill: #1b7943;
 }
 header #header-link {
   padding: 11px 22px;
@@ -243,8 +243,8 @@ header #header-link {
   font-weight: 500;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
-  color: #777f2b;
-  border-color: #939e35;
+  color: white;
+  border-color: white;
   float: right;
   padding: 8px 14px;
   text-align: center;
@@ -276,7 +276,7 @@ header #header-link:hover {
   color: white;
   font-size: 4.1em;
   text-align: center;
-  text-shadow: 2px 2px 0 #2f3311;
+  text-shadow: 2px 2px 0 #082615;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
 }
@@ -336,7 +336,7 @@ header #header-link:hover {
   background: rgba(255, 253, 245, 0.65);
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 #crop-list li:nth-child(3n) {
   margin-right: 0;
@@ -963,7 +963,7 @@ header #header-link:hover {
 }
 #crop-calendar a {
   margin-left: 3px;
-  color: #acb83e;
+  color: #29b765;
 }
 #crop-calendar a span {
   text-decoration: none;
@@ -980,7 +980,7 @@ header #header-link:hover {
   color: white;
   font-size: 3.4em;
   line-height: 1em;
-  text-shadow: 2px 2px 0 #2f3311;
+  text-shadow: 2px 2px 0 #082615;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 700;
 }
@@ -1017,12 +1017,27 @@ header #header-link:hover {
 ======================================================= */
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: -70px;
   width: 100%;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+footer #footer-icon {
+  width: 10%;
+  display: inline-block;
+  float: left;
+  padding: 9px 0;
+  bottom: 0;
+  text-align: center;
+  background: #61db95;
+}
+footer #footer-icon svg {
+  height: 26px;
+  fill: #25a25a;
 }
 footer #about-module,
 footer #city-module {
-  width: 50%;
+  width: 45%;
   float: left;
   bottom: 0;
   text-align: center;
@@ -1034,7 +1049,7 @@ footer #city-module {
 }
 footer #about-module .button,
 footer #city-module .button {
-  background: #b7c34d;
+  background: #2ecc71;
   float: left;
   bottom: 0;
   padding: 14px 0;
@@ -1058,7 +1073,7 @@ footer #city-module .button span.genericon-close {
 }
 footer #about-module .button:hover,
 footer #city-module .button:hover {
-  background: #656c24;
+  background: #176437;
 }
 footer #about-module .hidden,
 footer #city-module .hidden {
@@ -1080,6 +1095,7 @@ footer #city-module .hidden p {
   list-style: none;
   font-size: 1.6em;
   color: #888;
+  text-transform: lowercase;
 }
 footer #about-module .hidden li svg, footer #about-module .hidden p svg,
 footer #city-module .hidden li svg,
@@ -1093,7 +1109,7 @@ footer #city-module .hidden p svg {
 footer #about-module .hidden li svg .icon, footer #about-module .hidden p svg .icon,
 footer #city-module .hidden li svg .icon,
 footer #city-module .hidden p svg .icon {
-  fill: #777f2b;
+  fill: #1b7943;
 }
 footer #about-module .hidden li#site-author, footer #about-module .hidden p#site-author,
 footer #city-module .hidden li#site-author,
@@ -1105,7 +1121,7 @@ footer #city-module .hidden p#site-author {
 footer #about-module .hidden li#site-author a, footer #about-module .hidden p#site-author a,
 footer #city-module .hidden li#site-author a,
 footer #city-module .hidden p#site-author a {
-  color: #656c24;
+  color: #176437;
   text-decoration: none;
 }
 footer #about-module .hidden p,
@@ -1132,7 +1148,7 @@ footer #city-module .hidden form textarea {
   margin: 0 auto 10px;
   display: block;
   padding: 10px 0;
-  border: 1px solid #b7c34d;
+  border: 1px solid #2ecc71;
   background: white;
   font-size: 1.5em;
   text-indent: 10px;
@@ -1142,9 +1158,9 @@ footer #city-module .hidden form textarea {
 footer #about-module .hidden form input[type="submit"], footer #about-module .hidden form textarea[type="submit"],
 footer #city-module .hidden form input[type="submit"],
 footer #city-module .hidden form textarea[type="submit"] {
-  background: #889231;
+  background: #208e4e;
   color: white;
-  text-shadow: 2px 2px 0 #53591e;
+  text-shadow: 2px 2px 0 #124f2c;
   font-size: 1.8em;
   letter-spacing: 0.05em;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -1155,7 +1171,7 @@ footer #city-module .hidden form textarea[type="submit"] {
 footer #about-module .hidden form input[type="submit"]:hover, footer #about-module .hidden form textarea[type="submit"]:hover,
 footer #city-module .hidden form input[type="submit"]:hover,
 footer #city-module .hidden form textarea[type="submit"]:hover {
-  background: #777f2b;
+  background: #1b7943;
 }
 footer #about-module .hidden form input:focus, footer #about-module .hidden form input:active, footer #about-module .hidden form textarea:focus, footer #about-module .hidden form textarea:active,
 footer #city-module .hidden form input:focus,
@@ -1185,19 +1201,19 @@ footer #about-module {
   left: 0;
 }
 footer #about-module .button {
-  background: #b7c34d;
+  background: #2ecc71;
 }
 footer #about-module .hidden {
-  width: 50%;
+  width: 45%;
 }
 footer #city-module {
   right: 0;
 }
 footer #city-module .button {
-  background: #a1ad3a;
+  background: #29b765;
 }
 footer #city-module .hidden {
-  width: 50%;
+  width: 45%;
 }
 
 /* Selection Colors
