@@ -74,13 +74,33 @@
    <div id="crop-calendar">Don't see what you're looking for?  View the <a href="http://www.coloradofreshmarkets.com/crop_calendar.html">crop calendar <span class="genericon genericon-video"></span></a></div>
 </div>
 
+<div id="footer-market">
+  <p>Find a Market</p>
+  <a href="http://www.coloradofreshmarkets.com/markets.html">View Map <span class="genericon genericon-location"></span></a>
+</div>
+
 <!--******** Footer Toggles ********-->
 <footer>
-  <div id="footer-market">
-    <p>Find a Market</p>
-    <a href="http://www.coloradofreshmarkets.com/markets.html">View Map <span class="genericon genericon-location"></span></a></div>
-  <div id="about-module" class="footer-toggles"><span class="genericon genericon-attachment"></span> About</div>
-  <div id="city-module" class="footer-toggles"><span class="genericon genericon-heart"></span> Add Your City</div>
+  <div id="about-module" class="footer-toggles">
+    <a id="about-button" class="button"><span class="genericon genericon-info"></span> About</a>
+    <div id="about-hidden">
+        <ul>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="city-module" class="footer-toggles">
+    <a id="city-button"class="button"><span class="genericon genericon-comment"></span> Add Your City</a>
+    <div id="city-hidden">
+      <form></form>
+    </div>
+  </div>
 </footer>
 
 <!--******** Background Image ********-->

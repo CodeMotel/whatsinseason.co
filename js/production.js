@@ -61,3 +61,13 @@ $( document ).ready( function() {
       $( "#closed-msg").css({'display': 'block'});
       }
     });
+
+
+// Footer Toggles
+$("#about-button").click(function(){
+  $("#about-module").toggleClass("active");
+});
+
+$("#city-button").click(function(){
+  $("#city-module").toggleClass("active");
+});

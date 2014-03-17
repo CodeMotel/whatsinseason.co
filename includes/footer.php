@@ -2,7 +2,7 @@
          <!-- JavaScript  -->
         <script src="//code.jquery.com/jquery-latest.min.js"></script>
         <script src="js/production.min.js"></script>
-        <script src="js/food.js"></script>
+        <!--<script src="js/food.js"></script>-->
 
 
         <!-- Modernizr -->

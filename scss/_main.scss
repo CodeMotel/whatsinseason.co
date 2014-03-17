@@ -168,12 +168,14 @@ header {
 		margin:0 $margin 10px 0;
 		border-radius:5px;
 		list-style:none;
+		cursor: pointer;
 		float:left;
 		padding:20px 0;
 		display:inline-block;
 		background:rgba(255,253,245,0.65);
 		font-size:3em;
 		@include a-5;
+
 		&:nth-child(3n) {margin-right:0;}
 
 		// -- Responsive Widths -- //
@@ -273,55 +275,107 @@ header {
 	}
 }
 
+// -- Find Markets -- //
+#footer-market {
+	float:left;
+	width:100%;
+	padding:300px 0;
+	text-align: center;
+	color:white;
+	font-size:3.4em;
+	line-height:1em;
+	text-shadow:2px 2px 0 darken($header-color, 40%);
+	@include a-7;
+	a {
+		@include button-style;
+		display: inline-block;
+		margin-top:20px;
+		text-shadow: none;
+		span {
+			position:relative;
+			top:4px;
+			margin-right:2px;
+			font-size:1.5em;
+			@include ease;
+		}
+	}
+}
+
+
 /* Footer
 ======================================================= */
 footer {
+	position:fixed;
 	bottom:0;
 	width:100%;
 	div {
-		float:left;
-		margin:0;
-		padding:15px 0;
-		text-align: center;
-		color:white;
-		font-size:1.5em;
-		@include a-5;
-		@include ease;
-
-		// -- Find Markets -- //
-		&#footer-market {
-			width:100%;
-			padding:300px 0;
-			background:none;
-			font-size:3.4em;
-			line-height:1em;
-			text-shadow:2px 2px 0 darken($header-color, 40%);
-			@include a-7;
-			a {
-				@include button-style;
-				display: inline-block;
-				margin-top:20px;
-				text-shadow: none;
-				span {
-					position:relative;
-					top:4px;
-					margin-right:2px;
-					font-size:1.5em;
-					@include ease;
-				}
-			}
-		}
 		// -- About and Add City -- //
 		&#about-module, &#city-module {
 			width:50%;
-			font-size:2em;
-			span {
-				margin-right:5px;
-				font-size:1em;
+			position:absolute;
+			bottom:0;
+			margin:0;
+			padding:0;
+			text-align: center;
+			color:white;
+			@include a-5;
+			@include ease;
+			// Buttons
+			.button {
+				background:$header-color;
+				position:fixed;
+				bottom:0;
+				padding:14px 0;
+				display: block;
+				cursor:pointer;
+				width:50%;
+				color:white;
+				text-decoration: none;
+				font-size:1.8em;
+				transition:padding 333ms ease-in-out;
+				span {
+					margin-right:9px;
+					font-size:1.1em;
+					line-height: 0.8;
+				}
+				&:hover {
+					//padding-bottom:20px;
+				}
 			}
 		}
-		&#about-module {background:$header-color;}
-		&#city-module {background:darken($header-color, 8%);}
+		&#about-module {
+			background:$header-color;
+			left:0;
+			// Hidden Content
+			#about-hidden {
+				width:100%;
+				float:left;
+				position:absolute;
+				padding:10px 0;
+				text-align:left;
+				background:rgba(255,255,255,0.3);
+				li {
+					margin:0 0 8px 10px;
+					list-style: none;
+					font-size:1.6em;
+					color:darken($header-color, 20%);
+				}
+			}
+			&.active {
+				#about-hidden {position:relative;}
+				.button {
+					position:relative;
+					width:100%;
+				}
+			}
+		}
+		&#city-module {
+			background:darken($header-color, 8%);
+			right:0;
+			.button {
+				background:darken($header-color, 8%);
+			}
+		}
 	}
 
 	// -- Hover Footer -- //
