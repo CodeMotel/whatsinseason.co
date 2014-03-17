@@ -574,7 +574,10 @@ footer {
 	}
 }
 
-
+#antispam {
+	display:none !important;
+	input[type="text"] {display:none !important;}
+}
 
 
 /* Selection Colors

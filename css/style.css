@@ -1382,6 +1382,13 @@ footer #city-module .hidden {
   width: 45%;
 }
 
+#antispam {
+  display: none !important;
+}
+#antispam input[type="text"] {
+  display: none !important;
+}
+
 /* Selection Colors
 ======================================================= */
 ::-moz-selection {

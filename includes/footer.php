@@ -13,8 +13,8 @@
                   <li><?php include('includes/food/cucumbers.php'); ?>Cucumber designed by Yinon Ezra from the Noun Project</li>
                   <li><?php include('includes/food/herbs.php'); ?>Basil designed by Julia Soderberg from the Noun Project</li>
                   <li><?php include('includes/food/asparagus.php'); ?>Asparagus designed by Richard Zeid from the Noun Project</li>
-                  <li class="border">Tools: <a href="">FitText.JS</a>, <a href="">Genericons</a>, <a href="">Grunt.JS</a>, <a href="">Unsplash</a>, <a href="">Google Fonts</a>
-                  <li class="border">Site by <a href="http://see8ch.com">Chris Holder</a><!-- + <a href="">Michaella Dirkes</a>--></li>
+                  <li class="border">Tools: <a href="http://fittextjs.com/">FitText.JS</a>, <a href="http://genericons.com/">Genericons</a>, <a href="http://gruntjs.com/">Grunt.JS</a>, <a href="http://unsplash.com/">Unsplash</a>, <a href="https://www.google.com/fonts">Google Fonts</a>
+                  <li class="border">Site by <a href="http://see8ch.com">Chris Holder</a> // All Rights Reserved<!-- + <a href="">Michaella Dirkes</a>--></li>
                 </ul>
             </div>
           </div>
@@ -26,13 +26,14 @@
           <div id="city-module" class="footer-toggles">
             <a id="city-button"class="button"><span class="genericon genericon-comment"></span><span class="genericon genericon-close"></span> Add Your City</a>
             <div id="city-hidden" class="hidden">
-              <form>
+              <form method="post" action="includes/submit.php">
                 <p class="headline">Interested in adding your city or market?</p>
                 <p>Please fill out the form below.</p>
-                <input type="text" placeholder="Name"/>
-                <input type="text" placeholder="Email"/>
-                <input type="text" placeholder="City"/>
-                <textarea placeholder="Message"></textarea>
+                <p id="antispam"><input name="url" type="text" /></p>
+                <input name="name" type="text" placeholder="Name"/>
+                <input name="email" type="text" placeholder="Email"/>
+                <input name="city" type="text" placeholder="City"/>
+                <textarea name="message" placeholder="Message"></textarea>
                 <input type="submit" value="Send Request"/>
               </form>
             </div>
