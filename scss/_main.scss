@@ -445,7 +445,7 @@ footer {
 		// Hidden Content
 		.hidden {
 			z-index:-999;
-			position:absolute;
+			position:fixed;
 			bottom:-1000px;
 			padding:25px 0;
 			text-align:left;
@@ -539,7 +539,15 @@ footer {
 				left:0;
 			}
 			&.active {
+				#about-hidden, #city-hidden {}
 				.hidden {bottom:44px;}
+			}
+		}
+		@media screen and (max-width:$big-phone) {
+			#about-hidden, #city-hidden {}
+			&.active {
+				#about-hidden, #city-hidden {}
+				.hidden {top:0px;overflow:scroll;}
 			}
 		}
 	}

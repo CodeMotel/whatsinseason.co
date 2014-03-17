@@ -1190,7 +1190,7 @@ footer #city-module .button:hover {
 footer #about-module .hidden,
 footer #city-module .hidden {
   z-index: -999;
-  position: absolute;
+  position: fixed;
   bottom: -1000px;
   padding: 25px 0;
   text-align: left;
@@ -1321,6 +1321,13 @@ footer #city-module.active .button span.genericon-info {
   footer #about-module.active .hidden,
   footer #city-module.active .hidden {
     bottom: 44px;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer #about-module.active .hidden,
+  footer #city-module.active .hidden {
+    top: 0px;
+    overflow: scroll;
   }
 }
 footer #about-module {
