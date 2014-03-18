@@ -194,10 +194,10 @@ header #site-logo, header #header-link {
 }
 header #site-logo {
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   text-align: left;
   font-size: 1.5em;
-  line-height: 1;
+  line-height: 1.1;
   color: white;
   text-shadow: 2px 2px 0 #25a25a;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -243,7 +243,7 @@ header #header-icon {
 }
 header #header-icon svg {
   position: relative;
-  top: 14px;
+  top: 15px;
   height: 40px;
   width: 60px;
   margin-left: -30px;
@@ -287,9 +287,10 @@ header #header-link {
   float: right;
   padding: 8px 14px;
   text-align: center;
-  font-size: 0.65em;
-  line-height: 1.1;
+  font-size: 0.6em;
+  line-height: 1.2;
   z-index: 9999;
+  margin-top: 3px;
 }
 header #header-link:hover {
   border-color: white;
@@ -322,7 +323,7 @@ header #header-link:hover {
 }
 
 .bookmark-wrapper {
-  padding: 10px 0;
+  padding: 8px 0;
   background: #d1f5e0;
   width: 100%;
   float: left;
@@ -343,16 +344,22 @@ header #header-link:hover {
   float: left;
 }
 .bookmark-wrapper #bookmark p span {
-  margin-right: 3px;
+  margin-right: 5px;
   font-size: 1em;
 }
 .bookmark-wrapper #bookmark p a {
   color: #208e4e;
   text-decoration: none;
 }
+.bookmark-wrapper #bookmark p a:hover {
+  color: #e74c3c;
+}
 .bookmark-wrapper #bookmark #share {
   float: right;
   text-align: right;
+}
+.bookmark-wrapper #bookmark #share a:first-child {
+  margin-left: 3px;
 }
 
 /* Date Region
