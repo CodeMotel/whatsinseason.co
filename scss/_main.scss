@@ -199,9 +199,18 @@ header {
 			a:first-child {margin-left:3px;}
 		}
 		@media screen and (max-width: $small-tablet) {
-			width:100%;
-			text-align: center;
-			display:block;
+			p, #share {
+				width:100%;
+				text-align: center;
+				display:block;
+				//float:left;
+				font-size: 0.95em;
+				span {margin-right:3px;}
+			}
+			#share {
+				margin-top:5px;
+				//font-size:1.2em;
+			}
 		}
 	}
 }

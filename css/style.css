@@ -368,10 +368,17 @@ header #header-link:hover {
   margin-left: 3px;
 }
 @media screen and (max-width: 680px) {
-  .bookmark-wrapper #bookmark {
+  .bookmark-wrapper #bookmark p, .bookmark-wrapper #bookmark #share {
     width: 100%;
     text-align: center;
     display: block;
+    font-size: 0.95em;
+  }
+  .bookmark-wrapper #bookmark p span, .bookmark-wrapper #bookmark #share span {
+    margin-right: 3px;
+  }
+  .bookmark-wrapper #bookmark #share {
+    margin-top: 5px;
   }
 }
 
