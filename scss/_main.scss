@@ -536,7 +536,7 @@ footer {
 				}
 			}
 		}
-		// Area active state
+		// Toggle active state
 		&.active {
 			.hidden {bottom:46px;}
 			.button {
@@ -577,6 +577,7 @@ footer {
 	}
 }
 
+// Hide Form Spam Trigger
 #antispam {
 	display:none !important;
 	input[type="text"] {display:none !important;}

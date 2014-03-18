@@ -6,7 +6,8 @@
             <a id="about-button" class="button"><span class="genericon genericon-info"></span><span class="genericon genericon-close"></span> about</a>
             <div id="about-hidden" class="hidden">
                 <ul>
-                  <p class="headline">site credits</p>
+                  <p class="headline">about the site</p>
+                  <li>Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</li>
                   <li><?php include('includes/food/cabbage.php'); ?>Cabbage designed by Jose Eduardo Ayala from the Noun Project</li>
                   <li><?php include('includes/food/lettuce.php'); ?>Cabbage designed by Artur Shageyev from the Noun Project</li>
                   <li><?php include('includes/food/green-beans.php'); ?>Beans designed by Doug Cavendish from the Noun Project</li>
@@ -15,7 +16,7 @@
                   <li><?php include('includes/food/asparagus.php'); ?>Asparagus designed by Richard Zeid from the Noun Project</li>
                   <li class="border">Tools: <a href="http://fittextjs.com/">FitText.JS</a>, <a href="http://genericons.com/">Genericons</a>, <a href="http://gruntjs.com/">Grunt.JS</a>, <a href="http://unsplash.com/">Unsplash</a>, <a href="https://www.google.com/fonts">Google Fonts</a>
                   <li class="border">Site by <a href="http://see8ch.com">Chris Holder</a> + <a href="http://michaellaness.com">Michaella Dirkes</a></li>
-                  <li>Copyright 2014 // All Rights Reserved</li>
+                  <li>© Copyright 2014 // All Rights Reserved</li>
                 </ul>
             </div>
           </div>
