@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content="" />
 	<meta name="author" content="Chris Holder - chris@see8ch.com">
-	<meta name="keywords" content="" />
+	<meta name="keywords" content="Colorado, farmer, market, fresh, food, vegetables, fruit, " />
 
 
 <!-- Optimized mobile viewport -->

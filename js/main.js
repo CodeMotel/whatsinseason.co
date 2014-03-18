@@ -44,29 +44,10 @@ $(function() {
     var scroll_top = $(window).scrollTop();
     if (scroll_top > sticky_navigation_offset_top) {
       $('footer').css({ 'bottom':0 });
-      $('.bookmark-wrapper').css({ 'position': 'fixed' });
+      //$('.bookmark-wrapper').css({ 'position': 'fixed' });
     } else {
       $('footer').css({ 'bottom':-70});
       $(".footer-toggles").removeClass("active");
-      $('.bookmark-wrapper').css({ 'position': 'relative' });
-    }
-  };
-  sticky_navigation();
-  $(window).scroll(function() {
-     sticky_navigation();
-  });
-});
-
-$(function() {
-  var sticky_navigation_offset_top = $('header').offset().top;
-  var sticky_navigation = function(){
-    var scroll_top = $(window).scrollTop();
-    if (scroll_top > sticky_navigation_offset_top) {
-      //$('footer').css({ 'bottom':0 });
-      //$('.bookmark-wrapper').css({ 'position': 'fixed' });
-    } else {
-      //$('footer').css({ 'bottom':-70});
-      //$(".footer-toggles").removeClass("active");
       //$('.bookmark-wrapper').css({ 'position': 'relative' });
     }
   };

@@ -1130,6 +1130,13 @@ footer #city-module .hidden li.border.divider,
 footer #city-module .hidden p.border.divider {
   padding: 0;
 }
+footer #about-module .hidden li a, footer #about-module .hidden p a,
+footer #city-module .hidden li a,
+footer #city-module .hidden p a {
+  color: #1b7943;
+  text-decoration: none;
+  margin-right: 3px;
+}
 footer #about-module .hidden p.headline,
 footer #city-module .hidden p.headline {
   border-bottom: 1px solid #aaa;
@@ -1261,6 +1268,9 @@ footer #city-module .hidden {
 body#submit {
   text-align: center;
   color: white;
+}
+body#submit .bookmark-wrapper {
+  display: none;
 }
 body#submit #site-logo {
   text-align: center;

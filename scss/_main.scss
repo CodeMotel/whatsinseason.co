@@ -214,6 +214,7 @@ header {
 				span {margin-right:3px;}
 			}
 			#share {
+				//display: none;
 				margin-top:5px;
 				//font-size:1.2em;
 			}
@@ -547,6 +548,7 @@ footer {
 					}
 					&.divider {padding:0;}
 				}
+				a {color:darken($main-color, 20%);text-decoration:none; margin-right:3px;}
 			}
 			p.headline {
 				border-bottom:1px solid #aaa;
@@ -653,6 +655,7 @@ footer {
 body#submit {
 	text-align:center;
 	color:white;
+	.bookmark-wrapper{display:none;}
 	#site-logo {
 		text-align:center;
 		width:100%;
