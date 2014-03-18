@@ -166,6 +166,7 @@ body {
 /* Header Region
 ======================================================= */
 header {
+  position: relative;
   float: left;
   background: #2ecc71;
   width: 100%;
@@ -194,10 +195,10 @@ header #site-logo, header #header-link {
 }
 header #site-logo {
   float: left;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   text-align: left;
   font-size: 1.5em;
-  line-height: 1.1;
+  line-height: 1.2;
   color: white;
   text-shadow: 2px 2px 0 #25a25a;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -326,7 +327,7 @@ header #header-link:hover {
 
 .bookmark-wrapper {
   padding: 8px 0;
-  background: #d1f5e0;
+  background: #239a55;
   width: 100%;
   float: left;
 }
@@ -339,7 +340,7 @@ header #header-link:hover {
   width: 70%;
   max-width: 1000px;
   margin: 0 auto;
-  color: #208e4e;
+  color: #54d98c;
   font-size: 1.6em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
@@ -360,21 +361,26 @@ header #header-link:hover {
   font-size: 1em;
 }
 .bookmark-wrapper #bookmark p a {
-  color: #208e4e;
+  color: #54d98c;
   text-decoration: none;
 }
 .bookmark-wrapper #bookmark p a:hover {
-  color: #e74c3c;
+  color: white;
 }
 .bookmark-wrapper #bookmark #share {
   float: right;
   width: 30%;
   text-align: right;
 }
-.bookmark-wrapper #bookmark #share a:first-child {
-  margin-left: 3px;
+.bookmark-wrapper #bookmark #share span {
+  font-size: 1.1em;
+  position: relative;
+  top: -1px;
 }
-@media screen and (max-width: 680px) {
+.bookmark-wrapper #bookmark #share a:first-child {
+  margin-left: 4px;
+}
+@media screen and (max-width: 500px) {
   .bookmark-wrapper #bookmark p, .bookmark-wrapper #bookmark #share {
     width: 100%;
     text-align: center;
@@ -385,7 +391,11 @@ header #header-link:hover {
     margin-right: 3px;
   }
   .bookmark-wrapper #bookmark #share {
-    margin-top: 5px;
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  .bookmark-wrapper #bookmark #share span {
+    margin-right: 10px;
   }
 }
 
@@ -422,8 +432,11 @@ header #header-link:hover {
 }
 @media screen and (max-width: 500px) {
   #current-date {
-    padding: 50px 0;
+    padding: 40px 0;
     font-size: 3em;
+  }
+  #current-date #date-header {
+    margin-bottom: 8px;
   }
 }
 
@@ -949,10 +962,10 @@ header #header-link:hover {
 #footer-market {
   float: left;
   width: 100%;
-  padding: 320px 0 340px;
+  padding: 310px 0 380px;
   text-align: center;
   color: white;
-  font-size: 3.4em;
+  font-size: 3.7em;
   line-height: 1em;
   text-shadow: 2px 2px 0 #082615;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -973,17 +986,24 @@ header #header-link:hover {
   display: inline-block;
   margin-top: 20px;
   text-shadow: none;
+  font-size: 0.45em;
+  background: rgba(255, 253, 245, 0.75);
+  border: none;
+  color: #176437;
 }
 #footer-market a:hover {
   border-color: white;
 }
 #footer-market a span {
   position: relative;
-  top: 4px;
+  top: 5px;
   margin-right: 2px;
   font-size: 1.5em;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
+}
+#footer-market a:hover {
+  background: #2ecc71;
 }
 @media screen and (max-width: 500px) {
   #footer-market {
@@ -1136,6 +1156,11 @@ footer #city-module .hidden p a {
   color: #1b7943;
   text-decoration: none;
   margin-right: 3px;
+}
+footer #about-module .hidden li a:hover, footer #about-module .hidden p a:hover,
+footer #city-module .hidden li a:hover,
+footer #city-module .hidden p a:hover {
+  color: #e74c3c;
 }
 footer #about-module .hidden p.headline,
 footer #city-module .hidden p.headline {

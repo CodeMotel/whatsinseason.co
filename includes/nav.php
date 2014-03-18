@@ -1,5 +1,4 @@
 <!--******** Header Region ********-->
-
 <header>
    <div class="header-wrapper">
       <div id="site-logo">what's in season?</div>

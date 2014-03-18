@@ -26,10 +26,8 @@
 <!--******** Crop List ********-->
 <div id="crop-wrap" class="wrapper">
    <div id="closed-msg">
-     <p>Sorry, the markets are closed. We will update in May!</p>
-     <p class="sub">here's a look at what will be available next season.</p>
-      <!--<p>Sorry, the markets are closed. They will open again in May!</p>-->
-      <!--<p class="sub">The items below will be available next season.</p>-->
+      <p>Sorry, the markets are closed. We will update in May!</p>
+      <p class="sub">here's a look at what will be available next season.</p>
     </div>
     <div id="open-msg">
       <p>Seasonal Items Available at your Local Farmer's Market</p>

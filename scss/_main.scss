@@ -48,6 +48,7 @@ body {
 /* Header Region
 ======================================================= */
 header {
+	position:relative;
 	float:left;
 	background:$main-color;
 	width:100%;
@@ -73,10 +74,10 @@ header {
 	// -- Site Name -- //
 	#site-logo {
 		float:left;
-		margin-bottom:22px;
+		margin-bottom:20px;
 		text-align:left;
 		font-size:1.5em;
-		line-height:1.1;
+		line-height:1.2;
 		color:white;
 		text-shadow: 2px 2px 0 darken($main-color, 10%);
 		@include a-8;
@@ -112,7 +113,7 @@ header {
 		text-align: center;
 		svg {
 			position:relative;
-			top:15px;//44px;
+			top:15px;
 			height:40px;
 			width:60px;
 			margin-left:-30px;
@@ -167,7 +168,7 @@ header {
 
 .bookmark-wrapper {
 	padding:8px 0;
-	background:lighten($main-color, 40%);
+	background:darken($main-color, 12%);
 	width:100%;
 	float:left;
 
@@ -177,7 +178,7 @@ header {
 		width:70%;
 		max-width:1000px;
 		margin:0 auto;
-		color:darken($main-color, 15%);
+		color:lighten($main-color, 10%);
 		font-size:1.6em;
 		@include a-5;
 
@@ -193,30 +194,34 @@ header {
 				font-size:1em;
 			}
 			a {
-				color:darken($main-color, 15%);
+				color:lighten($main-color, 10%);
 				text-decoration:none;
-				&:hover {color:#e74c3c;}
+				&:hover {color:white;}
 			}
 		}
 		#share {
 			float:right;
 			width:30%;
 			text-align:right;
-			a:first-child {margin-left:3px;}
+			span {
+				font-size:1.1em;
+				position:relative;
+				top:-1px;
+			}
+			a:first-child {margin-left:4px;}
 		}
-		@media screen and (max-width: $small-tablet) {
+		@media screen and (max-width: $big-phone) {
 			p, #share {
 				width:100%;
 				text-align: center;
 				display:block;
-				//float:left;
 				font-size: 0.95em;
 				span {margin-right:3px;}
 			}
 			#share {
-				//display: none;
-				margin-top:5px;
-				//font-size:1.2em;
+				margin-top:10px;
+				font-size:1.2em;
+				span {margin-right:10px;}
 			}
 		}
 	}
@@ -250,7 +255,11 @@ header {
 		font-size:3.5em;
 		#date-header {letter-spacing:-3px;}
 	}
-	@media screen and (max-width: $big-phone) {padding:50px 0; font-size:3em;}
+	@media screen and (max-width: $big-phone) {
+		padding:40px 0;
+		font-size:3em;
+		#date-header {margin-bottom: 8px;}
+	}
 }
 
 
@@ -394,12 +403,7 @@ header {
 }
 
 #crop-calendar {
-	//width:90%;
-	//float:left;
-	//margin:0px 5% 0;
 	text-align:center;
-	//color:#555;
-	//font-size:2em;
 	@include a-5;
 	a {
 		margin-left:3px;
@@ -410,20 +414,17 @@ header {
 			@include ease;
 		}
 	}
-	@media screen and (max-width: $big-phone) {
-		margin-top:30px;
-		//font-size:1.5em;
-	}
+	@media screen and (max-width: $big-phone) {margin-top:30px;}
 }
 
 // -- Find Markets -- //
 #footer-market {
 	float:left;
 	width:100%;
-	padding:320px 0 340px;
+	padding:310px 0 380px;
 	text-align: center;
 	color:white;
-	font-size:3.4em;
+	font-size:3.7em;
 	line-height:1em;
 	text-shadow:2px 2px 0 darken($main-color, 40%);
 	@include a-7;
@@ -432,13 +433,18 @@ header {
 		display: inline-block;
 		margin-top:20px;
 		text-shadow: none;
+		font-size:0.45em;
+		background:rgba(255,253,245,0.75);
+		border:none;
+		color:darken($main-color, 25%);
 		span {
 			position:relative;
-			top:4px;
+			top:5px;
 			margin-right:2px;
 			font-size:1.5em;
 			@include ease;
 		}
+		&:hover {background:$main-color;}
 	}
 	@media screen and (max-width: $big-phone) {padding:130px 0 180px;}
 }
@@ -548,7 +554,12 @@ footer {
 					}
 					&.divider {padding:0;}
 				}
-				a {color:darken($main-color, 20%);text-decoration:none; margin-right:3px;}
+				a {
+					color:darken($main-color, 20%);
+					text-decoration:none;
+					margin-right:3px;
+					&:hover {color:$secondary-color;}
+				}
 			}
 			p.headline {
 				border-bottom:1px solid #aaa;
@@ -577,7 +588,6 @@ footer {
 					display:block;
 					padding:10px 0;
 					border:1px solid #aaa;
-					//border-radius:5px;
 					background:white;
 					font-size:1.6em;
 					text-indent: 10px;
@@ -604,7 +614,7 @@ footer {
 		&.active {
 			.hidden {bottom:46px;}
 			.button {
-				background:#e74c3c;//red;
+				background:$secondary-color;
 				span {
 					&.genericon-close {display:inline-block;}
 					&.genericon-comment, &.genericon-info {display:none;}
