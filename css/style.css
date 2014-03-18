@@ -328,6 +328,11 @@ header #header-link:hover {
   width: 100%;
   float: left;
 }
+@media screen and (max-width: 900px) {
+  .bookmark-wrapper {
+    width: 90%;
+  }
+}
 .bookmark-wrapper #bookmark {
   width: 70%;
   max-width: 1000px;
@@ -361,6 +366,12 @@ header #header-link:hover {
 }
 .bookmark-wrapper #bookmark #share a:first-child {
   margin-left: 3px;
+}
+@media screen and (max-width: 680px) {
+  .bookmark-wrapper #bookmark {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* Date Region
