@@ -160,6 +160,40 @@ header {
 	}
 }
 
+.bookmark-wrapper {
+	padding:10px 0;
+	background:lighten($main-color, 40%);
+	width:100%;
+	float:left;
+	#bookmark {
+		width:70%;
+		max-width:1000px;
+		margin:0 auto;
+		color:darken($main-color, 15%);
+		font-size:1.6em;
+		@include a-5;
+
+		p {
+			display:inline-block;
+			width:50%;
+			margin:0;
+			float:left;
+			span {
+				margin-right:3px;
+				font-size:1em;
+			}
+			a {
+				color:darken($main-color, 15%);
+				text-decoration:none;
+			}
+		}
+		#share {
+			float:right;
+			text-align:right;
+		}
+	}
+}
+
 
 
 /* Date Region
@@ -484,6 +518,7 @@ footer {
 						color:darken($main-color, 25%);
 						text-decoration: none;
 					}
+					&.divider {padding:0;}
 				}
 			}
 			p.headline {

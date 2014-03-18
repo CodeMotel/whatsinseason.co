@@ -7,9 +7,10 @@
             <div id="about-hidden" class="hidden">
                 <ul>
                   <p class="headline">about the site</p>
-                  <li>Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</li>
+                  <li>We built this site to help you find as much fresh food as you can and to help make healthy living an easier option.</li>
+                  <li class="border divider"></li>
                   <li><?php include('includes/food/cabbage.php'); ?>Cabbage designed by Jose Eduardo Ayala from the Noun Project</li>
-                  <li><?php include('includes/food/lettuce.php'); ?>Cabbage designed by Artur Shageyev from the Noun Project</li>
+                  <li><?php include('includes/food/lettuce.php'); ?>Lettuce designed by Artur Shageyev from the Noun Project</li>
                   <li><?php include('includes/food/green-beans.php'); ?>Beans designed by Doug Cavendish from the Noun Project</li>
                   <li><?php include('includes/food/cucumbers.php'); ?>Cucumber designed by Yinon Ezra from the Noun Project</li>
                   <li><?php include('includes/food/herbs.php'); ?>Basil designed by Julia Soderberg from the Noun Project</li>

@@ -321,6 +321,40 @@ header #header-link:hover {
   }
 }
 
+.bookmark-wrapper {
+  padding: 10px 0;
+  background: #d1f5e0;
+  width: 100%;
+  float: left;
+}
+.bookmark-wrapper #bookmark {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #208e4e;
+  font-size: 1.6em;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+}
+.bookmark-wrapper #bookmark p {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+.bookmark-wrapper #bookmark p span {
+  margin-right: 3px;
+  font-size: 1em;
+}
+.bookmark-wrapper #bookmark p a {
+  color: #208e4e;
+  text-decoration: none;
+}
+.bookmark-wrapper #bookmark #share {
+  float: right;
+  text-align: right;
+}
+
 /* Date Region
 ======================================================= */
 #current-date {
@@ -1056,6 +1090,11 @@ footer #city-module .hidden li.border a,
 footer #city-module .hidden p.border a {
   color: #176437;
   text-decoration: none;
+}
+footer #about-module .hidden li.border.divider, footer #about-module .hidden p.border.divider,
+footer #city-module .hidden li.border.divider,
+footer #city-module .hidden p.border.divider {
+  padding: 0;
 }
 footer #about-module .hidden p.headline,
 footer #city-module .hidden p.headline {
