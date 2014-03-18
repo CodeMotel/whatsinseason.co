@@ -521,9 +521,9 @@ footer {
 
 					&[type="submit"] {
 						-webkit-appearance: none;
-						background:none;//darken($main-color, 20%);
-						color:darken($main-color, 20%);//white;
-						border:1px solid darken($main-color, 20%);//none;
+						background:darken($main-color, 10%);
+						color:white;
+						border:none;
 						font-size:2em;
 						letter-spacing: 0.05em;
 						@include a-5;

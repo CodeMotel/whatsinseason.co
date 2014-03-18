@@ -1099,9 +1099,9 @@ footer #about-module .hidden form input[type="submit"], footer #about-module .hi
 footer #city-module .hidden form input[type="submit"],
 footer #city-module .hidden form textarea[type="submit"] {
   -webkit-appearance: none;
-  background: none;
-  color: #1b7943;
-  border: 1px solid #1b7943;
+  background: #25a25a;
+  color: white;
+  border: none;
   font-size: 2em;
   letter-spacing: 0.05em;
   font-family: 'Alegreya Sans SC', sans-serif;
