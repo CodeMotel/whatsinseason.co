@@ -19,7 +19,7 @@
 	<meta property="og:title" content="What's in Season, Colorado?" />
 	<!--<meta property="og:type" content="article" />-->
 	<meta property="og:url" content="http://www.whatsinseason.co/" />
-	<meta property="og:image" content="http://www.whatsinseason.co/default-icon.png" />
+	<meta property="og:image" content="http://www.whatsinseason.co/fb-default-icon.png" />
 	<meta property="og:description" content="Making healthier living easier by helping you find locally available farm fresh food." />
 	<meta property="og:site_name" content="What's in Season, Colorado?" />
 	<!--<meta property="fb:admins" content="Facebook numeric ID" />-->
