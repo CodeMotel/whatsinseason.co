@@ -272,7 +272,6 @@ header #header-icon svg .icon {
 }
 header #header-link {
   padding: 11px 22px;
-  border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
   font-size: 0.5em;
@@ -366,7 +365,7 @@ header #header-link:hover {
   width: 100%;
   float: left;
   padding: 40px 0 60px;
-  background: rgba(255, 253, 245, 0.55);
+  background: rgba(255, 253, 245, 0.525);
 }
 @media screen and (max-width: 500px) {
   .wrapper {
@@ -411,13 +410,11 @@ header #header-link:hover {
 #crop-list li {
   width: 32.66667%;
   margin: 0 1% 10px 0;
-  border-radius: 5px;
   list-style: none;
-  cursor: pointer;
   float: left;
-  padding: 20px 0;
+  padding: 19px 0;
   display: inline-block;
-  background: rgba(255, 253, 245, 0.65);
+  background: rgba(255, 253, 245, 0.675);
   font-size: 2.5em;
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
@@ -460,7 +457,8 @@ header #header-link:hover {
   top: 14px;
 }
 #crop-list li.apples {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #b8182c;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -469,15 +467,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.apples:hover {
-  background: #740f1c;
-  color: #b8182c;
-}
-#crop-list li.apples:hover svg .icon {
-  fill: #b8182c;
-}
 #crop-list li.apricots {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #f58416;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -486,15 +478,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.apricots:hover {
-  background: #b75e08;
-  color: #f58416;
-}
-#crop-list li.apricots:hover svg .icon {
-  fill: #f58416;
-}
 #crop-list li.asparagus {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #6b7917;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -503,15 +489,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.asparagus:hover {
-  background: #32390b;
-  color: #6b7917;
-}
-#crop-list li.asparagus:hover svg .icon {
-  fill: #6b7917;
-}
 #crop-list li.beets {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #8b224d;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -520,15 +500,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.beets:hover {
-  background: #4e132b;
-  color: #8b224d;
-}
-#crop-list li.beets:hover svg .icon {
-  fill: #8b224d;
-}
 #crop-list li.bell-peppers {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #4c6a00;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -537,15 +511,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.bell-peppers:hover {
-  background: #151e00;
-  color: #4c6a00;
-}
-#crop-list li.bell-peppers:hover svg .icon {
-  fill: #4c6a00;
-}
 #crop-list li.broccoli {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #43860e;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -554,15 +522,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.broccoli:hover {
-  background: #204107;
-  color: #43860e;
-}
-#crop-list li.broccoli:hover svg .icon {
-  fill: #43860e;
-}
 #crop-list li.cabbage {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #8c1c69;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -571,15 +533,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.cabbage:hover {
-  background: #4c0f39;
-  color: #8c1c69;
-}
-#crop-list li.cabbage:hover svg .icon {
-  fill: #8c1c69;
-}
 #crop-list li.cantaloupe {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #f68c35;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -588,15 +544,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.cantaloupe:hover {
-  background: #d56509;
-  color: #f68c35;
-}
-#crop-list li.cantaloupe:hover svg .icon {
-  fill: #f68c35;
-}
 #crop-list li.carrots {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #fe6e0e;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -605,15 +555,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.carrots:hover {
-  background: #bf4d01;
-  color: #fe6e0e;
-}
-#crop-list li.carrots:hover svg .icon {
-  fill: #fe6e0e;
-}
 #crop-list li.cauliflower {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #d3ccb0;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -622,15 +566,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.cauliflower:hover {
-  background: #b8ac7f;
-  color: #d3ccb0;
-}
-#crop-list li.cauliflower:hover svg .icon {
-  fill: #d3ccb0;
-}
 #crop-list li.celery {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #90b64b;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -639,15 +577,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.celery:hover {
-  background: #658034;
-  color: #90b64b;
-}
-#crop-list li.celery:hover svg .icon {
-  fill: #90b64b;
-}
 #crop-list li.cherries {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #c72127;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -656,15 +588,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.cherries:hover {
-  background: #85161a;
-  color: #c72127;
-}
-#crop-list li.cherries:hover svg .icon {
-  fill: #c72127;
-}
 #crop-list li.chile-peppers {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #ad0500;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -673,15 +599,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.chile-peppers:hover {
-  background: #610300;
-  color: #ad0500;
-}
-#crop-list li.chile-peppers:hover svg .icon {
-  fill: #ad0500;
-}
 #crop-list li.cucumbers {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #6ea250;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -690,15 +610,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.cucumbers:hover {
-  background: #4b6f37;
-  color: #6ea250;
-}
-#crop-list li.cucumbers:hover svg .icon {
-  fill: #6ea250;
-}
 #crop-list li.eggplant {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #4e244e;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -707,15 +621,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.eggplant:hover {
-  background: #1a0c1a;
-  color: #4e244e;
-}
-#crop-list li.eggplant:hover svg .icon {
-  fill: #4e244e;
-}
 #crop-list li.grapes {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #682941;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -724,15 +632,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.grapes:hover {
-  background: #31131f;
-  color: #682941;
-}
-#crop-list li.grapes:hover svg .icon {
-  fill: #682941;
-}
 #crop-list li.green-beans {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #6aa152;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -741,15 +643,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.green-beans:hover {
-  background: #496e38;
-  color: #6aa152;
-}
-#crop-list li.green-beans:hover svg .icon {
-  fill: #6aa152;
-}
 #crop-list li.herbs {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #477008;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -758,15 +654,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.herbs:hover {
-  background: #1a2903;
-  color: #477008;
-}
-#crop-list li.herbs:hover svg .icon {
-  fill: #477008;
-}
 #crop-list li.honeydew {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #acbd4e;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -775,15 +665,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.honeydew:hover {
-  background: #7d8b34;
-  color: #acbd4e;
-}
-#crop-list li.honeydew:hover svg .icon {
-  fill: #acbd4e;
-}
 #crop-list li.lettuce {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #649812;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -792,15 +676,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.lettuce:hover {
-  background: #37540a;
-  color: #649812;
-}
-#crop-list li.lettuce:hover svg .icon {
-  fill: #649812;
-}
 #crop-list li.onions {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #d8b39d;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -809,15 +687,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.onions:hover {
-  background: #c28966;
-  color: #d8b39d;
-}
-#crop-list li.onions:hover svg .icon {
-  fill: #d8b39d;
-}
 #crop-list li.peaches {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #e9703c;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -826,15 +698,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.peaches:hover {
-  background: #c34a16;
-  color: #e9703c;
-}
-#crop-list li.peaches:hover svg .icon {
-  fill: #e9703c;
-}
 #crop-list li.pears {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #b8be1c;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -843,15 +709,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.pears:hover {
-  background: #777b12;
-  color: #b8be1c;
-}
-#crop-list li.pears:hover svg .icon {
-  fill: #b8be1c;
-}
 #crop-list li.pinto-beans {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #a55430;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -860,15 +720,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.pinto-beans:hover {
-  background: #6a361f;
-  color: #a55430;
-}
-#crop-list li.pinto-beans:hover svg .icon {
-  fill: #a55430;
-}
 #crop-list li.plums {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #762d5a;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -877,15 +731,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.plums:hover {
-  background: #3f1830;
-  color: #762d5a;
-}
-#crop-list li.plums:hover svg .icon {
-  fill: #762d5a;
-}
 #crop-list li.popcorn {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #facc34;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -894,15 +742,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.popcorn:hover {
-  background: #dcaa05;
-  color: #facc34;
-}
-#crop-list li.popcorn:hover svg .icon {
-  fill: #facc34;
-}
 #crop-list li.potatoes {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #d4b160;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -911,15 +753,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.potatoes:hover {
-  background: #b68e31;
-  color: #d4b160;
-}
-#crop-list li.potatoes:hover svg .icon {
-  fill: #d4b160;
-}
 #crop-list li.pumpkins {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #e77324;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -928,15 +764,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.pumpkins:hover {
-  background: #ac5113;
-  color: #e77324;
-}
-#crop-list li.pumpkins:hover svg .icon {
-  fill: #e77324;
-}
 #crop-list li.raspberries {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #e21920;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -945,15 +775,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.raspberries:hover {
-  background: #9d1116;
-  color: #e21920;
-}
-#crop-list li.raspberries:hover svg .icon {
-  fill: #e21920;
-}
 #crop-list li.rhubarb {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #d44f62;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -962,15 +786,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.rhubarb:hover {
-  background: #ac2a3d;
-  color: #d44f62;
-}
-#crop-list li.rhubarb:hover svg .icon {
-  fill: #d44f62;
-}
 #crop-list li.strawberries {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #d30000;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -979,15 +797,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.strawberries:hover {
-  background: #860000;
-  color: #d30000;
-}
-#crop-list li.strawberries:hover svg .icon {
-  fill: #d30000;
-}
 #crop-list li.sweet-corn {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #fdbc34;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -996,15 +808,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.sweet-corn:hover {
-  background: #e29a02;
-  color: #fdbc34;
-}
-#crop-list li.sweet-corn:hover svg .icon {
-  fill: #fdbc34;
-}
 #crop-list li.squash {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #f5b128;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -1013,15 +819,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.squash:hover {
-  background: #c78809;
-  color: #f5b128;
-}
-#crop-list li.squash:hover svg .icon {
-  fill: #f5b128;
-}
 #crop-list li.tomatoes {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #d62104;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -1030,15 +830,9 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#crop-list li.tomatoes:hover {
-  background: #8b1503;
-  color: #d62104;
-}
-#crop-list li.tomatoes:hover svg .icon {
-  fill: #d62104;
-}
 #crop-list li.watermelon {
-  color: #999;
+  color: #888;
+  border-top: 6px solid #f64f55;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -1046,13 +840,6 @@ header #header-link:hover {
   fill: #f64f55;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
-}
-#crop-list li.watermelon:hover {
-  background: #ec0c14;
-  color: #f64f55;
-}
-#crop-list li.watermelon:hover svg .icon {
-  fill: #f64f55;
 }
 
 #crop-calendar {
@@ -1096,7 +883,6 @@ header #header-link:hover {
 }
 #footer-market a {
   padding: 11px 22px;
-  border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
   font-size: 0.5em;
@@ -1294,7 +1080,6 @@ footer #city-module .hidden form textarea {
   display: block;
   padding: 10px 0;
   border: 1px solid #aaa;
-  border-radius: 5px;
   background: white;
   font-size: 1.5em;
   text-indent: 10px;
@@ -1416,7 +1201,6 @@ body#submit p {
 }
 body#submit a {
   padding: 11px 22px;
-  border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
   font-size: 0.5em;
