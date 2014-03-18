@@ -95,7 +95,7 @@ header {
 			line-height: 1;
 		}
 		@media screen and (max-width:$big-phone) {
-			margin-left:40px;
+			margin-left:25px;
 		}
 		@media screen and (max-width:$phone) {
 			width:100%;
@@ -157,7 +157,11 @@ header {
 			margin-top:3px;
 		}
 		@media screen and (max-width: $small-tablet) {margin-top:-3px;}
-		@media screen and (max-width: $phone) {display:none;}
+		@media screen and (max-width: $phone) {
+			width: 90%;
+			margin-bottom: 19px;
+			margin-top: -7px;
+		}
 	}
 }
 
@@ -166,6 +170,8 @@ header {
 	background:lighten($main-color, 40%);
 	width:100%;
 	float:left;
+
+	@media screen and (max-width: $small-tablet) {padding:12px 0;}
 
 	#bookmark {
 		width:70%;

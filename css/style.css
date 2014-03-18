@@ -223,7 +223,7 @@ header #site-logo span {
 }
 @media screen and (max-width: 500px) {
   header #site-logo {
-    margin-left: 40px;
+    margin-left: 25px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -318,7 +318,9 @@ header #header-link:hover {
 }
 @media screen and (max-width: 400px) {
   header #header-link {
-    display: none;
+    width: 90%;
+    margin-bottom: 19px;
+    margin-top: -7px;
   }
 }
 
@@ -327,6 +329,11 @@ header #header-link:hover {
   background: #d1f5e0;
   width: 100%;
   float: left;
+}
+@media screen and (max-width: 680px) {
+  .bookmark-wrapper {
+    padding: 12px 0;
+  }
 }
 .bookmark-wrapper #bookmark {
   width: 70%;
