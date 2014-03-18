@@ -10,12 +10,15 @@
 
 <!-- Optimized mobile viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
 
-<!--	<link rel="shortcut icon" href="img/favicon.ico">
-	<link rel="apple-touch-icon" href="img/logo.40x40png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/logo.80x80.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/logo.128x128.png">	-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	<link href="images/apple-icons/apple-touch-icon-60x60.png" rel="apple-touch-icon" />
+	<link href="images/apple-icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+	<link href="images/apple-icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+	<link href="images/apple-icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
 
 	<link href='http://fonts.googleapis.com/css?family=Dosis:400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500,700,800' rel='stylesheet' type='text/css'>
