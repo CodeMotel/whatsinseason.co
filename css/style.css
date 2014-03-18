@@ -339,7 +339,7 @@ header #header-link:hover {
 }
 .bookmark-wrapper #bookmark p {
   display: inline-block;
-  width: 50%;
+  width: 70%;
   margin: 0;
   float: left;
 }
@@ -356,6 +356,7 @@ header #header-link:hover {
 }
 .bookmark-wrapper #bookmark #share {
   float: right;
+  width: 30%;
   text-align: right;
 }
 .bookmark-wrapper #bookmark #share a:first-child {
