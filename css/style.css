@@ -328,11 +328,6 @@ header #header-link:hover {
   width: 100%;
   float: left;
 }
-@media screen and (max-width: 900px) {
-  .bookmark-wrapper {
-    width: 90%;
-  }
-}
 .bookmark-wrapper #bookmark {
   width: 70%;
   max-width: 1000px;
@@ -341,6 +336,11 @@ header #header-link:hover {
   font-size: 1.6em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
+}
+@media screen and (max-width: 900px) {
+  .bookmark-wrapper #bookmark {
+    width: 90%;
+  }
 }
 .bookmark-wrapper #bookmark p {
   display: inline-block;
@@ -371,6 +371,7 @@ header #header-link:hover {
   .bookmark-wrapper #bookmark {
     width: 100%;
     text-align: center;
+    display: block;
   }
 }
 

@@ -166,7 +166,6 @@ header {
 	background:lighten($main-color, 40%);
 	width:100%;
 	float:left;
-	@media screen and (max-width: $tablet) {width:90%;}
 
 	#bookmark {
 		width:70%;
@@ -175,6 +174,8 @@ header {
 		color:darken($main-color, 15%);
 		font-size:1.6em;
 		@include a-5;
+
+		@media screen and (max-width: $tablet) {width:90%;}
 
 		p {
 			display:inline-block;
@@ -200,6 +201,7 @@ header {
 		@media screen and (max-width: $small-tablet) {
 			width:100%;
 			text-align: center;
+			display:block;
 		}
 	}
 }
