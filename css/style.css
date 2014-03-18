@@ -373,7 +373,7 @@ header #header-link:hover {
   }
 }
 
-#closed-msg {
+#closed-msg, #open-msg {
   width: 90%;
   padding: 0 5%;
   float: left;
@@ -384,15 +384,30 @@ header #header-link:hover {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
 }
-#closed-msg .sub {
+#closed-msg .sub, #open-msg .sub {
   margin-top: 13px;
   margin-bottom: 40px;
   color: #888;
-  font-size: 0.8em;
+  font-size: 0.75em;
 }
-@media screen and (max-width: 680px) {
-  #closed-msg {
-    font-size: 2em;
+#closed-msg .sub a, #open-msg .sub a {
+  margin-left: 3px;
+  color: #239a55;
+}
+#closed-msg .sub a span, #open-msg .sub a span {
+  text-decoration: none;
+  font-size: 1em;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+@media screen and (max-width: 900px) {
+  #closed-msg, #open-msg {
+    font-size: 2.5em;
+  }
+}
+@media screen and (max-width: 701px) {
+  #closed-msg, #open-msg {
+    font-size: 2.1em;
   }
 }
 
@@ -843,12 +858,7 @@ header #header-link:hover {
 }
 
 #crop-calendar {
-  width: 90%;
-  float: left;
-  margin: 60px 5% 0;
   text-align: center;
-  color: #555;
-  font-size: 2em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
 }
@@ -865,14 +875,13 @@ header #header-link:hover {
 @media screen and (max-width: 500px) {
   #crop-calendar {
     margin-top: 30px;
-    font-size: 1.5em;
   }
 }
 
 #footer-market {
   float: left;
   width: 100%;
-  padding: 300px 0;
+  padding: 320px 0 340px;
   text-align: center;
   color: white;
   font-size: 3.4em;
@@ -974,12 +983,12 @@ footer #about-module .button span,
 footer #city-module .button span {
   margin-right: 9px;
   font-size: 1.1em;
-  line-height: 0.8;
+  line-height: 0.9;
 }
 footer #about-module .button span.genericon-close,
 footer #city-module .button span.genericon-close {
   display: none;
-  line-height: 0.9;
+  line-height: 1;
 }
 footer #about-module .button:hover,
 footer #city-module .button:hover {
@@ -1006,7 +1015,7 @@ footer #city-module .hidden {
   bottom: -1000px;
   padding: 25px 0;
   text-align: left;
-  background: rgba(255, 253, 245, 0.9);
+  background: rgba(255, 253, 245, 0.93);
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -1081,7 +1090,7 @@ footer #city-module .hidden form textarea {
   padding: 10px 0;
   border: 1px solid #aaa;
   background: white;
-  font-size: 1.5em;
+  font-size: 1.6em;
   text-indent: 10px;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
@@ -1090,13 +1099,13 @@ footer #about-module .hidden form input[type="submit"], footer #about-module .hi
 footer #city-module .hidden form input[type="submit"],
 footer #city-module .hidden form textarea[type="submit"] {
   -webkit-appearance: none;
-  background: #29b765;
-  color: white;
-  border: none;
-  font-size: 1.8em;
+  background: none;
+  color: #1b7943;
+  border: 1px solid #1b7943;
+  font-size: 2em;
   letter-spacing: 0.05em;
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
@@ -1118,7 +1127,7 @@ footer #city-module.active .hidden {
 }
 footer #about-module.active .button,
 footer #city-module.active .button {
-  background: red;
+  background: #e74c3c;
 }
 footer #about-module.active .button span.genericon-close,
 footer #city-module.active .button span.genericon-close {

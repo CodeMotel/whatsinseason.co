@@ -26,8 +26,14 @@
 <!--******** Crop List ********-->
 <div id="crop-wrap" class="wrapper">
    <div id="closed-msg">
-      <p>Sorry, the markets are closed. They will open again in May!</p>
-      <p class="sub">The items below will be available during the next season.</p>
+     <p>Sorry, the markets are closed. We will update in May!</p>
+     <p class="sub">here's a look at what will be available next season.</p>
+      <!--<p>Sorry, the markets are closed. They will open again in May!</p>-->
+      <!--<p class="sub">The items below will be available next season.</p>-->
+    </div>
+    <div id="open-msg">
+      <p>Seasonal Items Available at your Local Farmer's Market</p>
+      <p class="sub">Don't see what you're looking for?  View the <a href="http://www.coloradofreshmarkets.com/crop_calendar.html">crop calendar <span class="genericon genericon-video"></span></a></p>
     </div>
 
    <ul id="crop-list">
@@ -67,7 +73,7 @@
      <li id="tomatoes" class="tomatoes"><?php include('includes/food/tomatoes.php'); ?><span>tomatoes</span></li>
      <li id="watermelon" class="watermelon"><?php include('includes/food/watermelon.php'); ?><span>watermelon</span></li>
    </ul>
-   <!--<div id="crop-calendar">Don't see what you're looking for?  View the <a href="http://www.coloradofreshmarkets.com/crop_calendar.html">crop calendar <span class="genericon genericon-video"></span></a></div>-->
+
 </div>
 
 <div id="footer-market">

@@ -49,17 +49,25 @@ jQuery("#date-header").fitText(2, { minFontSize: '34px', maxFontSize: '66px' });
 
 // Show or Hide Closed Message
 $( document ).ready( function() {
-      var now = new Date();
-      var currentMonth = now.getMonth();//returns 0-11
-      //based on month hide or show your div
-      if( currentMonth > 4 && currentMonth < 9 ) {
-      var element = document.getElementById('closed-msg');
-      element.parentNode.removeChild(element);
+  var now = new Date();
+  var currentMonth = now.getMonth();//returns 0-11
 
-      } else {
-      $( "#closed-msg").css({'display': 'block'});
-      }
-    });
+  // Markets are Open
+  if( currentMonth > 4 && currentMonth < 9 ) {
+    var element = document.getElementById('closed-msg');
+    element.parentNode.removeChild(element);
+    $( "#open-msg").css({'display': 'block'});
+    $('body').append("<script src='js/food.js'></script>");
+  }
+  // Markets are Closed
+  else {
+    $( "#closed-msg").css({'display': 'block'});
+    var element = document.getElementById('open-msg');
+    element.parentNode.removeChild(element);
+  }
+});
+
+
 
 
 // Footer Toggles
