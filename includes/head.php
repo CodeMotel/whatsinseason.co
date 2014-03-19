@@ -3,7 +3,7 @@
 <head>
 	<title>What's in Season, Colorado?</title>
 	<meta charset="utf-8">
-	<meta name="description" content="Making healthier living easier by helping you find locally available farm fresh food." />
+	<meta name="description" content="Making healthy living easier by helping you find locally available farm fresh food." />
 	<meta name="author" content="Chris Holder - chris@see8ch.com">
 	<meta name="keywords" content="Colorado, Denver, Front Range, farmer's market, farmer, farm, market, fresh, farm fresh, food, vegetables, fruit, healthy, organic, seasonal, Colorado Fresh Markets" />
 
@@ -11,7 +11,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@whatsinseasonco">
 	<meta name="twitter:title" content="What's in Season, Colorado?">
-	<meta name="twitter:description" content="Making healthier living easier by helping you find locally available farm fresh food.">
+	<meta name="twitter:description" content="Making healthy living easier by helping you find locally available farm fresh food.">
 	<meta name="twitter:creator" content="@see8ch">
 	<meta name="twitter:image" content="http://www.whatsinseason.co/default-icon.png">
 
@@ -20,7 +20,7 @@
 	<!--<meta property="og:type" content="article" />-->
 	<meta property="og:url" content="http://www.whatsinseason.co/" />
 	<meta property="og:image" content="http://www.whatsinseason.co/fb-default-icon.png" />
-	<meta property="og:description" content="Making healthier living easier by helping you find locally available farm fresh food." />
+	<meta property="og:description" content="Making healthy living easier by helping you find locally available farm fresh food." />
 	<meta property="og:site_name" content="What's in Season, Colorado?" />
 	<!--<meta property="fb:admins" content="Facebook numeric ID" />-->
 
