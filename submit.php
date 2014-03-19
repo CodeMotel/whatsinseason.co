@@ -4,7 +4,7 @@
 if(isset($_POST['url']) && $_POST['url'] == ''){
 
 	// then send the form to your email
-	mail( 'chris@see8ch.com', 'Contact Form', print_r($_POST,true) );
+	mail( 'hello@whatsinseason.co', 'Contact Form', print_r($_POST,true) );
 }
 
 // otherwise, let the spammer think that they got their message through
