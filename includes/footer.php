@@ -56,7 +56,7 @@
 
 
         <!-- Modernizr -->
-        <script src="js/modernizr.js"></script>
+        <!--<script src="js/modernizr.js"></script>-->
 
         <!-- Browser Update Mess -->
         <script type="text/javascript">
