@@ -1045,22 +1045,27 @@ header #header-link:hover {
   position: absolute;
   top: 10px;
   right: 10px;
-  padding: 2px;
-  border-radius: 50%;
-  background: white;
-  border: 2px solid #208e4e;
+  padding: 6px 12px;
+  background: #2ecc71;
+  color: #1b7943;
+  font-size: 1.6em;
+  border: 1px solid #1b7943;
   cursor: pointer;
   z-index: 9999;
   display: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
 }
 #map #map-close span {
-  font-size: 28px;
-  height: 26px;
-  width: 26px;
-  color: #208e4e;
-  text-indent: -1px;
-  top: 2px;
+  font-size: 1.2em;
+  top: -1px;
   position: relative;
+}
+#map #map-close:hover {
+  border-color: white;
+  color: white;
 }
 #map.active {
   bottom: 46px;

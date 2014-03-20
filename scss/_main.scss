@@ -477,21 +477,28 @@ header {
 		position:absolute;
 		top:10px;
 		right:10px;
-		padding:2px;
-		border-radius: 50%;
-		background:white;
-		border: 2px solid darken($main-color, 15%);
+		padding:6px 12px;
+		//border-radius: 50%;
+		background:$main-color;
+		color:darken($main-color, 20%);
+		font-size: 1.6em;
+		border: 1px solid darken($main-color, 20%);
 		cursor:pointer;
 		z-index: 9999;
 		display:none;
+		@include a-5;
+		@include ease;
 		span {
-			font-size:28px;
-			height:26px;
-			width:26px;
-			color:darken($main-color, 15%);
-			text-indent: -1px;
-			top: 2px;
+			font-size:1.2em;
+			//height:26px;
+			//width:26px;
+			//text-indent: -1px;
+			top: -1px;
 			position: relative;
+		}
+		&:hover {
+			border-color:white;
+			color:white;
 		}
 	}
 	&.active {
