@@ -970,7 +970,7 @@ header #header-link:hover {
   }
 }
 
-#footer-market {
+#find-a-market {
   float: left;
   width: 100%;
   padding: 310px 0 380px;
@@ -982,7 +982,7 @@ header #header-link:hover {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 700;
 }
-#footer-market a {
+#find-a-market a {
   padding: 11px 22px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
@@ -1002,10 +1002,10 @@ header #header-link:hover {
   border: none;
   color: #176437;
 }
-#footer-market a:hover {
+#find-a-market a:hover {
   border-color: white;
 }
-#footer-market a span {
+#find-a-market a span {
   position: relative;
   top: 5px;
   margin-right: 2px;
@@ -1013,11 +1013,11 @@ header #header-link:hover {
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-#footer-market a:hover {
+#find-a-market a:hover {
   background: #2ecc71;
 }
 @media screen and (max-width: 500px) {
-  #footer-market {
+  #find-a-market {
     padding: 130px 0 180px;
   }
 }
