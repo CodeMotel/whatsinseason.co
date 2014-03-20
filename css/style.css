@@ -1171,11 +1171,11 @@ footer #city-module .button:hover {
   }
   footer #about-module .button,
   footer #city-module .button {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   footer #about-module .button span,
   footer #city-module .button span {
-    margin-right: 2px;
+    margin-right: 1px;
   }
 }
 footer #about-module .hidden,

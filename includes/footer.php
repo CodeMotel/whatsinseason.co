@@ -28,7 +28,7 @@
 
           <!-- Add Your City Section -->
           <div id="city-module" class="footer-toggles">
-            <a id="city-button"class="button"><span class="genericon genericon-comment"></span><span class="genericon genericon-close"></span> add your city</a>
+            <a id="city-button"class="button"><span class="genericon genericon-comment"></span><span class="genericon genericon-close"></span> add your market</a>
             <div id="city-hidden" class="hidden">
               <form method="post" action="submit.php">
                 <p class="headline">Interested in adding your city or market?</p>
@@ -56,7 +56,7 @@
 
 
 
-        <!-- Browser Update Mess -->
+        <!-- Browser Update Message -->
         <script type="text/javascript">
           var $buoop = {};
           $buoop.ol = window.onload;
