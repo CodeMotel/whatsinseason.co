@@ -1066,6 +1066,9 @@ header #header-link:hover {
 #map.active #map-close {
   display: block;
 }
+#map.active + footer {
+  bottom: 0 !important;
+}
 
 /* Footer
 ======================================================= */

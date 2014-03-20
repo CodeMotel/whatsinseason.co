@@ -61,14 +61,9 @@ $(function() {
     var scroll_top = $(window).scrollTop();
     if (scroll_top > sticky_navigation_offset_top) {
       $('footer').css({ 'bottom':0 });
-      //$('#map.active').css({ 'bottom':46});
     } else {
       $('footer').css({ 'bottom':-70});
       $(".footer-toggles").removeClass("active");
-      //$('#map.active').css({ 'bottom':0});
-      //var vph = $(window).height();
-      //$('#map.active').css({'height': vph + 'px'});
-      //$('#map.active iframe').css({'height': vph + 'px'});
     }
   };
   sticky_navigation();
