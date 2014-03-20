@@ -65,6 +65,7 @@ header {
 		max-width:1000px;
 		margin:0 auto;
 		@media screen and (max-width: $tablet) {width:90%;}
+		@media screen and (max-width: $phone) {padding:12px 0;}
 	}
 	#site-logo, #header-link {
 		display: inline-block;
@@ -218,19 +219,25 @@ header {
 		}
 		@media screen and (max-width: $big-phone) {
 			p, #share {
-				width:100%;
-				text-align: center;
+				width:50%;
+				position:relative;
+				top:1px;
+				//text-align: center;
 				display:block;
 				font-size: 0.95em;
 				span {margin-right:3px;}
 			}
 			#share {
-				display: none;
+				top:0;
+				//display: none;
 				//width:35%;
-				margin-top:10px;
-				//text-align:right;
-				font-size:1.2em;
-				span {margin-right:10px;}
+				//margin-top:10px;
+				text-align:right;
+				font-size:1.1em;
+				span {
+					margin-right:10px;
+					&.genericon-googleplus {margin-right:0;}
+				}
 			}
 		}
 	}

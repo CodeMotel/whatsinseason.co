@@ -188,6 +188,11 @@ header .header-wrapper {
     width: 90%;
   }
 }
+@media screen and (max-width: 400px) {
+  header .header-wrapper {
+    padding: 12px 0;
+  }
+}
 header #site-logo, header #header-link {
   display: inline-block;
   margin: 0;
@@ -394,8 +399,9 @@ header #header-link:hover {
 }
 @media screen and (max-width: 500px) {
   .bookmark-wrapper #bookmark p, .bookmark-wrapper #bookmark #share {
-    width: 100%;
-    text-align: center;
+    width: 50%;
+    position: relative;
+    top: 1px;
     display: block;
     font-size: 0.95em;
   }
@@ -403,12 +409,15 @@ header #header-link:hover {
     margin-right: 3px;
   }
   .bookmark-wrapper #bookmark #share {
-    display: none;
-    margin-top: 10px;
-    font-size: 1.2em;
+    top: 0;
+    text-align: right;
+    font-size: 1.1em;
   }
   .bookmark-wrapper #bookmark #share span {
     margin-right: 10px;
+  }
+  .bookmark-wrapper #bookmark #share span.genericon-googleplus {
+    margin-right: 0;
   }
 }
 
