@@ -1004,6 +1004,7 @@ header #header-link:hover {
   background: rgba(255, 253, 245, 0.75);
   border: none;
   color: #176437;
+  cursor: pointer;
 }
 #find-a-market a:hover {
   border-color: white;
@@ -1023,6 +1024,47 @@ header #header-link:hover {
   #find-a-market {
     padding: 130px 0 180px;
   }
+}
+
+#map {
+  width: 100%;
+  float: left;
+  position: fixed;
+  bottom: -2500px;
+  overflow: hidden;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+#map iframe {
+  position: absolute;
+  top: -27px;
+  bottom: 0;
+  width: 100%;
+}
+#map #map-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  border: 2px solid #208e4e;
+  cursor: pointer;
+  z-index: 9999;
+  display: none;
+}
+#map #map-close span {
+  font-size: 26px;
+  height: 26px;
+  width: 26px;
+  color: #208e4e;
+  text-indent: -1px;
+  top: 2px;
+  position: relative;
+}
+#map.active {
+  bottom: 46px;
+}
+#map.active #map-close {
+  display: block;
 }
 
 /* Footer

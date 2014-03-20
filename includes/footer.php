@@ -55,8 +55,6 @@
         <script src="js/production.min.js"></script>
 
 
-        <!-- Modernizr -->
-        <!--<script src="js/modernizr.js"></script>-->
 
         <!-- Browser Update Mess -->
         <script type="text/javascript">

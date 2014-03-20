@@ -76,9 +76,12 @@
 
 <div id="find-a-market">
   <p>Find a Market</p>
-  <a href="http://www.coloradofreshmarkets.com/markets.html">Colorado Fresh Markets <span class="genericon genericon-location"></span></a>
+  <a id="map-toggle">View Map <span class="genericon genericon-location"></span></a>
 </div>
 
-
+<div id="map">
+  <a id="map-close"><span class="genericon genericon-close"></span></a>
+  <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zRqRitt7DBls.kLo0oeyF4ZSc" ></iframe>
+</div>
 
 <?php include('includes/footer.php'); ?>

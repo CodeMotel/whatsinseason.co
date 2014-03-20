@@ -61,13 +61,44 @@ $(function() {
     var scroll_top = $(window).scrollTop();
     if (scroll_top > sticky_navigation_offset_top) {
       $('footer').css({ 'bottom':0 });
+      //$('#map.active').css({ 'bottom':46});
     } else {
       $('footer').css({ 'bottom':-70});
       $(".footer-toggles").removeClass("active");
+      //$('#map.active').css({ 'bottom':0});
+      //var vph = $(window).height();
+      //$('#map.active').css({'height': vph + 'px'});
+      //$('#map.active iframe').css({'height': vph + 'px'});
     }
   };
   sticky_navigation();
   $(window).scroll(function() {
      sticky_navigation();
   });
+});
+
+
+// Map Styles
+// -- Set Dynamic Heights and CSS -- //
+$(document).ready(function(){
+      resizeDiv();
+  });
+  window.onresize = function(event) {
+      resizeDiv();
+  };
+  function resizeDiv() {
+      vpw = $(window).width();
+      vph = $(window).height();
+
+      // -- Section Width and Height -- //
+      $('#map').css({'height': vph - 46 + 'px'});
+      $('#map iframe').css({'height': vph + 'px'});
+}
+
+// Map Toggles
+$("#map-toggle").click(function(){
+  $("#map").toggleClass("active");
+});
+$("#map-close").click(function(){
+  $("#map").toggleClass("active");
 });

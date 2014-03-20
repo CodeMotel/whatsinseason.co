@@ -447,6 +447,7 @@ header {
 		background:rgba(255,253,245,0.75);
 		border:none;
 		color:darken($main-color, 25%);
+		cursor: pointer;
 		span {
 			position:relative;
 			top:5px;
@@ -458,6 +459,45 @@ header {
 	}
 	@media screen and (max-width: $big-phone) {padding:130px 0 180px;}
 }
+
+#map {
+	width:100%;
+	float:left;
+	position:fixed;
+	bottom:-2500px;
+	overflow:hidden;
+	@include ease;
+	iframe {
+		position: absolute;
+		top:-27px;
+		bottom:0;
+		width:100%;
+	}
+	#map-close {
+		position:absolute;
+		top:10px;
+		right:10px;
+		border-radius: 50%;
+		border: 2px solid darken($main-color, 15%);
+		cursor:pointer;
+		z-index: 9999;
+		display:none;
+		span {
+			font-size:26px;
+			height:26px;
+			width:26px;
+			color:darken($main-color, 15%);
+			text-indent: -1px;
+			top: 2px;
+			position: relative;
+		}
+	}
+	&.active {
+		bottom:46px;
+		#map-close {display:block;}
+	}
+}
+
 
 
 /* Footer
