@@ -502,6 +502,7 @@ header {
 			//color:darken($secondary-color, 25%);
 		}
 		@media screen and (max-width: $tablet) {
+			padding-bottom:9px;
 			span {top:0px;}
 		}
 	}
