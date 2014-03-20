@@ -2,7 +2,7 @@
 <header id="top-link">
    <div class="header-wrapper">
       <div id="site-logo">what's in season?</div>
-      <a href="#find-a-market"><div id="header-link" >Find A Market <span class="genericon genericon-location"></span></div></a>
+      <a id="map-toggle-2"><div id="header-link" >Find A Market <span class="genericon genericon-location"></span></div></a>
       <div id="header-icon"><?php include('includes/header-icon.php'); ?></div>
    </div>
 </header>

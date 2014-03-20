@@ -94,6 +94,10 @@ $(document).ready(function(){
 $("#map-toggle").click(function(){
   $("#map").toggleClass("active");
 });
+$("#map-toggle-2").click(function(){
+  $("#map").toggleClass("active");
+});
+// Close Map
 $("#map-close").click(function(){
   $("#map").toggleClass("active");
 });
