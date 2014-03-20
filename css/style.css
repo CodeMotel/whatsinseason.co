@@ -1046,7 +1046,7 @@ header #header-link:hover {
   position: absolute;
   top: 9px;
   right: 9px;
-  padding: 7px 13px;
+  padding: 7px 11px 7px 13px;
   background: #e74c3c;
   color: white;
   font-size: 1.6em;
