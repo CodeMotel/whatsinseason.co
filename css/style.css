@@ -1037,7 +1037,7 @@ header #header-link:hover {
 }
 #map iframe {
   position: absolute;
-  top: -27px;
+  top: 0;
   bottom: 0;
   width: 100%;
 }
@@ -1045,14 +1045,16 @@ header #header-link:hover {
   position: absolute;
   top: 10px;
   right: 10px;
+  padding: 2px;
   border-radius: 50%;
+  background: white;
   border: 2px solid #208e4e;
   cursor: pointer;
   z-index: 9999;
   display: none;
 }
 #map #map-close span {
-  font-size: 26px;
+  font-size: 28px;
   height: 26px;
   width: 26px;
   color: #208e4e;

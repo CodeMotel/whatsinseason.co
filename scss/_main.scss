@@ -469,7 +469,7 @@ header {
 	@include ease;
 	iframe {
 		position: absolute;
-		top:-27px;
+		top:0;//-27px;
 		bottom:0;
 		width:100%;
 	}
@@ -477,13 +477,15 @@ header {
 		position:absolute;
 		top:10px;
 		right:10px;
+		padding:2px;
 		border-radius: 50%;
+		background:white;
 		border: 2px solid darken($main-color, 15%);
 		cursor:pointer;
 		z-index: 9999;
 		display:none;
 		span {
-			font-size:26px;
+			font-size:28px;
 			height:26px;
 			width:26px;
 			color:darken($main-color, 15%);

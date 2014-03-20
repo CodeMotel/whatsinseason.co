@@ -136,7 +136,7 @@ $(document).ready(function(){
 
       // -- Section Width and Height -- //
       $('#map').css({'height': vph - 46 + 'px'});
-      $('#map iframe').css({'height': vph + 'px'});
+      $('#map iframe').css({'height': vph - 46 + 'px'});
 }
 
 // Map Toggles
