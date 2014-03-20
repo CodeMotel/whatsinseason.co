@@ -501,6 +501,9 @@ header {
 			//border-color:white;
 			//color:darken($secondary-color, 25%);
 		}
+		@media screen and (max-width: $tablet) {
+			span {top:0px;}
+		}
 	}
 	&.active {
 		bottom:46px;

@@ -1064,6 +1064,11 @@ header #header-link:hover {
   top: -1px;
   position: relative;
 }
+@media screen and (max-width: 900px) {
+  #map #map-close span {
+    top: 0px;
+  }
+}
 #map.active {
   bottom: 46px;
 }
