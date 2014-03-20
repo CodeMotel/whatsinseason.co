@@ -198,6 +198,11 @@ header {
 				text-decoration:none;
 				&:hover {color:white;}
 			}
+			&.mobile-msg {display:none}
+			@media screen and (max-width: $tablet) {
+				&.mobile-msg {display:inline-block;}
+				&.bookmark-msg {display:none;}
+			}
 		}
 		#share {
 			float:right;
@@ -219,7 +224,9 @@ header {
 				span {margin-right:3px;}
 			}
 			#share {
+				//width:35%;
 				margin-top:10px;
+				//text-align:right;
 				font-size:1.2em;
 				span {margin-right:10px;}
 			}

@@ -367,6 +367,17 @@ header #header-link:hover {
 .bookmark-wrapper #bookmark p a:hover {
   color: white;
 }
+.bookmark-wrapper #bookmark p.mobile-msg {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .bookmark-wrapper #bookmark p.mobile-msg {
+    display: inline-block;
+  }
+  .bookmark-wrapper #bookmark p.bookmark-msg {
+    display: none;
+  }
+}
 .bookmark-wrapper #bookmark #share {
   float: right;
   width: 30%;
