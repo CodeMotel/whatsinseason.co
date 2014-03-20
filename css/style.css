@@ -403,6 +403,7 @@ header #header-link:hover {
     margin-right: 3px;
   }
   .bookmark-wrapper #bookmark #share {
+    display: none;
     margin-top: 10px;
     font-size: 1.2em;
   }
