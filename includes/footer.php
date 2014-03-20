@@ -24,7 +24,7 @@
           </div>
 
           <!-- Icon -->
-          <div id="footer-icon"><a class="go-top"><?php include('includes/header-icon.php'); ?></a></div>
+          <div id="footer-icon"><a href="#top-link"><?php include('includes/header-icon.php'); ?></a></div>
 
           <!-- Add Your City Section -->
           <div id="city-module" class="footer-toggles">
