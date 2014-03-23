@@ -1364,6 +1364,10 @@ footer #city-module .hidden {
   width: 45%;
 }
 
+.fixfixed {
+  position: absolute;
+}
+
 #antispam {
   display: none !important;
 }
