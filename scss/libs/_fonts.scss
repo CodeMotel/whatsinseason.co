@@ -42,6 +42,11 @@
 @mixin lato-9 {@include lato; font-weight:900;}
 @mixin lato-9-i {@include lato-9; font-style:italic;}
 
+@mixin font-lato($weight:300, $style:normal) {
+	font-family: 'Lato', sans-serif;
+	font-weight:$weight;
+	font-style:$style;
+}
 
 
 //-- Hammersmith --//
@@ -65,6 +70,12 @@
 @mixin a-8-i {@include a-8; font-style:italic;}
 @mixin a-9 {@include alegreya; font-weight:900;}
 @mixin a-9-i {@include a-9; font-style:italic;}
+
+@mixin font-alegreya($weight:300, $style:normal){
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight:$weight;
+	font-style:$style;
+}
 
 
 //-- Cedarville --//
