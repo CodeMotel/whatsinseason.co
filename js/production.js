@@ -52,7 +52,7 @@ jQuery("#date-header").fitText(2, { minFontSize: '34px', maxFontSize: '66px' });
 
 
 // Show or Hide Closed Message
-$( document ).ready( function() {
+$(function() {
   var now = new Date();
   var currentMonth = now.getMonth();//returns 0-11
 
