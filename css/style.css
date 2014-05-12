@@ -67,6 +67,14 @@ img {
 ================================================================================================= */
 /* Transition Times
 ================================================================================================= */
+/* Open Sans
+================================================================================================= */
+/* Lato
+================================================================================================= */
+/* Proxima Nova
+================================================================================================= */
+/* Novecento
+================================================================================================= */
 @font-face {
   font-family: 'Novecentowide-Bold';
   src: url("/fonts/novecento/25DFFC_0_0.eot");
@@ -103,11 +111,21 @@ img {
   src: url("/fonts/novecento/25DFFC_5_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_5_0.woff") format("woff"), url("/fonts/novecento/25DFFC_5_0.ttf") format("truetype");
 }
 
+/* Hammersmith
+================================================================================================= */
+/* Alegreya
+================================================================================================= */
+/* Cedarville
+================================================================================================= */
+/* Yanone
+================================================================================================= */
+/* Dosis
+================================================================================================= */
 /* Links and Headers
 ======================================================= */
 a {
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 a:focus, a:hover, a:active {
   outline: 0;
@@ -119,6 +137,7 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
+  font-style: normal;
 }
 
 h1 {
@@ -176,6 +195,7 @@ header {
   text-align: center;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
+  font-style: normal;
 }
 header .header-wrapper {
   padding: 17px 0;
@@ -208,6 +228,7 @@ header #site-logo {
   text-shadow: 2px 2px 0 #25a25a;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
+  font-style: normal;
 }
 header #site-logo span {
   position: relative;
@@ -286,8 +307,9 @@ header #header-link {
   letter-spacing: 0.05em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  font-style: normal;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
   color: #208e4e;
   border-color: #208e4e;
   float: right;
@@ -350,6 +372,7 @@ header #header-link:hover {
   font-size: 1.6em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
+  font-style: normal;
 }
 @media screen and (max-width: 900px) {
   .bookmark-wrapper #bookmark {
@@ -435,6 +458,7 @@ header #header-link:hover {
   text-shadow: 2px 2px 0 #176437;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
+  font-style: normal;
 }
 #current-date #date-header {
   width: 90%;
@@ -487,6 +511,7 @@ header #header-link:hover {
   font-size: 3em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
+  font-style: normal;
 }
 #closed-msg .sub, #open-msg .sub {
   margin-top: 13px;
@@ -501,8 +526,8 @@ header #header-link:hover {
 #closed-msg .sub a span, #open-msg .sub a span {
   text-decoration: none;
   font-size: 1em;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 @media screen and (max-width: 900px) {
   #closed-msg, #open-msg {
@@ -538,6 +563,7 @@ header #header-link:hover {
   font-size: 2.5em;
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
+  font-style: normal;
 }
 #crop-list li:nth-child(3n) {
   margin-right: 0;
@@ -579,393 +605,394 @@ header #header-link:hover {
 #crop-list li.apples {
   color: #888;
   border-top: 6px solid #b8182c;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.apples svg .icon {
   fill: #b8182c;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.apricots {
   color: #888;
   border-top: 6px solid #f58416;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.apricots svg .icon {
   fill: #f58416;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.asparagus {
   color: #888;
   border-top: 6px solid #6b7917;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.asparagus svg .icon {
   fill: #6b7917;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.beets {
   color: #888;
   border-top: 6px solid #8b224d;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.beets svg .icon {
   fill: #8b224d;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.bell-peppers {
   color: #888;
   border-top: 6px solid #4c6a00;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.bell-peppers svg .icon {
   fill: #4c6a00;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.broccoli {
   color: #888;
   border-top: 6px solid #43860e;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.broccoli svg .icon {
   fill: #43860e;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cabbage {
   color: #888;
   border-top: 6px solid #8c1c69;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cabbage svg .icon {
   fill: #8c1c69;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cantaloupe {
   color: #888;
   border-top: 6px solid #f68c35;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cantaloupe svg .icon {
   fill: #f68c35;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.carrots {
   color: #888;
   border-top: 6px solid #fe6e0e;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.carrots svg .icon {
   fill: #fe6e0e;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cauliflower {
   color: #888;
   border-top: 6px solid #d3ccb0;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cauliflower svg .icon {
   fill: #d3ccb0;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.celery {
   color: #888;
   border-top: 6px solid #90b64b;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.celery svg .icon {
   fill: #90b64b;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cherries {
   color: #888;
   border-top: 6px solid #c72127;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cherries svg .icon {
   fill: #c72127;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.chile-peppers {
   color: #888;
   border-top: 6px solid #ad0500;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.chile-peppers svg .icon {
   fill: #ad0500;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cucumbers {
   color: #888;
   border-top: 6px solid #6ea250;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cucumbers svg .icon {
   fill: #6ea250;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.eggplant {
   color: #888;
   border-top: 6px solid #4e244e;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.eggplant svg .icon {
   fill: #4e244e;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.grapes {
   color: #888;
   border-top: 6px solid #682941;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.grapes svg .icon {
   fill: #682941;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.green-beans {
   color: #888;
   border-top: 6px solid #6aa152;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.green-beans svg .icon {
   fill: #6aa152;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.herbs {
   color: #888;
   border-top: 6px solid #477008;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.herbs svg .icon {
   fill: #477008;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.honeydew {
   color: #888;
   border-top: 6px solid #acbd4e;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.honeydew svg .icon {
   fill: #acbd4e;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.lettuce {
   color: #888;
   border-top: 6px solid #649812;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.lettuce svg .icon {
   fill: #649812;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.onions {
   color: #888;
   border-top: 6px solid #d8b39d;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.onions svg .icon {
   fill: #d8b39d;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.peaches {
   color: #888;
   border-top: 6px solid #e9703c;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.peaches svg .icon {
   fill: #e9703c;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pears {
   color: #888;
   border-top: 6px solid #b8be1c;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pears svg .icon {
   fill: #b8be1c;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pinto-beans {
   color: #888;
   border-top: 6px solid #a55430;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pinto-beans svg .icon {
   fill: #a55430;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.plums {
   color: #888;
   border-top: 6px solid #762d5a;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.plums svg .icon {
   fill: #762d5a;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.popcorn {
   color: #888;
   border-top: 6px solid #facc34;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.popcorn svg .icon {
   fill: #facc34;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.potatoes {
   color: #888;
   border-top: 6px solid #d4b160;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.potatoes svg .icon {
   fill: #d4b160;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pumpkins {
   color: #888;
   border-top: 6px solid #e77324;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pumpkins svg .icon {
   fill: #e77324;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.raspberries {
   color: #888;
   border-top: 6px solid #e21920;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.raspberries svg .icon {
   fill: #e21920;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.rhubarb {
   color: #888;
   border-top: 6px solid #d44f62;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.rhubarb svg .icon {
   fill: #d44f62;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.strawberries {
   color: #888;
   border-top: 6px solid #d30000;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.strawberries svg .icon {
   fill: #d30000;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.sweet-corn {
   color: #888;
   border-top: 6px solid #fdbc34;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.sweet-corn svg .icon {
   fill: #fdbc34;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.squash {
   color: #888;
   border-top: 6px solid #f5b128;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.squash svg .icon {
   fill: #f5b128;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.tomatoes {
   color: #888;
   border-top: 6px solid #d62104;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.tomatoes svg .icon {
   fill: #d62104;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.watermelon {
   color: #888;
   border-top: 6px solid #f64f55;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.watermelon svg .icon {
   fill: #f64f55;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 
 #crop-calendar {
   text-align: center;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
+  font-style: normal;
 }
 #crop-calendar a {
   margin-left: 3px;
@@ -974,8 +1001,8 @@ header #header-link:hover {
 #crop-calendar a span {
   text-decoration: none;
   font-size: 1em;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 @media screen and (max-width: 500px) {
   #crop-calendar {
@@ -994,6 +1021,7 @@ header #header-link:hover {
   text-shadow: 2px 2px 0 #082615;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 700;
+  font-style: normal;
 }
 #find-a-market a {
   padding: 11px 22px;
@@ -1005,8 +1033,9 @@ header #header-link:hover {
   letter-spacing: 0.05em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  font-style: normal;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
   display: inline-block;
   margin-top: 20px;
   text-shadow: none;
@@ -1025,8 +1054,8 @@ header #header-link:hover {
   top: 5px;
   margin-right: 2px;
   font-size: 1.5em;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #find-a-market a:hover {
   background: #2ecc71;
@@ -1043,8 +1072,8 @@ header #header-link:hover {
   position: fixed;
   bottom: -2500px;
   overflow: hidden;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #map iframe {
   position: absolute;
@@ -1066,8 +1095,9 @@ header #header-link:hover {
   display: none;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  font-style: normal;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 #map #map-close span {
   font-size: 1.2em;
@@ -1099,8 +1129,8 @@ footer {
   position: fixed;
   bottom: -70px;
   width: 100%;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 footer #footer-icon {
   width: 10%;
@@ -1133,8 +1163,9 @@ footer #city-module {
   color: white;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  font-style: normal;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 footer #about-module .button,
 footer #city-module .button {
@@ -1187,8 +1218,8 @@ footer #city-module .hidden {
   text-align: left;
   background: #fefefe;
   background: rgba(255, 253, 245, 0.93);
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 footer #about-module .hidden li, footer #about-module .hidden p,
 footer #city-module .hidden li,
@@ -1253,6 +1284,7 @@ footer #city-module .hidden p.headline {
   font-size: 2.5em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 800;
+  font-style: normal;
 }
 footer #about-module .hidden form p,
 footer #city-module .hidden form p {
@@ -1282,6 +1314,7 @@ footer #city-module .hidden form textarea {
   text-indent: 10px;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
+  font-style: normal;
 }
 footer #about-module .hidden form input[type="submit"], footer #about-module .hidden form textarea[type="submit"],
 footer #city-module .hidden form input[type="submit"],
@@ -1294,8 +1327,9 @@ footer #city-module .hidden form textarea[type="submit"] {
   letter-spacing: 0.05em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  font-style: normal;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
 }
 footer #about-module .hidden form input[type="submit"]:hover, footer #about-module .hidden form textarea[type="submit"]:hover,
 footer #city-module .hidden form input[type="submit"]:hover,
@@ -1402,6 +1436,7 @@ body#submit p {
   font-size: 2em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
+  font-style: normal;
 }
 body#submit a {
   padding: 11px 22px;
@@ -1413,8 +1448,9 @@ body#submit a {
   letter-spacing: 0.05em;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: 500;
-  -webkit-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+  font-style: normal;
+  -webkit-transition: all 333ms 0 ease-in-out;
+  transition: all 333ms 0 ease-in-out;
   font-size: 1.5em;
 }
 body#submit a:hover {

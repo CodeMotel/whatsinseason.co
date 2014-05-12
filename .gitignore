@@ -26,4 +26,6 @@ node_modules
 
 **/.sass-cache
 **/.sass-cache/*
-_assets/*
+.sass-cache
+
+_Assets/

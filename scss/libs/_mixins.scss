@@ -24,13 +24,7 @@
 /* Transition Times
 ================================================================================================= */
 
-@mixin ease($time:333ms) {
-	-webkit-transition: all $time ease-in-out;
-	-moz-transition: all $time ease-in-out;
-	-o-transition: all $time ease-in-out;
-	-ms-transition: all $time ease-in-out;
-	transition: all $time ease-in-out;
-}
+@mixin ease($time:333ms, $el:all, $delay:0, $action:ease-in-out) {transition: $el $time $delay $action;}
 
 @mixin button-style {
 	padding:11px 22px;
@@ -41,7 +35,7 @@
 	text-transform:uppercase;
 	text-decoration:none;
 	letter-spacing:0.05em;
-	@include a-5;
+	@include font-alegreya(500);
 	@include ease;
 	&:hover {
 		border-color:white;

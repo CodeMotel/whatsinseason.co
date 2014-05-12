@@ -5,7 +5,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 11 ) {
+      if( currentMonth > 6 && currentMonth < 10 ) {
       $( ".apples").css({'display': 'block'});
       } else {
       var element = document.getElementById('apples');
@@ -18,7 +18,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 5 && currentMonth < 8 ) {
+      if( currentMonth > 4 && currentMonth < 7 ) {
       $( ".apricots").css({'display': 'block'});
       } else {
       var element = document.getElementById('apricots');
@@ -31,7 +31,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 4 && currentMonth < 5 ) {
+      if( currentMonth > 3 && currentMonth < 5 ) {
       $( ".asparagus").css({'display': 'block'});
       } else {
       var element = document.getElementById('asparagus');
@@ -44,7 +44,7 @@ $( document ).ready( function() {
        var now = new Date();
        var currentMonth = now.getMonth();//returns 0-11
        //based on month hide or show your div
-       if( currentMonth > 6 && currentMonth < 8 ) {
+       if( currentMonth > 5 && currentMonth < 7 ) {
        $( ".beets").css({'display': 'block'});
        } else {
        var element = document.getElementById('beets');
@@ -57,7 +57,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 8 ) {
+      if( currentMonth > 6 && currentMonth < 7 ) {
       $( ".bell-peppers").css({'display': 'block'});
       } else {
       var element = document.getElementById('bell-peppers');
@@ -83,7 +83,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 6 && currentMonth < 9 ) {
+      if( currentMonth > 5 && currentMonth < 8 ) {
       $( ".cabbage").css({'display': 'block'});
       } else {
       var element = document.getElementById('cabbage');
@@ -96,7 +96,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 9 ) {
+      if( currentMonth > 6 && currentMonth < 8 ) {
       $( ".cantaloupe").css({'display': 'block'});
       } else {
       var element = document.getElementById('cantaloupe');
@@ -109,7 +109,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 10 ) {
+      if( currentMonth > 6 && currentMonth < 9 ) {
       $( ".carrots").css({'display': 'block'});
       } else {
       var element = document.getElementById('carrots');
@@ -122,7 +122,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 9 ) {
+      if( currentMonth > 6 && currentMonth < 8 ) {
       $( ".cauliflower").css({'display': 'block'});
       } else {
       var element = document.getElementById('cauliflower');
@@ -135,7 +135,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 6 && currentMonth < 9 ) {
+      if( currentMonth > 5 && currentMonth < 8 ) {
       $( ".celery").css({'display': 'block'});
       } else {
       var element = document.getElementById('celery');
@@ -148,7 +148,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 5 && currentMonth < 6 ) {
+      if( currentMonth > 4 && currentMonth < 5 ) {
       $( ".cherries").css({'display': 'block'});
       } else {
       var element = document.getElementById('cherries');
@@ -161,7 +161,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 9 ) {
+      if( currentMonth > 6 && currentMonth < 8 ) {
       $( ".chile-peppers").css({'display': 'block'});
       } else {
       var element = document.getElementById('chile-peppers');
@@ -174,7 +174,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 6 && currentMonth < 9 ) {
+      if( currentMonth > 5 && currentMonth < 8 ) {
       $( ".cucumbers").css({'display': 'block'});
       } else {
       var element = document.getElementById('cucumbers');
@@ -187,7 +187,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 9 ) {
+      if( currentMonth > 6 && currentMonth < 8 ) {
       $( ".eggplant").css({'display': 'block'});
       } else {
       var element = document.getElementById('eggplant');
@@ -200,7 +200,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 8 && currentMonth < 9 ) {
+      if( currentMonth > 7 && currentMonth < 8 ) {
       $( ".grapes").css({'display': 'block'});
       } else {
       var element = document.getElementById('grapes');
@@ -213,7 +213,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 6 && currentMonth < 8 ) {
+      if( currentMonth > 5 && currentMonth < 7 ) {
       $( ".green-beans").css({'display': 'block'});
       } else {
       var element = document.getElementById('green-beans');
@@ -226,7 +226,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 9 ) {
+      if( currentMonth > 6 && currentMonth < 8 ) {
       $( ".herbs").css({'display': 'block'});
       } else {
       var element = document.getElementById('herbs');
@@ -239,7 +239,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 9 ) {
+      if( currentMonth > 6 && currentMonth < 8 ) {
       $( ".honeydew").css({'display': 'block'});
       } else {
       var element = document.getElementById('honeydew');
@@ -252,7 +252,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 5 && currentMonth < 9 ) {
+      if( currentMonth > 4 && currentMonth < 8 ) {
       $( ".lettuce").css({'display': 'block'});
       } else {
       var element = document.getElementById('lettuce');
@@ -265,7 +265,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 11 ) {
+      if( currentMonth > 6 && currentMonth < 10 ) {
       $( ".onions").css({'display': 'block'});
       } else {
       var element = document.getElementById('onions');
@@ -278,7 +278,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 8 ) {
+      if( currentMonth > 6 && currentMonth < 7 ) {
       $( ".peaches").css({'display': 'block'});
       } else {
       var element = document.getElementById('peaches');
@@ -291,7 +291,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 8 ) {
+      if( currentMonth > 6 && currentMonth < 7 ) {
       $( ".pears").css({'display': 'block'});
       } else {
       var element = document.getElementById('pears');
@@ -304,7 +304,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 0 && currentMonth < 11 ) {
+      if( currentMonth > 0 && currentMonth < 12 ) {
       $( ".pinto-beans").css({'display': 'block'});
       } else {
       var element = document.getElementById('pinto-beans');
@@ -317,7 +317,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 8 ) {
+      if( currentMonth > 6 && currentMonth < 7 ) {
       $( ".plums").css({'display': 'block'});
       } else {
       var element = document.getElementById('plums');
@@ -330,7 +330,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 0 && currentMonth < 11 ) {
+      if( currentMonth > 0 && currentMonth < 12 ) {
       $( ".popcorn").css({'display': 'block'});
       } else {
       var element = document.getElementById('popcorn');
@@ -343,7 +343,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 0 && currentMonth < 11 ) {
+      if( currentMonth > 0 && currentMonth < 12 ) {
       $( ".potatoes").css({'display': 'block'});
       } else {
       var element = document.getElementById('potatoes');
@@ -356,7 +356,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 8 && currentMonth < 9 ) {
+      if( currentMonth > 7 && currentMonth < 8 ) {
       $( ".pumpkins").css({'display': 'block'});
       } else {
       var element = document.getElementById('pumpkins');
@@ -369,7 +369,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 9 ) {
+      if( currentMonth > 6 && currentMonth < 8 ) {
       $( ".raspberries").css({'display': 'block'});
       } else {
       var element = document.getElementById('raspberries');
@@ -382,7 +382,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 4 && currentMonth < 8 ) {
+      if( currentMonth > 3 && currentMonth < 7 ) {
       $( ".rhubarb").css({'display': 'block'});
       } else {
       var element = document.getElementById('rhubarb');
@@ -395,7 +395,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 7 && currentMonth < 11 ) {
+      if( currentMonth > 6 && currentMonth < 10 ) {
       $( ".squash").css({'display': 'block'});
       } else {
       var element = document.getElementById('squash');
@@ -408,7 +408,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 5 && currentMonth < 8 ) {
+      if( currentMonth > 4 && currentMonth < 7 ) {
       $( ".strawberries").css({'display': 'block'});
       } else {
       var element = document.getElementById('strawberries');
@@ -421,7 +421,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 6 && currentMonth < 9 ) {
+      if( currentMonth > 5 && currentMonth < 8 ) {
       $( ".sweet-corn").css({'display': 'block'});
       } else {
       var element = document.getElementById('sweet-corn');
@@ -434,7 +434,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 6 && currentMonth < 9 ) {
+      if( currentMonth > 5 && currentMonth < 8 ) {
       $( ".tomatoes").css({'display': 'block'});
       } else {
       var element = document.getElementById('tomatoes');
@@ -447,7 +447,7 @@ $( document ).ready( function() {
       var now = new Date();
       var currentMonth = now.getMonth();//returns 0-11
       //based on month hide or show your div
-      if( currentMonth > 8 && currentMonth < 9 ) {
+      if( currentMonth > 7 && currentMonth < 8 ) {
       $( ".watermelon").css({'display': 'block'});
       } else {
       var element = document.getElementById('watermelon');

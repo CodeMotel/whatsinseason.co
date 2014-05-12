@@ -57,7 +57,7 @@ $( document ).ready( function() {
   var currentMonth = now.getMonth();//returns 0-11
 
   // Markets are Open
-  if( currentMonth > 4 && currentMonth < 9 ) {
+  if( currentMonth > 3 && currentMonth < 9 ) {
     var element = document.getElementById('closed-msg');
     element.parentNode.removeChild(element);
     $( "#open-msg").css({'display': 'block'});
