@@ -40,7 +40,8 @@
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Dosis:400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500,700,800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href="fonts/genericons/genericons.css" rel="stylesheet" />
 
 	<!-- Styles -->
@@ -55,5 +56,3 @@
 <![endif]-->
 
 </head>
-
-

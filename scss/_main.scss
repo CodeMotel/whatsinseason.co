@@ -252,7 +252,7 @@ header {
 	float:left;
 	display: inline-block;
 	margin:0;
-	padding:120px 0;
+	padding:110px 0 120px;
 	color:white;
 	font-size:4.1em;
 	text-align:center;
@@ -261,11 +261,11 @@ header {
 
 	#date-header {
 		width:90%;
-		margin:0 5% 13px;
+		margin:0 5% 20px;
 		font-size:1.2em;
-		letter-spacing:-3px;
+		letter-spacing:0;
 		line-height: 1.1em;
-		@include font-cedarville;
+		@include font-pacifico;
 	}
 	@media screen and (max-width: $small-tablet) {
 		font-size:3.5em;

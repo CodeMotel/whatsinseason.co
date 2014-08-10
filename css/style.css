@@ -80,52 +80,52 @@ img {
   src: url("/fonts/novecento/25DFFC_0_0.eot");
   src: url("/fonts/novecento/25DFFC_0_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_0_0.woff") format("woff"), url("/fonts/novecento/25DFFC_0_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-Light';
   src: url("/fonts/novecento/25DFFC_1_0.eot");
   src: url("/fonts/novecento/25DFFC_1_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_1_0.woff") format("woff"), url("/fonts/novecento/25DFFC_1_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-DemiBold';
   src: url("/fonts/novecento/25DFFC_2_0.eot");
   src: url("/fonts/novecento/25DFFC_2_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_2_0.woff") format("woff"), url("/fonts/novecento/25DFFC_2_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-Book';
   src: url("/fonts/novecento/25DFFC_3_0.eot");
   src: url("/fonts/novecento/25DFFC_3_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_3_0.woff") format("woff"), url("/fonts/novecento/25DFFC_3_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-Normal';
   src: url("/fonts/novecento/25DFFC_4_0.eot");
   src: url("/fonts/novecento/25DFFC_4_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_4_0.woff") format("woff"), url("/fonts/novecento/25DFFC_4_0.ttf") format("truetype");
 }
-
 @font-face {
   font-family: 'Novecentowide-Medium';
   src: url("/fonts/novecento/25DFFC_5_0.eot");
   src: url("/fonts/novecento/25DFFC_5_0.eot?#iefix") format("embedded-opentype"), url("/fonts/novecento/25DFFC_5_0.woff") format("woff"), url("/fonts/novecento/25DFFC_5_0.ttf") format("truetype");
 }
-
 /* Hammersmith
 ================================================================================================= */
 /* Alegreya
 ================================================================================================= */
 /* Cedarville
 ================================================================================================= */
+/* Pacifico
+================================================================================================= */
 /* Yanone
 ================================================================================================= */
 /* Dosis
+================================================================================================= */
+/* Hagin
+================================================================================================= */
+/* PT Sans & Serif
 ================================================================================================= */
 /* Links and Headers
 ======================================================= */
 a {
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 a:focus, a:hover, a:active {
   outline: 0;
@@ -171,7 +171,6 @@ body {
 
 #bkgd-img {
   background: url("../images/bkgd-img.jpg") no-repeat center center;
-  -webkit-background-size: cover;
   background-size: cover;
   opacity: 0.9;
   position: fixed;
@@ -309,7 +308,7 @@ header #header-link {
   font-weight: 500;
   font-style: normal;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
   color: #208e4e;
   border-color: #208e4e;
   float: right;
@@ -451,7 +450,7 @@ header #header-link:hover {
   float: left;
   display: inline-block;
   margin: 0;
-  padding: 120px 0;
+  padding: 110px 0 120px;
   color: white;
   font-size: 4.1em;
   text-align: center;
@@ -462,11 +461,11 @@ header #header-link:hover {
 }
 #current-date #date-header {
   width: 90%;
-  margin: 0 5% 13px;
+  margin: 0 5% 20px;
   font-size: 1.2em;
-  letter-spacing: -3px;
+  letter-spacing: 0;
   line-height: 1.1em;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Pacifico', cursive;
 }
 @media screen and (max-width: 680px) {
   #current-date {
@@ -527,7 +526,7 @@ header #header-link:hover {
   text-decoration: none;
   font-size: 1em;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 @media screen and (max-width: 900px) {
   #closed-msg, #open-msg {
@@ -606,386 +605,386 @@ header #header-link:hover {
   color: #888;
   border-top: 6px solid #b8182c;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.apples svg .icon {
   fill: #b8182c;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.apricots {
   color: #888;
   border-top: 6px solid #f58416;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.apricots svg .icon {
   fill: #f58416;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.asparagus {
   color: #888;
   border-top: 6px solid #6b7917;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.asparagus svg .icon {
   fill: #6b7917;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.beets {
   color: #888;
   border-top: 6px solid #8b224d;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.beets svg .icon {
   fill: #8b224d;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.bell-peppers {
   color: #888;
   border-top: 6px solid #4c6a00;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.bell-peppers svg .icon {
   fill: #4c6a00;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.broccoli {
   color: #888;
   border-top: 6px solid #43860e;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.broccoli svg .icon {
   fill: #43860e;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cabbage {
   color: #888;
   border-top: 6px solid #8c1c69;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cabbage svg .icon {
   fill: #8c1c69;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cantaloupe {
   color: #888;
   border-top: 6px solid #f68c35;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cantaloupe svg .icon {
   fill: #f68c35;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.carrots {
   color: #888;
   border-top: 6px solid #fe6e0e;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.carrots svg .icon {
   fill: #fe6e0e;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cauliflower {
   color: #888;
   border-top: 6px solid #d3ccb0;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cauliflower svg .icon {
   fill: #d3ccb0;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.celery {
   color: #888;
   border-top: 6px solid #90b64b;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.celery svg .icon {
   fill: #90b64b;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cherries {
   color: #888;
   border-top: 6px solid #c72127;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cherries svg .icon {
   fill: #c72127;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.chile-peppers {
   color: #888;
   border-top: 6px solid #ad0500;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.chile-peppers svg .icon {
   fill: #ad0500;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cucumbers {
   color: #888;
   border-top: 6px solid #6ea250;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.cucumbers svg .icon {
   fill: #6ea250;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.eggplant {
   color: #888;
   border-top: 6px solid #4e244e;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.eggplant svg .icon {
   fill: #4e244e;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.grapes {
   color: #888;
   border-top: 6px solid #682941;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.grapes svg .icon {
   fill: #682941;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.green-beans {
   color: #888;
   border-top: 6px solid #6aa152;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.green-beans svg .icon {
   fill: #6aa152;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.herbs {
   color: #888;
   border-top: 6px solid #477008;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.herbs svg .icon {
   fill: #477008;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.honeydew {
   color: #888;
   border-top: 6px solid #acbd4e;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.honeydew svg .icon {
   fill: #acbd4e;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.lettuce {
   color: #888;
   border-top: 6px solid #649812;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.lettuce svg .icon {
   fill: #649812;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.onions {
   color: #888;
   border-top: 6px solid #d8b39d;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.onions svg .icon {
   fill: #d8b39d;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.peaches {
   color: #888;
   border-top: 6px solid #e9703c;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.peaches svg .icon {
   fill: #e9703c;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pears {
   color: #888;
   border-top: 6px solid #b8be1c;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pears svg .icon {
   fill: #b8be1c;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pinto-beans {
   color: #888;
   border-top: 6px solid #a55430;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pinto-beans svg .icon {
   fill: #a55430;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.plums {
   color: #888;
   border-top: 6px solid #762d5a;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.plums svg .icon {
   fill: #762d5a;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.popcorn {
   color: #888;
   border-top: 6px solid #facc34;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.popcorn svg .icon {
   fill: #facc34;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.potatoes {
   color: #888;
   border-top: 6px solid #d4b160;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.potatoes svg .icon {
   fill: #d4b160;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pumpkins {
   color: #888;
   border-top: 6px solid #e77324;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.pumpkins svg .icon {
   fill: #e77324;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.raspberries {
   color: #888;
   border-top: 6px solid #e21920;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.raspberries svg .icon {
   fill: #e21920;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.rhubarb {
   color: #888;
   border-top: 6px solid #d44f62;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.rhubarb svg .icon {
   fill: #d44f62;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.strawberries {
   color: #888;
   border-top: 6px solid #d30000;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.strawberries svg .icon {
   fill: #d30000;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.sweet-corn {
   color: #888;
   border-top: 6px solid #fdbc34;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.sweet-corn svg .icon {
   fill: #fdbc34;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.squash {
   color: #888;
   border-top: 6px solid #f5b128;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.squash svg .icon {
   fill: #f5b128;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.tomatoes {
   color: #888;
   border-top: 6px solid #d62104;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.tomatoes svg .icon {
   fill: #d62104;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.watermelon {
   color: #888;
   border-top: 6px solid #f64f55;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #crop-list li.watermelon svg .icon {
   fill: #f64f55;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 
 #crop-calendar {
@@ -1002,7 +1001,7 @@ header #header-link:hover {
   text-decoration: none;
   font-size: 1em;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 @media screen and (max-width: 500px) {
   #crop-calendar {
@@ -1035,7 +1034,7 @@ header #header-link:hover {
   font-weight: 500;
   font-style: normal;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
   display: inline-block;
   margin-top: 20px;
   text-shadow: none;
@@ -1055,7 +1054,7 @@ header #header-link:hover {
   margin-right: 2px;
   font-size: 1.5em;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #find-a-market a:hover {
   background: #2ecc71;
@@ -1073,7 +1072,7 @@ header #header-link:hover {
   bottom: -2500px;
   overflow: hidden;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #map iframe {
   position: absolute;
@@ -1097,7 +1096,7 @@ header #header-link:hover {
   font-weight: 500;
   font-style: normal;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 #map #map-close span {
   font-size: 1.2em;
@@ -1130,7 +1129,7 @@ footer {
   bottom: -70px;
   width: 100%;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 footer #footer-icon {
   width: 10%;
@@ -1165,7 +1164,7 @@ footer #city-module {
   font-weight: 500;
   font-style: normal;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 footer #about-module .button,
 footer #city-module .button {
@@ -1219,7 +1218,7 @@ footer #city-module .hidden {
   background: #fefefe;
   background: rgba(255, 253, 245, 0.93);
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 footer #about-module .hidden li, footer #about-module .hidden p,
 footer #city-module .hidden li,
@@ -1329,7 +1328,7 @@ footer #city-module .hidden form textarea[type="submit"] {
   font-weight: 500;
   font-style: normal;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
 }
 footer #about-module .hidden form input[type="submit"]:hover, footer #about-module .hidden form textarea[type="submit"]:hover,
 footer #city-module .hidden form input[type="submit"]:hover,
@@ -1450,7 +1449,7 @@ body#submit a {
   font-weight: 500;
   font-style: normal;
   -webkit-transition: all 333ms 0 ease-in-out;
-  transition: all 333ms 0 ease-in-out;
+          transition: all 333ms 0 ease-in-out;
   font-size: 1.5em;
 }
 body#submit a:hover {
