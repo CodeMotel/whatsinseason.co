@@ -3,24 +3,24 @@ jQuery("#date-header").fitText(2.25, { minFontSize: '34px', maxFontSize: '66px' 
 
 
 // Show or Hide Closed Message
-$(function() {
-  var now = new Date();
-  var currentMonth = now.getMonth();//returns 0-11
-
-  // Markets are Open
-  if( currentMonth > 3 && currentMonth < 9 ) {
-    var element = document.getElementById('closed-msg');
-    element.parentNode.removeChild(element);
-    $( "#open-msg").css({'display': 'block'});
-    $('body').append("<script src='js/food.js'></script>");
-  }
-  // Markets are Closed
-  else {
-    $( "#closed-msg").css({'display': 'block'});
-    var element = document.getElementById('open-msg');
-    element.parentNode.removeChild(element);
-  }
-});
+// $(function() {
+//   var now = new Date();
+//   var currentMonth = now.getMonth();//returns 0-11
+//
+//   // Markets are Open
+//   if( currentMonth > 3 && currentMonth < 9 ) {
+//     var element = document.getElementById('closed-msg');
+//     element.parentNode.removeChild(element);
+//     $( "#open-msg").css({'display': 'block'});
+//     $('body').append("<script src='js/food.js'></script>");
+//   }
+//   // Markets are Closed
+//   else {
+//     $( "#closed-msg").css({'display': 'block'});
+//     var element = document.getElementById('open-msg');
+//     element.parentNode.removeChild(element);
+//   }
+// });
 
 
 

@@ -30,7 +30,7 @@
       <p class="sub">here's a look at what will be available next season.</p>
     </div>
     <div id="open-msg">
-      <p>Seasonal Items Available at your Local Farmer's Market</p>
+      <p>Crops currently available at your Local Farmer's Market</p>
       <p class="sub">Don't see what you're looking for?  View the <a href="http://www.coloradofreshmarkets.com/crop_calendar.html">crop calendar <span class="genericon genericon-video"></span></a></p>
     </div>
 

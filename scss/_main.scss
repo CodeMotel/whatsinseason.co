@@ -290,6 +290,9 @@ header {
 	@media screen and (max-width: $big-phone) {padding:20px 0 40px;}
 }
 
+#open-msg { display: block; }
+#closed-msg { display: none; }
+
 #closed-msg, #open-msg {
 	width:90%;
 	padding:0 5%;
