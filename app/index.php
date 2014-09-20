@@ -1,6 +1,8 @@
 <?php include('includes/header.php'); ?>
 
-<main class="main" role="main"></main>
+<main class="main" role="main">
+ 
+</main>
 
 <?php include('includes/sidebar.php'); ?>
 
