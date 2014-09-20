@@ -1,0 +1,13 @@
+
+
+// Ease
+@mixin ease($time:333ms, $el: all, $anim: ease-in-out) {
+	transition: $el $time $anim;
+}
+
+
+// Responsive
+@mixin media($bp, $size: small) {
+	@if $size == small { @media (max-width: $bp) { @content; } }
+	@else if $size == large { @media (min-width: $bp) { @content; } }
+}

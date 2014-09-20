@@ -1,0 +1,73 @@
+
+form {}
+
+textarea {
+	@extend %no-webkit;
+}
+
+
+input {
+
+	// ------- Standard Fields ------- //
+
+	// Text Input
+ &[type="text"], &[type="email"], &[type="tel"], &[type="url"], &[type="password"] {
+ 	@extend %no-webkit;
+ }
+
+	// Submit Button
+ &[type="submit"] {
+ 	@extend %no-webkit;
+ }
+
+
+	// ------- Field Specific ------- //
+
+	// Text
+ &[type="text"] {}
+
+	// Contact Fields
+ &[type="email"] {}
+ &[type="tel"] {}
+
+ // URL
+ &[type="url"] {}
+
+ // Search
+ &[type="search"] {}
+
+ // Numbers
+ &[type="number"] {}
+
+ // Range (Slider)
+ &[type="range"] {}
+
+ // Passwords
+ &[type="password"] {}
+
+ // Submit and Buttons
+ &[type="submit"] {}
+	&[type="button"] {}
+ &[type="image"] {}
+ &[type="reset"] {}
+
+ // Checkbox & Radio Button
+ &[type="checkbox"] {}
+ &[type="radio"] {}
+
+ // Time and Dates
+ &[type="time"] {}
+ &[type="date"] {}
+ &[type="datetime"] {}
+ &[type="datetime-local"] {}
+ &[type="month"] {}
+ &[type="week"] {}
+
+ // Color
+ &[type="color"] {}
+
+ // Files
+ &[type="file"] {}
+}
+
+

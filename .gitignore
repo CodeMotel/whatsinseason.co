@@ -1,3 +1,23 @@
+# gitignore
+# http://see8ch.com
+# @author Chris Holder
+
+# Node
+node_modules
+
+# Sass Cache
+**/.sass-cache
+**/.sass-cache/*
+.sass-cache
+
+# Minified/Generated Files
+style.min.css
+scripts.min.js
+
+# System Files
+.DS_Store
+.tmp
+
 # Logs
 logs
 *.log
@@ -19,13 +39,6 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directory
-# Deployed apps should consider commenting this line out:
-# see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
-node_modules
 
-**/.sass-cache
-**/.sass-cache/*
-.sass-cache
-
-_Assets/
+# Project Specific
+_v1/
