@@ -1,9 +1,8 @@
-# Project Name
-#### Short Description
+# What's in Season
+#### Fresh Food Calendar, Blog, and Tips
+================
 
-
-Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-
+Displays in-season produce available at Colorado Fresh Markets and suggests ideas on how to use available produce.
 
 
 
